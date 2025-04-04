@@ -1,0 +1,446 @@
+{
+  "meetingId": "GMT20250327-000123",
+  "meetingTitle": "Vibecamp Bootcamp Q&A Session",
+  "date": "2025-03-27T00:01:23.000Z",
+  "duration": 4536,
+  "platform": "Zoom",
+  "participants": {
+    "totalParticipants": 14,
+    "activeParticipants": 12,
+    "speakingParticipants": 8,
+    "reactingParticipants": 14,
+    "participantInfo": {
+      "meri_nova": {
+        "name": "Meri Nova",
+        "role": "Instructor/Host",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "autumn_hicks": {
+        "name": "Autumn Hicks",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "oren": {
+        "name": "Oren",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "frederick_z": {
+        "name": "Frederick Z",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "hai": {
+        "name": "Hai",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "gil": {
+        "name": "Gil",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "tamilarasee_s": {
+        "name": "Tamilarasee S",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "kelseydilullo": {
+        "name": "kelseydilullo",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": true,
+        "speaking": true,
+        "reacting": true
+      },
+      "kasia_swiech": {
+        "name": "Kasia Swiech",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      },
+      "asiah_maryam": {
+        "name": "asiah maryam",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      },
+      "melissa": {
+        "name": "Melissa",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      },
+      "dwayne_joseph": {
+        "name": "Dwayne Joseph",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      },
+      "ekta": {
+        "name": "Ekta",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      },
+      "praveena_suresh": {
+        "name": "Praveena Suresh",
+        "role": "Student/Participant",
+        "joinTime": "2025-03-27T00:00:00.000Z",
+        "leaveTime": "2025-03-27T01:15:36.000Z",
+        "active": false,
+        "speaking": false,
+        "reacting": true
+      }
+    }
+  },
+  "speakers": [
+    {
+      "id": "meri_nova",
+      "name": "Meri Nova",
+      "role": "Instructor/Host",
+      "speakingTime": 1134,
+      "speakingTimePercentage": 25,
+      "segments": 18,
+      "wordsPerMinute": 155,
+      "sentiment": 0.82,
+      "topics": ["Bootcamp Progress", "Project Demos", "Project Sharing"]
+    },
+    {
+      "id": "frederick_z",
+      "name": "Frederick Z",
+      "role": "Student/Participant",
+      "speakingTime": 680,
+      "speakingTimePercentage": 15,
+      "segments": 12,
+      "wordsPerMinute": 140,
+      "sentiment": 0.68,
+      "topics": ["Vibe Coding", "Debugging Tips", "Project Planning"]
+    },
+    {
+      "id": "oren",
+      "name": "Oren",
+      "role": "Student/Participant",
+      "speakingTime": 635,
+      "speakingTimePercentage": 14,
+      "segments": 15,
+      "wordsPerMinute": 165,
+      "sentiment": 0.75,
+      "topics": ["Project Organization", "AI Tools for Development", "Project Sharing"]
+    },
+    {
+      "id": "autumn_hicks",
+      "name": "Autumn Hicks",
+      "role": "Student/Participant",
+      "speakingTime": 544,
+      "speakingTimePercentage": 12,
+      "segments": 10,
+      "wordsPerMinute": 145,
+      "sentiment": 0.76,
+      "topics": ["Tool Use Implementation", "Project Organization", "Vibe Coding"]
+    },
+    {
+      "id": "gil",
+      "name": "Gil",
+      "role": "Student/Participant",
+      "speakingTime": 499,
+      "speakingTimePercentage": 11,
+      "segments": 14,
+      "wordsPerMinute": 135,
+      "sentiment": 0.73,
+      "topics": ["Debugging Tips", "AI Tools for Development", "Vibe Coding"]
+    },
+    {
+      "id": "kelseydilullo",
+      "name": "kelseydilullo",
+      "role": "Student/Participant",
+      "speakingTime": 454,
+      "speakingTimePercentage": 10,
+      "segments": 9,
+      "wordsPerMinute": 138,
+      "sentiment": 0.71,
+      "topics": ["Debugging Tips", "Project Sharing", "AI Tools for Development"]
+    },
+    {
+      "id": "hai",
+      "name": "Hai",
+      "role": "Student/Participant",
+      "speakingTime": 318,
+      "speakingTimePercentage": 7,
+      "segments": 8,
+      "wordsPerMinute": 142,
+      "sentiment": 0.69,
+      "topics": ["AI Tools for Development", "Project Organization"]
+    },
+    {
+      "id": "tamilarasee_s",
+      "name": "Tamilarasee S",
+      "role": "Student/Participant",
+      "speakingTime": 272,
+      "speakingTimePercentage": 6,
+      "segments": 6,
+      "wordsPerMinute": 130,
+      "sentiment": 0.67,
+      "topics": ["Vibe Coding", "Debugging Tips"]
+    }
+  ],
+  "sentiment": {
+    "overall": 0.74,
+    "timeline": [
+      { "time": 0, "sentiment": 0.72 },
+      { "time": 282, "sentiment": 0.75 },
+      { "time": 564, "sentiment": 0.73 },
+      { "time": 846, "sentiment": 0.76 },
+      { "time": 1128, "sentiment": 0.74 },
+      { "time": 1410, "sentiment": 0.77 },
+      { "time": 1692, "sentiment": 0.75 },
+      { "time": 1974, "sentiment": 0.73 },
+      { "time": 2256, "sentiment": 0.72 },
+      { "time": 2538, "sentiment": 0.7 },
+      { "time": 2820, "sentiment": 0.71 },
+      { "time": 3102, "sentiment": 0.73 },
+      { "time": 3384, "sentiment": 0.76 },
+      { "time": 3666, "sentiment": 0.78 },
+      { "time": 3948, "sentiment": 0.75 },
+      { "time": 4230, "sentiment": 0.73 }
+    ],
+    "positive": [
+      "Great job on the user research!",
+      "I'm excited about our new tool implementation",
+      "Sharing projects provides motivation and new perspectives",
+      "Community support is crucial for sustained learning",
+      "This is definitely therapeutic…. Weds Q&A and Vent Sesh."
+    ],
+    "negative": [
+      "I am very uncomfortable vibe coding in a language I don't know",
+      "The debugging process can be frustrating",
+      "Sometimes the AI gives contradictory advice"
+    ],
+    "neutral": [
+      "Let's review the project organization",
+      "We need to discuss our approaches to vibe coding",
+      "Who's using which AI tools for development?"
+    ]
+  },
+  "topics": {
+    "topics": [
+      {
+        "name": "Vibe Coding",
+        "keywords": ["cursor", "prompt", "language", "debug", "implementation"],
+        "percentage": 28,
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Project Organization",
+        "keywords": ["clean", "structure", "files", "redundancy", "organization"],
+        "percentage": 23,
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Tools for Development",
+        "keywords": ["gemini", "models", "tools", "ai studio", "gemma"],
+        "percentage": 20,
+        "sentiment": "positive"
+      },
+      {
+        "name": "Debugging Tips",
+        "keywords": ["breaking", "fix", "error", "debug", "problem"],
+        "percentage": 15,
+        "sentiment": "negative"
+      },
+      {
+        "name": "Project Sharing",
+        "keywords": ["motivation", "sharing", "feedback", "boost", "therapeutic"],
+        "percentage": 14,
+        "sentiment": "positive"
+      }
+    ],
+    "keyPhrases": [
+      "vibe coding",
+      "project organization",
+      "ai tools",
+      "debugging frustrations",
+      "motivation through sharing",
+      "community support",
+      "gemini pro",
+      "project structure",
+      "cursor debugging",
+      "gitingest"
+    ]
+  },
+  "reactions": {
+    "reactions": [
+      {
+        "name": "👍 Thumbs Up",
+        "count": 31,
+        "sentiment": 85
+      },
+      {
+        "name": "😂 Laugh",
+        "count": 17,
+        "sentiment": 80
+      },
+      {
+        "name": "❤️ Heart",
+        "count": 11,
+        "sentiment": 90
+      },
+      {
+        "name": "🤣 Laugh Hard",
+        "count": 7,
+        "sentiment": 85
+      },
+      {
+        "name": "😄 Smile",
+        "count": 5,
+        "sentiment": 75
+      },
+      {
+        "name": "💡 Idea",
+        "count": 3,
+        "sentiment": 80
+      },
+      {
+        "name": "🎩 Hat",
+        "count": 2,
+        "sentiment": 70
+      },
+      {
+        "name": "🥷 Ninja",
+        "count": 2,
+        "sentiment": 75
+      },
+      {
+        "name": "🫡 Salute",
+        "count": 2,
+        "sentiment": 80
+      },
+      {
+        "name": "🐍 Snake",
+        "count": 1,
+        "sentiment": 65
+      }
+    ],
+    "speakerReactions": {
+      "Oren": [
+        { "name": "👍 Thumbs Up", "count": 6 },
+        { "name": "😂 Laugh", "count": 4 },
+        { "name": "❤️ Heart", "count": 2 }
+      ],
+      "Gil": [
+        { "name": "👍 Thumbs Up", "count": 3 },
+        { "name": "🤣 Laugh Hard", "count": 3 },
+        { "name": "❤️ Heart", "count": 2 },
+        { "name": "🙏 Thank You", "count": 1 },
+        { "name": "😂 Laugh", "count": 1 }
+      ],
+      "Autumn Hicks": [
+        { "name": "👍 Thumbs Up", "count": 3 },
+        { "name": "🤣 Laugh Hard", "count": 2 },
+        { "name": "😂 Laugh", "count": 2 },
+        { "name": "🎩 Hat", "count": 1 },
+        { "name": "😄 Smile", "count": 1 }
+      ],
+      "kelseydilullo": [
+        { "name": "👍 Thumbs Up", "count": 4 },
+        { "name": "❤️ Heart", "count": 3 },
+        { "name": "🤣 Laugh Hard", "count": 2 },
+        { "name": "😂 Laugh", "count": 2 },
+        { "name": "🫡 Salute", "count": 1 }
+      ],
+      "Frederick Z": [
+        { "name": "👍 Thumbs Up", "count": 4 },
+        { "name": "😂 Laugh", "count": 2 },
+        { "name": "🐍 Snake", "count": 1 },
+        { "name": "😄 Smile", "count": 1 },
+        { "name": "🫡 Salute", "count": 1 }
+      ],
+      "Tamilarasee S": [
+        { "name": "👍 Thumbs Up", "count": 2 },
+        { "name": "❤️ Heart", "count": 2 },
+        { "name": "🤣 Laugh Hard", "count": 1 },
+        { "name": "😂 Laugh", "count": 1 }
+      ],
+      "Meri Nova": [
+        { "name": "👍 Thumbs Up", "count": 2 },
+        { "name": "❤️ Heart", "count": 2 },
+        { "name": "😄 Smile", "count": 2 },
+        { "name": "😂 Laugh", "count": 2 }
+      ],
+      "Kasia Swiech": [
+        { "name": "👍 Thumbs Up", "count": 1 },
+        { "name": "😄 Smile", "count": 1 },
+        { "name": "😂 Laugh", "count": 1 }
+      ],
+      "asiah maryam": [
+        { "name": "👍 Thumbs Up", "count": 1 },
+        { "name": "❤️ Heart", "count": 1 },
+        { "name": "😂 Laugh", "count": 2 }
+      ],
+      "Melissa": [
+        { "name": "🥷 Ninja", "count": 2 }
+      ],
+      "Hai": [
+        { "name": "👍 Thumbs Up", "count": 1 },
+        { "name": "😂 Laugh", "count": 1 },
+        { "name": "🤣 Laugh Hard", "count": 1 }
+      ],
+      "Dwayne Joseph": [
+        { "name": "😂 Laugh", "count": 2 }
+      ],
+      "Ekta": [
+        { "name": "👍 Thumbs Up", "count": 2 },
+        { "name": "😅 Sweat Smile", "count": 1 },
+        { "name": "😂 Laugh", "count": 1 }
+      ],
+      "Praveena Suresh": [
+        { "name": "👍 Thumbs Up", "count": 2 },
+        { "name": "😂 Laugh", "count": 1 }
+      ]
+    }
+  }
+} 
