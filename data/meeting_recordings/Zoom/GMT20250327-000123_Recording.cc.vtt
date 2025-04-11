@@ -1,0 +1,1625 @@
+WEBVTT
+
+00:06:44.000 --> 00:06:52.000
+Basically like crawling and then scraping for more information. So the next step in the process.
+
+00:06:52.000 --> 00:06:53.000
+That is so cool. Oh my goodness.
+
+00:06:53.000 --> 00:06:59.000
+So yeah, thanks. How do I stop sharing? Hang on.
+
+00:06:59.000 --> 00:07:00.000
+Sorry. Oh, here we go. Stop share. Okay. All right. We're good now.
+
+00:07:00.000 --> 00:07:07.000
+Yeah. No.
+
+00:07:07.000 --> 00:07:26.000
+No, thank you for sharing. That was so cool, Autumn. Hi. We were just like sharing each other's projects and the progress and learnings from the experimentation so Autumn was the first one to show. But I was also hoping, Autumn, like, what is your implementation like if you're comfortable sharing with your code
+
+00:07:26.000 --> 00:07:27.000
+Just walking through, yeah That would be cool.
+
+00:07:27.000 --> 00:07:48.000
+Yeah. Sure. Hang on. Let me… Sorry, I'm not super used to this. I'm in cursor right now, so give me a second. Share.
+
+00:07:48.000 --> 00:07:52.000
+Am I able to show this? Okay. Yeah, okay.
+
+00:07:52.000 --> 00:07:57.000
+Sorry, here we go. Can you guys see this?
+
+00:07:57.000 --> 00:07:58.000
+Yeah.
+
+00:07:58.000 --> 00:08:04.000
+Okay, cool. So… This is my project structure here.
+
+00:08:04.000 --> 00:08:13.000
+So I'm trying to pull up my the first agent that I have, let's see, where are you at?
+
+00:08:13.000 --> 00:08:20.000
+Of course, I'm not going to be able to find it this second.
+
+00:08:20.000 --> 00:08:31.000
+This is kind of my general overview here. I'm looking for my… search agent. It's in here somewhere.
+
+00:08:31.000 --> 00:08:45.000
+No, no, no, no. Sorry, now that I… Now that I have… No, no, no, no. Now that I have it pulled up, I'm like trying to find…
+
+00:08:45.000 --> 00:08:48.000
+It says web search. Maybe it's under there. Okay.
+
+00:08:48.000 --> 00:08:58.000
+Yeah, yeah, yeah. Let me… Yeah, this is my test page.
+
+00:08:58.000 --> 00:09:04.000
+Yeah, I'll have to pull some stuff up to show you guys later. But this is the general overview.
+
+00:09:04.000 --> 00:09:13.000
+Of what I'm working on here. So, and I have some of the, I need to clean up this really bad, but let's see.
+
+00:09:13.000 --> 00:09:16.000
+No worries.
+
+00:09:16.000 --> 00:09:17.000
+Yeah. That usually pulls it up. Okay, let's find it.
+
+00:09:17.000 --> 00:09:24.000
+You can search for specific phrases or keywords that usually
+
+00:09:24.000 --> 00:09:33.000
+It is search, business, business agent. No, hang on.
+
+00:09:33.000 --> 00:09:35.000
+Sorry, guys. Where are you? Aha.
+
+00:09:35.000 --> 00:09:39.000
+No worries.
+
+00:09:39.000 --> 00:09:44.000
+Business agents. How do I open this?
+
+00:09:44.000 --> 00:09:48.000
+Uh… Okay.
+
+00:09:48.000 --> 00:09:53.000
+Just search, come back to search and then just delete where it says enhance
+
+00:09:53.000 --> 00:09:59.000
+Oh, yeah, yeah. Hang on. I was trying to replace business agents this is the code right here. Yeah.
+
+00:09:59.000 --> 00:10:04.000
+Yeah, right click on that. And then reveal in Explorer view.
+
+00:10:04.000 --> 00:10:11.000
+There we go. Fantastic. Okay. Perfect.
+
+00:10:11.000 --> 00:10:16.000
+Now I can actually show you guys what it does. Okay.
+
+00:10:16.000 --> 00:10:21.000
+Sorry. Okay, can you guys see this now? Finally, I found what I'm looking for.
+
+00:10:21.000 --> 00:10:22.000
+Amazing. Yes.
+
+00:10:22.000 --> 00:10:28.000
+Yeah, so… This is the business agent for the web search.
+
+00:10:28.000 --> 00:10:39.000
+So I have it going through three processes. So it's using a Yelp API, Bing, and then OpenAI for web search so Up here.
+
+00:10:39.000 --> 00:10:47.000
+And then this SERP API is actually really cool. So it's like one And I only have it, it's like.
+
+00:10:47.000 --> 00:11:00.000
+It's paid. There's like a free version, but you can only do like 100 searches a month. So, but instead of signing up for all these APIs and you know um you can just use one login, which is kind of cool so
+
+00:11:00.000 --> 00:11:17.000
+Um… This is the business search parameters so this is where Let's see, you know, we're searching for city, state, address, zip code all that stuff.
+
+00:11:17.000 --> 00:11:22.000
+I'm not as good as explaining the code as you are. I was about to say.
+
+00:11:22.000 --> 00:11:29.000
+There we go. So we're going to find business, save it
+
+00:11:29.000 --> 00:11:46.000
+Oh, this is another thing I had to add in there. I have it like batch batching because of the rate limits. I was having issues when I first did this. It would just there would be a rate limit like every time I try to search for something. And so now it does like
+
+00:11:46.000 --> 00:12:05.000
+You know, it like batches it, which is kind of cool. That took some troubleshooting Um… Yeah, it's like just queuing. Let's see.
+
+00:12:05.000 --> 00:12:13.000
+Trying to get down to like where it's actually doing stuff.
+
+00:12:13.000 --> 00:12:20.000
+Okay, so here's the steps. So this is where I was trying to get down to. So it goes through multiple steps. So it's going to go to the Yelp search first.
+
+00:12:20.000 --> 00:12:30.000
+And then business types, location. And then I have a radius for, you know, if I search a location and then it's like a 50 mile radius, for example.
+
+00:12:30.000 --> 00:12:38.000
+And then it will search process and then save the results And then step two is the Bing search.
+
+00:12:38.000 --> 00:12:51.000
+Same thing with the rate limits. That was an issue that I had to And then the third step is directly do the web search for each business type. So at the end of the search.
+
+00:12:51.000 --> 00:12:58.000
+Which I can actually show you. Hang on, let me switch my screen really quick.
+
+00:12:58.000 --> 00:13:08.000
+And then I can show you how it works. And… Oh, never mind.
+
+00:13:08.000 --> 00:13:15.000
+Oh, hang on. Sorry guys, impromptu demo today.
+
+00:13:15.000 --> 00:13:18.000
+No, I just want to give you kudos for stepping outside of your comfort zone, Autumn.
+
+00:13:18.000 --> 00:13:31.000
+Yeah, sure. Yeah, yeah. The agents, it's been really cool to play around with and You know, it wasn't working at all at first for me. And then I had to troubleshoot a lot so Yeah.
+
+00:13:31.000 --> 00:13:36.000
+Are you using OpenAI SDK or Vercel's decay for these? Agent.
+
+00:13:36.000 --> 00:13:41.000
+Vercel. Yep.
+
+00:13:41.000 --> 00:13:42.000
+Awesome. Thank you for sharing. What's autumn? What's your biggest learning?
+
+00:13:42.000 --> 00:13:45.000
+Yeah. Sure.
+
+00:13:45.000 --> 00:13:47.000
+This week so far.
+
+00:13:47.000 --> 00:14:04.000
+Oh, biggest learning this week. Honestly, it's been databases. So working with Supabase, I was having some issues with Like fetching and then I'm not, I don't work in data, so props to you guys who work with this stuff all day long.
+
+00:14:04.000 --> 00:14:14.000
+Because, you know, getting it to work was a little complicated, but I finally got it to work. It's finally fetching the database now and it's saving things correctly.
+
+00:14:14.000 --> 00:14:19.000
+Yeah. So databases this week.
+
+00:14:19.000 --> 00:14:23.000
+Great. Everyone let's…
+
+00:14:23.000 --> 00:14:24.000
+Thanks, guys.
+
+00:14:24.000 --> 00:14:37.000
+Great job, Autumn. That's so cool. Yeah, no, this is great. How about anybody else wants to share what they've built so far and what they learned?
+
+00:14:37.000 --> 00:15:04.000
+I actually had a question that's somewhat related to Autumn's project. And I guess I can ask Autumn or hi, either one. So I was just… wondering like how do you decide whether you want to build on, you want to use multiple agents or one agent that just calls multiple tools?
+
+00:15:04.000 --> 00:15:28.000
+Either one can tackle that or not how you describe that because right now i'm only using one like a one agent, but it calls like multiple tools like One of the tools is for web search and another tool is for saving and retrieving memories from the vector database. So I don't use like separate agents for these. I just use one of it.
+
+00:15:28.000 --> 00:15:38.000
+Like, is there a, I was interested in your input if you have like experience while doing both
+
+00:15:38.000 --> 00:15:43.000
+Are you asking about multi-agent versus one agent, many tools? Okay, Autumn, you go first.
+
+00:15:43.000 --> 00:15:47.000
+Yes.
+
+00:15:47.000 --> 00:16:17.000
+Sure. My project personally, I'm going to use three separate agents, one for the search, one for enhancing enhancing the data with the web crawling with fire crawl. And then the third for the email integration. So I was trying to just kind of stick with one main tool for each agent, but I don't know if that's the right answer. I just didn't want it to get too complicated. And so if something breaks, I know exactly what to fix.
+
+00:16:19.000 --> 00:16:30.000
+Traditionally, traditionally is around 1023, like if you give an agent more than three tools, they'll just spaz out and do not do Good job. That's why people start doing multi-agents.
+
+00:16:30.000 --> 00:16:37.000
+But nowadays, you have all sorts of things you can do give many tools to an agent.
+
+00:16:37.000 --> 00:16:46.000
+You can do vector retrieval to pick tool on the spot if you have like 50, 100 tools to give to an agent.
+
+00:16:46.000 --> 00:16:55.000
+To do multi-agent, it all comes down to having something to test easier. So it's easier to test an agent that can do like three different tools.
+
+00:16:55.000 --> 00:16:59.000
+Or five different tools compared to an agent that can do 10, 20 tools.
+
+00:16:59.000 --> 00:17:02.000
+It's really hard to test an agent that can do so many things like that.
+
+00:17:02.000 --> 00:17:21.000
+So yeah, usually comes down to the preferences um and if you think your performance is not great for like great a lot of tools, breaking down to smaller agents That's why the supervisor agent kind of pattern is always has always been like hot
+
+00:17:21.000 --> 00:17:26.000
+I personally would do… multi-agent.
+
+00:17:26.000 --> 00:17:42.000
+Just because I can, at least I can test out like an agent with a set of three tools, four tools as opposed to like a set of like 12 tools. It's much easier to test it that way.
+
+00:17:42.000 --> 00:17:52.000
+The cat is just waiting for you to unmute yourself. That's so funny.
+
+00:17:52.000 --> 00:18:04.000
+No, I just wanted to give a chance to people to share you know to share their learnings and uh and of course the questions as they come but Yeah.
+
+00:18:04.000 --> 00:18:16.000
+Cool. All right. That was a very impressive demo. I think you have a lot of stuff that I haven't talked about, which always impressed me when people go above and beyond. They're like.
+
+00:18:16.000 --> 00:18:36.000
+Oh, I built this and that and i went you know And I had this idea that there's always this moment. So I've been teaching people, full stack development for the past five years and there are people from like all kinds of backgrounds. There were like ex-military, ex, you know, medical workers and
+
+00:18:36.000 --> 00:18:48.000
+Carpentry and like trade state workers and stuff like that and it's incredibly difficult to kind of predict who's going to go above and beyond and in what way.
+
+00:18:48.000 --> 00:19:00.000
+And it works the same way here. It's almost like For me, it's so unpredictable. It's so predictable for me now that I'm like, I can't tell you guys from this bootcamp cohort who's going to go above beyond.
+
+00:19:00.000 --> 00:19:04.000
+But you saw as an example of going above and beyond.
+
+00:19:04.000 --> 00:19:21.000
+Which is, you know, she went to build all this stuff and it's it's working and it's working and I don't get an idea about MCP, right? You were like, you're not sure if you wanted to do it But then I'm like, given your track record, you could probably figure it out and then you will figure it out so
+
+00:19:21.000 --> 00:19:35.000
+I think that's uh everyone should um should follow almost like if you feel like you want to build something within this day and age, it's not much is holding you back from like putting at least like a component or something out there
+
+00:19:35.000 --> 00:19:50.000
+That is working out right off the bat I think that was a good example. Anyways, it's Q&A day so uh Give me some cues.
+
+00:19:50.000 --> 00:20:12.000
+It can also be like something that you like i like how Oren just shared in the chat like the new tools that you're using. I know there's so many new models that are coming out and People are very impressed with the Gemini Pro 2.5 also too. Let us know if you're like trying out these tools because this is a dynamic field and we're all learning from each other as well.
+
+00:20:12.000 --> 00:20:19.000
+Who was using Gemini 2.0 Pro right now?
+
+00:20:19.000 --> 00:20:25.000
+I'm using the 2.5 right now, but I'm doing an experimental for free now. It's like 50 requests a day.
+
+00:20:25.000 --> 00:20:27.000
+That should do it.
+
+00:20:27.000 --> 00:20:30.000
+Do you find it to be super smart?
+
+00:20:30.000 --> 00:20:38.000
+Extremely smart. I mean, the context is obscene. It's just dirty, like over 2 million tokens
+
+00:20:38.000 --> 00:20:39.000
+How many?
+
+00:20:39.000 --> 00:20:45.000
+Over 2 million tokens that's like too much.
+
+00:20:45.000 --> 00:20:51.000
+That's great. That's great. You can fit Nicole book in it. Or in my case, I can fit like a whole code base in it And…
+
+00:20:51.000 --> 00:21:06.000
+Yeah, that's exactly what I told Adam in the chat. Like just drop it in and ask ask you to like reorder it it's going to tell you what files you should remove, what files what functions you should move to the other files.
+
+00:21:06.000 --> 00:21:11.000
+It's like so useful. And with AI Studio, it just makes sense.
+
+00:21:11.000 --> 00:21:25.000
+Yeah. There's a YouTuber that I don't know if they told you guys, his name is… with convene.
+
+00:21:25.000 --> 00:21:30.000
+He's kind of like a… mentor to me in some ways.
+
+00:21:30.000 --> 00:21:46.000
+But he's on like the… He works at the Gemini team on a couple of different things. And he makes he always makes videos right right when they launch something so his opinion is usually high quality and i do I do follow this guy.
+
+00:21:46.000 --> 00:21:58.000
+Just drop the link to the chat.
+
+00:21:58.000 --> 00:21:59.000
+Cool. Yeah, go for it.
+
+00:21:59.000 --> 00:22:13.000
+Okay, I have a question if nobody else is going to go. Okay, so this week I'm trying to think about the sort of like mind map aspect of Sciensaurus And I'm wondering what tools can I use to like dynamically create
+
+00:22:13.000 --> 00:22:18.000
+Kind of like a word rep or a dynamic diagram as part of my app.
+
+00:22:18.000 --> 00:22:20.000
+You have any ideas for that?
+
+00:22:20.000 --> 00:22:27.000
+When you say mind map, my brain goes to like a chart almost like a flow chart.
+
+00:22:27.000 --> 00:22:42.000
+Yeah, even similar to what you've been drawing like Excalibra draw just like, so let's say i have the the keywords from an article and there's like six keywords. And then I want to have similar articles, right? So now I have like
+
+00:22:42.000 --> 00:22:48.000
+Some articles share a keyword and so I can link them through a keyword.
+
+00:22:48.000 --> 00:22:53.000
+So I haven't really figured out what are going to be like the nodes of the diagram.
+
+00:22:53.000 --> 00:22:54.000
+Mm-hmm.
+
+00:22:54.000 --> 00:23:03.000
+But um I guess I'm wondering if you know of any tools that it's almost like, I guess, a graph kind of like a graph display.
+
+00:23:03.000 --> 00:23:06.000
+Yeah, so I have an answer for you. It's not perfect.
+
+00:23:06.000 --> 00:23:07.000
+Okay.
+
+00:23:07.000 --> 00:23:21.000
+So on cats with bats, I have this thing where i can look at like a diagram from a video frame and then replicate that in this thing called mermaid chart So a mermaid chart is basically what you would see on ExcaliburDraw. It's like
+
+00:23:21.000 --> 00:23:26.000
+You got like notes and you got like links between notes and you can do like arrows and stuff.
+
+00:23:26.000 --> 00:23:41.000
+Large language models is not great at drawing mermaid charts perfectly. I always get broken charts Even though when I give it like almost like a grammar or syntax that it can go off of.
+
+00:23:41.000 --> 00:23:52.000
+It's really hard for even It's really hard for like models and Gemini models to do that. I think Claude also does a little bit better, but not perfect.
+
+00:23:52.000 --> 00:24:00.000
+So if you want to generate like a chart from an LLM, it might not be perfect all the time.
+
+00:24:00.000 --> 00:24:06.000
+But if you already have the words and you can like programmatically create a chart, I think that's much easier.
+
+00:24:06.000 --> 00:24:11.000
+So what I use was, I think it's called mermaid js Yeah, so.
+
+00:24:11.000 --> 00:24:15.000
+Okay.
+
+00:24:15.000 --> 00:24:22.000
+If you make the an LLM draw the chart it's very hard to get it right.
+
+00:24:22.000 --> 00:24:29.000
+But if you already have the words and then you can be like, okay, so these are the words and then I can just programmatically draw the lines.
+
+00:24:29.000 --> 00:24:41.000
+And that's 100% doable. So I use mermaid chart and I can like draw like stuff on the screen I don't know if it's what you're looking for, but I can show you what it looks like real quick.
+
+00:24:41.000 --> 00:24:42.000
+Sure. Yeah.
+
+00:24:42.000 --> 00:24:50.000
+Yes, let me share my screen here. Are you using Next.js?
+
+00:24:50.000 --> 00:24:51.000
+Yeah.
+
+00:24:51.000 --> 00:24:59.000
+Okay. Let me go to my app.
+
+00:24:59.000 --> 00:25:07.000
+And then, huh. Look at this. That's fun.
+
+00:25:07.000 --> 00:25:15.000
+Let's see. Go to left or right.
+
+00:25:15.000 --> 00:25:24.000
+And build this.
+
+00:25:24.000 --> 00:25:29.000
+For example, this frame right here, it has like a somewhat of a flow chart right here So I think I have a flow chart that can display here. No, it's broken.
+
+00:25:29.000 --> 00:25:35.000
+Mm-hmm.
+
+00:25:35.000 --> 00:25:37.000
+Yeah, this is why it's not perfect. Let's assume.
+
+00:25:37.000 --> 00:25:42.000
+Is that x-ray like part of a feature of cats with bats?
+
+00:25:42.000 --> 00:25:43.000
+Yeah. So see, so I was able to like to artists using moment.js.
+
+00:25:43.000 --> 00:25:48.000
+Cool. That's awesome.
+
+00:25:48.000 --> 00:25:51.000
+And… If I can show you what the syntax of this looks like.
+
+00:25:51.000 --> 00:25:55.000
+Very cool.
+
+00:25:55.000 --> 00:26:03.000
+Notes. Maybe text.
+
+00:26:03.000 --> 00:26:15.000
+Me. And then copy this over here to here This is what is represented in the diagram. This is literally it.
+
+00:26:15.000 --> 00:26:24.000
+Oh, it has graphs left to right and then… Let me get this this guy.
+
+00:26:24.000 --> 00:26:27.000
+Right here. Yeah.
+
+00:26:27.000 --> 00:26:33.000
+Very cool. That's awesome. Okay.
+
+00:26:33.000 --> 00:26:34.000
+Yeah. Yeah. Thank you. That gives me something to start with.
+
+00:26:34.000 --> 00:26:35.000
+There's…
+
+00:26:35.000 --> 00:26:37.000
+I don't know if that's what you're looking for.
+
+00:26:37.000 --> 00:26:38.000
+It actually reminds me.
+
+00:26:38.000 --> 00:26:41.000
+That looks like super useful, cats with bats.
+
+00:26:41.000 --> 00:26:44.000
+That's for sure. It just reminded me of another open source project that helps you visualize the GitHub repos.
+
+00:26:44.000 --> 00:26:50.000
+That's all. Thanks.
+
+00:26:50.000 --> 00:26:58.000
+They also use mermaid chart but This is cool. I think this might be also useful for you, Kelsey.
+
+00:26:58.000 --> 00:27:08.000
+A friend of mine just shared yesterday his I can show you real quick, maybe it's like… Maybe this will be relevant for your project too.
+
+00:27:08.000 --> 00:27:12.000
+Desktop.
+
+00:27:12.000 --> 00:27:33.000
+So he's also an educator. He also creates things on LinkedIn and he just showed me yesterday like He wants to organize, for instance, the material that you want to learn and let's say I don't know, I like this example, decorators, decorators
+
+00:27:33.000 --> 00:27:36.000
+And what it does. So this tool might be useful for you.
+
+00:27:36.000 --> 00:27:42.000
+It generates like the chapters that are relevant to the main topic.
+
+00:27:42.000 --> 00:27:48.000
+And once you, for instance, press on one of them, it creates a branch in your tree.
+
+00:27:48.000 --> 00:28:05.000
+So that you can see the flow of just like your UI here. So it creates a new one So he said that he's using React Flow and you can integrate that with just whatever you're trying to generate here as well
+
+00:28:05.000 --> 00:28:18.000
+And see it here. So I guess this is more deterministic in a way This is called React Flow. I have not personally used that, but this looks interesting Check it out.
+
+00:28:18.000 --> 00:28:20.000
+Yeah, looks similar.
+
+00:28:20.000 --> 00:28:24.000
+But yeah.
+
+00:28:24.000 --> 00:28:38.000
+Thank you. Thank you both.
+
+00:28:38.000 --> 00:28:44.000
+Anyone else?
+
+00:28:44.000 --> 00:28:49.000
+I was just waiting to see how long this silence would go on for.
+
+00:28:49.000 --> 00:28:50.000
+Can I?
+
+00:28:50.000 --> 00:29:04.000
+I was about to ask, I was basically about to ask what about And Kelsey was asking like just regarding recipes but uh That was perfect and I'm going to try it.
+
+00:29:04.000 --> 00:29:15.000
+I was going to ask what LLMs models everyone is using for their projects and kind of why Yeah, that was my question.
+
+00:29:15.000 --> 00:29:32.000
+I think Gemini provides the best value in most cases. I mean, the context is massive and you have the best value for money Unless you need a specific use case, in which case, I can it I can tell you.
+
+00:29:32.000 --> 00:29:35.000
+Oh, you got to say it one more time because I wasn't listening.
+
+00:29:35.000 --> 00:29:37.000
+Say it one more time.
+
+00:29:37.000 --> 00:29:48.000
+I think that in most cases, we should just like most of us will probably use Gemini for the best uh value, value for money.
+
+00:29:48.000 --> 00:29:57.000
+But unless there's some specific use case that we should refer to, maybe Claude is better at some stuff.
+
+00:29:57.000 --> 00:29:58.000
+Yep. I agree.
+
+00:29:58.000 --> 00:30:05.000
+But most cases, it's just being Gemini.
+
+00:30:05.000 --> 00:30:10.000
+I'm sticking with open source for as long as I can.
+
+00:30:10.000 --> 00:30:29.000
+Until I can no longer do. And I'm sure if they're nowhere near as performant as Gemini, but until I actually deploy, I'm going to stick with open source. So like Ollama and uh yeah everything is served on Ollama.
+
+00:30:29.000 --> 00:30:31.000
+Nice.
+
+00:30:31.000 --> 00:30:38.000
+You can also use JAMA with an API. It's all free and you can use it for AI Studio.
+
+00:30:38.000 --> 00:30:43.000
+Also open souls, by the way. But I'm not a Google investor or anything.
+
+00:30:43.000 --> 00:30:47.000
+Okay. Okay. Did you say Gemma or Gemini?
+
+00:30:47.000 --> 00:30:48.000
+No, Jenna, there's also Gemma that's open source and hosted by Google and free.
+
+00:30:48.000 --> 00:30:51.000
+Tima.
+
+00:30:51.000 --> 00:30:57.000
+Okay.
+
+00:30:57.000 --> 00:31:06.000
+Yeah, it's available at AI Studio.
+
+00:31:06.000 --> 00:31:09.000
+Dwayne. Speak now.
+
+00:31:09.000 --> 00:31:18.000
+I am using Gemini 2.0 Flash for… converting my design files into HTML and CSS.
+
+00:31:18.000 --> 00:31:25.000
+When it comes to the code assistant I was going to use Gemini. I'm building it currently now. I have the UI set up.
+
+00:31:25.000 --> 00:31:33.000
+Working on the back end stuff I'm pretty sure I'm going to use Gemini as well. Think about Claude.
+
+00:31:33.000 --> 00:31:38.000
+But I don't know if there's one over the other that I should I should use.
+
+00:31:38.000 --> 00:31:51.000
+I think you should try them all. Think about it. You're learning stuff, right? So like, don't think about it from a perspective of I try to squeeze the most amount of performance, whatever.
+
+00:31:51.000 --> 00:31:58.000
+You're learning stuff. So just try them all. And then if you don't like something about it That's actually really good because then you have an opinion over it.
+
+00:31:58.000 --> 00:32:06.000
+Which is better than not having an opinion over these tools because then on your next project you can just dive right in and use the stack that you want.
+
+00:32:06.000 --> 00:32:09.000
+And have a good reason for doing so. Yeah, so even though here we're saying that, you know.
+
+00:32:09.000 --> 00:32:12.000
+Yeah, actually.
+
+00:32:12.000 --> 00:32:17.000
+Gemini is great or whatever. If you want to use grok just go and use it like
+
+00:32:17.000 --> 00:32:30.000
+Yeah. I actually had a huge issue that I never really shared but So my original idea was to… to be able to convert Photoshop files, Figma files.
+
+00:32:30.000 --> 00:32:35.000
+And XD files into code because that's what we get at my job.
+
+00:32:35.000 --> 00:32:54.000
+However, no… No AI actually takes those files i had to either convert them in my app, like convert those files into like a photo Like a JPEG or like a png file Or I had to just give the AI an image
+
+00:32:54.000 --> 00:33:06.000
+File. So that was a huge kind of hurdle that I kind of had to go over. And the problem with that is that In Photoshop files and fig files and XD files, you actually get things like font sizes.
+
+00:33:06.000 --> 00:33:19.000
+Fonts, things like that. These vision models can't really most of them can't really tell what font you're using or what And so it's kind of tricky. I didn't know.
+
+00:33:19.000 --> 00:33:25.000
+How to really go like fix that issue, if that makes sense
+
+00:33:25.000 --> 00:33:34.000
+Yeah. So were you able to find like a library somewhere that can read Photoshop files and get you the metadata?
+
+00:33:34.000 --> 00:33:54.000
+No, no. No. Well, what I looked for was, I think it's called an OCR, like optical OCR models that could read font sizes and some of them can, but they're not that good at doing everything else.
+
+00:33:54.000 --> 00:33:55.000
+Yeah, they weren't good.
+
+00:33:55.000 --> 00:34:04.000
+Yeah, I wouldn't put my money on that. I think if you can extract that If you could extract that. What does a PSD file look like? Let me see. I'm actually curious now. What does a PSD file look like?
+
+00:34:04.000 --> 00:34:16.000
+I can… is basically very similar to like even a Figma file. The thing is you can click the font. Let's say you have a design, right? You have an email.
+
+00:34:16.000 --> 00:34:21.000
+And I want like as a designer or a developer, I you know, um.
+
+00:34:21.000 --> 00:34:29.000
+Figure out what font it is. All I can do is click on it. Kind of like a Word document, right? If you want to know what the font is, you could just click the font.
+
+00:34:29.000 --> 00:34:37.000
+Or the word and it'll tell you the font in the corner, tell you the font size the color, everything like that. An image won't do that. You see what I'm saying?
+
+00:34:37.000 --> 00:34:43.000
+It's just the image. You can't really click the the contents of it.
+
+00:34:43.000 --> 00:34:48.000
+So… I was kind of, I didn't know how to get around that.
+
+00:34:48.000 --> 00:34:49.000
+All right. All right. All right. I flop my screen here.
+
+00:34:49.000 --> 00:34:51.000
+Does that make sense?
+
+00:34:51.000 --> 00:34:52.000
+Let's do this together. Thank you again thank you.
+
+00:34:52.000 --> 00:34:56.000
+Okay.
+
+00:34:56.000 --> 00:35:01.000
+Asda.
+
+00:35:01.000 --> 00:35:10.000
+There's a parser right here, PSD.js. It gives you document structure, document size.
+
+00:35:10.000 --> 00:35:15.000
+That's what I mean.
+
+00:35:15.000 --> 00:35:16.000
+Mm-hmm. Mm-hmm.
+
+00:35:16.000 --> 00:35:23.000
+On data i'm sure that you need this, right? So what you can do is you can use like a Gemini model like 2.0 flash to do like to understand the layout And then you can extract the font size and all this stuff. You can stuff that in the prompt and be like, hey.
+
+00:35:23.000 --> 00:35:33.000
+This is what the layout looks like. And then here are the precise description of like what the fonts should be and what font family should be.
+
+00:35:33.000 --> 00:35:34.000
+Thank you. Yeah.
+
+00:35:34.000 --> 00:35:48.000
+Which you don't honestly, you don't need to put this Well, actually, I'm trying to think if you should even need to put this into the LLM to generate it, or you can insert these in after the LLM has generated all the stuff.
+
+00:35:48.000 --> 00:35:55.000
+And then you can just kind of like programmatically insert these details in because these are hard coded numbers.
+
+00:35:55.000 --> 00:36:04.000
+But to make it super easy. Get the information out of the PSD file and then stuff that into the prompt after the OCR part.
+
+00:36:04.000 --> 00:36:14.000
+And be like, okay. You know the you know the layout should look like this but the numbers are like this and then hopefully that will help
+
+00:36:14.000 --> 00:36:31.000
+This helps a lot. Should I… Would you recommend sticking to one type of file then? Maybe like a PSD? Because they're they Different clients send the creative in different ways. Some might prefer PSD, some might prefer Figma files.
+
+00:36:31.000 --> 00:36:43.000
+But for my project. Should I just stick to one type of file.
+
+00:36:43.000 --> 00:36:52.000
+Hmm.
+
+00:36:52.000 --> 00:36:58.000
+I think this is to call the Figma API or something Yeah, this is not what you're looking for.
+
+00:36:58.000 --> 00:37:11.000
+So when you say Figma file, do you mean like a file that is shared over like a link?
+
+00:37:11.000 --> 00:37:12.000
+Oh, wow. I've never seen anyone download a Figma file before.
+
+00:37:12.000 --> 00:37:14.000
+It's a downloadable file, just like an image. It's literally, I think it's a .fig file. So it's literally a file
+
+00:37:14.000 --> 00:37:22.000
+Yeah, it's like a Figma file that you can download. But I do think there's also a link for it.
+
+00:37:22.000 --> 00:37:33.000
+I don't use Figma like that. I just know that this is a type of Follow that creative or clients make for their creative.
+
+00:37:33.000 --> 00:37:40.000
+Okay. Let's see. Bookloading assets.
+
+00:37:40.000 --> 00:37:47.000
+Let's see.
+
+00:37:47.000 --> 00:37:53.000
+Let's appearance.
+
+00:37:53.000 --> 00:37:59.000
+Figma files. Every final thing that consists of a few notes.
+
+00:37:59.000 --> 00:38:04.000
+Okay. Global properties.
+
+00:38:04.000 --> 00:38:12.000
+Okay. Note types. Okay.
+
+00:38:12.000 --> 00:38:23.000
+I guess if the file has some sort of like identifiable information about it, you can probably hit up the API and get info or something.
+
+00:38:23.000 --> 00:38:25.000
+Font.
+
+00:38:25.000 --> 00:38:33.000
+I think what I'll do is I'll focus because my client, we use… XD, Adobe XD. I don't know if you heard of it. Very similar to Photoshop.
+
+00:38:33.000 --> 00:38:35.000
+Yeah.
+
+00:38:35.000 --> 00:38:42.000
+I think I'll stick to just that. Or Photoshop, either or. But I think, because my client right now.
+
+00:38:42.000 --> 00:38:45.000
+Uses these type of files.
+
+00:38:45.000 --> 00:38:56.000
+Yeah. 10.
+
+00:38:56.000 --> 00:39:01.000
+That's cool.
+
+00:39:01.000 --> 00:39:03.000
+Yeah, I think PSD is probably the easiest For now.
+
+00:39:03.000 --> 00:39:17.000
+Okay, I'll do PSD then. Sounds good.
+
+00:39:17.000 --> 00:39:25.000
+And see.
+
+00:39:25.000 --> 00:39:32.000
+This is like a universal So I'm going to do that thing.
+
+00:39:32.000 --> 00:39:42.000
+I wonder if you can even get that Straight out of like any file.
+
+00:39:42.000 --> 00:39:44.000
+Anyway, yeah. It doesn't seem like so much for it, actually.
+
+00:39:44.000 --> 00:39:47.000
+Can you send me the PSD link that you went, that you uh Thank you.
+
+00:39:47.000 --> 00:39:54.000
+Yeah, yeah. Yeah, let me double check. Is this like a popular one?
+
+00:39:54.000 --> 00:40:01.000
+Yeah, it's pretty popular. But it hasn't been updated for a long time so
+
+00:40:01.000 --> 00:40:03.000
+Four years. So let's see.
+
+00:40:03.000 --> 00:40:07.000
+Wow.
+
+00:40:07.000 --> 00:40:17.000
+Your student or BS RMB. This one also hasn't been updated since 10 years ago.
+
+00:40:17.000 --> 00:40:24.000
+So not necessarily like a super popular use case, I imagine.
+
+00:40:24.000 --> 00:40:25.000
+Mm-hmm.
+
+00:40:25.000 --> 00:40:31.000
+But… Let's see.
+
+00:40:31.000 --> 00:40:46.000
+You are still using it. But you can have it. I… I think what teams usually do is if this is super useful for them, they'll probably fork it and then they'll develop this further in-house.
+
+00:40:46.000 --> 00:40:51.000
+Let me send it to you.
+
+00:40:51.000 --> 00:40:54.000
+Boom.
+
+00:40:54.000 --> 00:40:55.000
+Thank you, Hai.
+
+00:40:55.000 --> 00:41:04.000
+Yep.
+
+00:41:04.000 --> 00:41:12.000
+Okay, I have a like a question in general. The question is like are there any good resources for, you know.
+
+00:41:12.000 --> 00:41:22.000
+Llm system design like you know like building applications and end-to-end system designs or something.
+
+00:41:22.000 --> 00:41:33.000
+Resources for building end-to-end LLM application. Do you have a particular problem in mind that you're trying to solve?
+
+00:41:33.000 --> 00:41:41.000
+It would be, let's say text to SQL use case.
+
+00:41:41.000 --> 00:41:46.000
+Okay.
+
+00:41:46.000 --> 00:41:54.000
+Do you have any opinions about what tech stack you want to use to solve that or any more context around what you're trying to solve?
+
+00:41:54.000 --> 00:42:15.000
+So basically, if someone has, let's say like their own data warehouse like schemas where there are uh 20 tables and they want to write the right like write in English and then the application would convert it to SQL and write a query
+
+00:42:15.000 --> 00:42:21.000
+So something like that for like a small data set, maybe 10, 15 tables
+
+00:42:21.000 --> 00:42:30.000
+Okay. I'm putting examples, Langchain has a Text a SQL agent example that you can look up on Google.
+
+00:42:30.000 --> 00:42:31.000
+Okay.
+
+00:42:31.000 --> 00:42:39.000
+If you want to see something in production i know neon as one. Neon, the database company.
+
+00:42:39.000 --> 00:42:40.000
+Okay.
+
+00:42:40.000 --> 00:42:53.000
+And SuperBase also has one. I know Databricks, when you go to Databricks, there's one that you can use to query stuff.
+
+00:42:53.000 --> 00:43:05.000
+And… Yeah, that's like a… crazy ton of text to sequel resources like blogs and stuff online if you just google it I don't personally have an opinion on it.
+
+00:43:05.000 --> 00:43:09.000
+Okay.
+
+00:43:09.000 --> 00:43:26.000
+I personally feel like i personally feel like Textus SQL only gets complicated when You talk about the like when you have like a lot of tables query gets complicated, then you might have issues but from my personal experience if you just
+
+00:43:26.000 --> 00:43:30.000
+So the tails definition. Into your prompt.
+
+00:43:30.000 --> 00:43:36.000
+It usually can do a pretty good job, especially with like a frontier model like Claude.
+
+00:43:36.000 --> 00:43:37.000
+Okay.
+
+00:43:37.000 --> 00:43:41.000
+So from my perspective, for small projects. It's a solved problem.
+
+00:43:41.000 --> 00:43:42.000
+Okay.
+
+00:43:42.000 --> 00:43:51.000
+Enterprise level? Probably not. But then enterprise needs are very unique, right? Every enterprise is kind of like a snowflake.
+
+00:43:51.000 --> 00:43:58.000
+You know, so unless we have details here. I can't speak more on that.
+
+00:43:58.000 --> 00:43:59.000
+Okay.
+
+00:43:59.000 --> 00:44:00.000
+Yeah.
+
+00:44:00.000 --> 00:44:01.000
+By the way, Sartag, I think it's the first time I probably see you at the live sessions. Is that true? And if so, welcome.
+
+00:44:01.000 --> 00:44:08.000
+Bye.
+
+00:44:08.000 --> 00:44:10.000
+Thank you. Thank you. Yeah.
+
+00:44:10.000 --> 00:44:14.000
+Cool, cool, good. That's good to see you here.
+
+00:44:14.000 --> 00:44:31.000
+Yeah.
+
+00:44:31.000 --> 00:44:36.000
+Hey, should we start calling names or what? Ekta, you're trying to speak?
+
+00:44:36.000 --> 00:44:55.000
+Yeah, yeah. So yeah, coming from, I just have a MLM computer vision background, particularly working with models and modeling like designing model and stuff like that. So software design is not my strongest suit and i am like stuck like there's a lot of processes going on like
+
+00:44:55.000 --> 00:45:17.000
+Starting from searching the papers, assembling them. Creating them and putting them to database and again summarizing them so all this first part is still easy to you know capture and I'm understanding how do I save it and use it for further use because I want to attach this with per user like how is the user
+
+00:45:17.000 --> 00:45:36.000
+Actually querying and saving the required resource articles stuff like that But the last part that's uh writing with the help of the summary that the writing tool I'm kind of wrapping my head around it like what would actually happen because
+
+00:45:36.000 --> 00:45:54.000
+I'm right now stuck like i've not used any agent development on this project yet so How should I, am I not seeing something? How should I interpret this going forward and what exactly would happen with writing like i understand that
+
+00:45:54.000 --> 00:46:10.000
+Llm would help me write the research summary of the articles and take me forward but like with all of these processes going on like it's it's just being confusing for me so
+
+00:46:10.000 --> 00:46:11.000
+You know, that's the situation of the question.
+
+00:46:11.000 --> 00:46:19.000
+Yeah, I… Cool. Yeah. Can you ask it one more time? Because I've got a little bit confused.
+
+00:46:19.000 --> 00:46:20.000
+I have like two brain cells left. It's like. 8.47 p.m. But please ask again.
+
+00:46:20.000 --> 00:46:31.000
+Yeah. Yeah, it's right. No.
+
+00:46:31.000 --> 00:46:32.000
+Oh, so you're trying to advance. Okay, let me turn on that part of my brain. Okay.
+
+00:46:32.000 --> 00:46:36.000
+Yeah it's kind of a situation more than a question, I guess. So since I don't have a lot of
+
+00:46:36.000 --> 00:46:37.000
+Go ahead. I'm listening.
+
+00:46:37.000 --> 00:46:54.000
+Yeah, yeah. So yeah so more of Because the project has a lot of processes like and I can tackle one by one And I've pretty much figured out what happens in the first part, like searching and then analyzing them
+
+00:46:54.000 --> 00:47:13.000
+Summarizing the articles, et cetera. But the main part that's writing a report based on that so that the user can have access to the articles, write the report immediately So that they don't have, you know, there's some contact between summarizing and writing the
+
+00:47:13.000 --> 00:47:29.000
+Research direction so I'm just just lost like how do i um like put this process together and like the pieces together and think of some solid design like because design is not my strongest suit like the This is to be live.
+
+00:47:29.000 --> 00:47:32.000
+Oh, yeah. Yeah. Failure.
+
+00:47:32.000 --> 00:47:33.000
+Yeah. So… What was that?
+
+00:47:33.000 --> 00:47:38.000
+What have you tried so far? What have you tried so far?
+
+00:47:38.000 --> 00:47:49.000
+So I am trying like there's today I was just trying to keep one unified agent because I never like I was just trying a very simple workflow way just to understand like my blog diagram.
+
+00:47:49.000 --> 00:47:57.000
+And trying to call process one by one. I have not included a lot of asynchronous design or like a lot of tool calling.
+
+00:47:57.000 --> 00:47:58.000
+Mm-hmm.
+
+00:47:58.000 --> 00:48:09.000
+Because I need to first understand what exactly I'm me as a person, I can't just you know wipe code and keep it aside. I have to keep on understanding one by one because I'm learning it, right? I'm new to software engineering learning and design.
+
+00:48:09.000 --> 00:48:10.000
+Mm-hmm.
+
+00:48:10.000 --> 00:48:29.000
+So by learning this i I just get lost in one process and just lose the context of what I want to do next so this learning part, engaging with that learning part and then also thinking How do I exercise this agent so right now I just thought a very simple way like
+
+00:48:29.000 --> 00:48:53.000
+Kept a unified agent that's just um helping us search and uh maybe rewriting the query in order to search a better publication or article and then saving it into a database per user wise So I was also stuck in that way, like, should I save as a JSON or should I just keep the abstract your publication safe?
+
+00:48:53.000 --> 00:49:02.000
+But I figured out some of that. The next process that's haunting me like would I be able to complete the writing tool part?
+
+00:49:02.000 --> 00:49:09.000
+Or should I just stick to the first process from searching to analyzing, filtering and summarizing.
+
+00:49:09.000 --> 00:49:15.000
+And just complete this for the bootcamp. Um like So that's the situation.
+
+00:49:15.000 --> 00:49:22.000
+Okay, if you were to… If either way works out perfectly, which one would you go with?
+
+00:49:22.000 --> 00:49:24.000
+Either way. You can accomplish it.
+
+00:49:24.000 --> 00:49:45.000
+I think the first was because that is the foundation of the project like to begin with searching, summarizing and accumulating the very important stuff, the relevant stuff I exactly need and So that the user at least has a direction of the research, like what's the research gap because that's the main focus of my project like
+
+00:49:45.000 --> 00:50:00.000
+Exactly was the research gap like of course there's a lot of materials available but What I'm trying to do. So I want to figure out the direction like because As a user, like I have seen in the research space like what happens is
+
+00:50:00.000 --> 00:50:04.000
+The researcher would get lost and would not get to the ultimate goal.
+
+00:50:04.000 --> 00:50:10.000
+And direction is not as straightforward. So that is what I wanted to solve this problem.
+
+00:50:10.000 --> 00:50:18.000
+Like having the right summary together and you know quickly analyzing what's going on and then moving forward to the research direction.
+
+00:50:18.000 --> 00:50:26.000
+So I would like to establish the foundation part that's summarizing exactly what I need.
+
+00:50:26.000 --> 00:50:32.000
+And like if I wanted to do, I would rather focus on that so
+
+00:50:32.000 --> 00:50:36.000
+Yeah. Next step, what we like the next small step that you can take?
+
+00:50:36.000 --> 00:50:37.000
+To get there.
+
+00:50:37.000 --> 00:50:47.000
+Like I want to store the relevant information. Into a database that is easily accessible.
+
+00:50:47.000 --> 00:50:48.000
+Okay. Let's do that then. You got to do that. And then let me know when you're done.
+
+00:50:48.000 --> 00:50:53.000
+And yeah.
+
+00:50:53.000 --> 00:51:00.000
+I'm still thinking like it's it's very uh i don't know it just gets a lot but a lot
+
+00:51:00.000 --> 00:51:06.000
+I know, I know. This is why some of us are sipping extremely fast and others are not.
+
+00:51:06.000 --> 00:51:17.000
+And if you want to break into Here's the thing. So some people have stronger tendencies to overthink than others
+
+00:51:17.000 --> 00:51:21.000
+Either way, like. A month from now, I wouldn't say a month from now.
+
+00:51:21.000 --> 00:51:34.000
+Two weeks from now. Do you want to see something? That you've built or do you want to see a diagram? That's what I'm trying to say so Either way, it's still gonna… you're still going to be left with the left
+
+00:51:34.000 --> 00:51:41.000
+The problem that you know the problem think through like the best possible architecture for what you're building.
+
+00:51:41.000 --> 00:51:51.000
+But and again like nobody's going to hold you accountable for this like we're all just strangers on the internet right so I'm telling you like If you're relying on me If you rely on me to tell you what to do.
+
+00:51:51.000 --> 00:51:57.000
+Not anymore.
+
+00:51:57.000 --> 00:52:13.000
+I can't. I want you to understand that. After this boot camp, if you can get over this hurdle of like get over yourself, you would do so well when you're shipping stuff really fast and like make decisions faster So ECTA, this is like
+
+00:52:13.000 --> 00:52:14.000
+No, I think I have done
+
+00:52:14.000 --> 00:52:22.000
+This is like the moment in time when you when you become a developer.
+
+00:52:22.000 --> 00:52:23.000
+A vibe coder.
+
+00:52:23.000 --> 00:52:38.000
+No, I think I have done pretty good. Uh like i i according to my uh because I am very new to, of course, like I said, like system development according to that, I was able to quickly web scrape and, you know, call the APIs a synchronicity and
+
+00:52:38.000 --> 00:52:57.000
+I'm not using three different, like I'm using different APIs, but right now I'm able to call like whatever I need, the most frequent needed and stuff like that um so so I think I'm able to grasp quickly. It's just that I also took a difficult route like maybe the TypeScript route and
+
+00:52:57.000 --> 00:53:00.000
+Understanding the code and like actually working
+
+00:53:00.000 --> 00:53:07.000
+Listen, for all watching. We're all watching. I know exactly what you're doing. And I remember what you said in the beginning.
+
+00:53:07.000 --> 00:53:10.000
+That's why I'm trying to push you a little bit. Because I know you can do it.
+
+00:53:10.000 --> 00:53:12.000
+Yeah.
+
+00:53:12.000 --> 00:53:16.000
+You overthink stuff, right? You gotta get over that.
+
+00:53:16.000 --> 00:53:22.000
+And I know you can. And I know you're thinking because you're putting in work, it's just that it's working your head.
+
+00:53:22.000 --> 00:53:33.000
+I want you to put an issue into like just build something concrete, like a slice. We talk about a slice in the beginning right so All the stuff that you're thinking about right now.
+
+00:53:33.000 --> 00:53:36.000
+That count as work. That's not wasted time by the way.
+
+00:53:36.000 --> 00:53:52.000
+Like you're not wasting time you're you're you're getting over yourself and that's that's great. So don't think about like all the time that you like overthinking These make the best stories when you go on into interviews, when you go and talk to like a team somewhere else because then
+
+00:53:52.000 --> 00:54:07.000
+They can relate to that. They're like, oh, we had the same issue here and Well, how did you do it? And then you can tell the story. Like, oh, I did this and then kind of Got it done. Happens so many times in my career and other people's career as well. I think
+
+00:54:07.000 --> 00:54:18.000
+There's no shortcut to this. The fact that you're struggling through it, it's supposed to be hard For people who overthink it's supposed to be hard and people who are new and you decide to do TypeScript even though you don't know TypeScript.
+
+00:54:18.000 --> 00:54:31.000
+So kudos to you. What I need you to understand is that it's not going to be hard forever One day you're going to get over this and you're going to ship something and then you won't even remember it today.
+
+00:54:31.000 --> 00:54:32.000
+So I want to share something. I feel like this will help.
+
+00:54:32.000 --> 00:54:35.000
+And I know you can do it.
+
+00:54:35.000 --> 00:54:52.000
+Okay, so there is this scientific thing where when you're if you go for a walk or running or something that activates both sides of your brain and you're thinking about something, you're processing while you're activating both sides of your brain. So you have your logical and your creative side
+
+00:54:52.000 --> 00:55:01.000
+So literally what I do, it sounds crazy, but I don't care. I will go for a walk. I'll put in headphones and I will talk to myself and I will describe the issue.
+
+00:55:01.000 --> 00:55:06.000
+And then I will like brainstorm. And by the time I'm done with my walk, I'm like, all right, I know what to do next.
+
+00:55:06.000 --> 00:55:11.000
+So I feel like if you get stuck, which I currently am.
+
+00:55:11.000 --> 00:55:12.000
+Amazing.
+
+00:55:12.000 --> 00:55:18.000
+Try that. Go for a walk. Talk to yourself and it will activate both sides of your brain in order to like problem solve better.
+
+00:55:18.000 --> 00:55:19.000
+Amazing.
+
+00:55:19.000 --> 00:55:20.000
+That's awesome. Yeah.
+
+00:55:20.000 --> 00:55:30.000
+And also, I feel like week three is really hard. I want to say that like, I feel like this is like a I don't know, like I'm having the hardest week, so I don't know if anybody else is having a really hard time with week three but
+
+00:55:30.000 --> 00:55:39.000
+I feel like you're like over the initial, like, this is so cool And now you're like, you still have to like push through the hard part. I guess this is why you guys said choose something that you really like.
+
+00:55:39.000 --> 00:55:44.000
+Because it gets tough. Okay, now I'm done. End rant.
+
+00:55:44.000 --> 00:56:00.000
+No, this is great. This is perfect. Ekta, I just wanted to share with everybody that the project that you submitted on the first demo, it's mind-blowing and Congrats again for choosing the hard path. And if you are okay with this i can
+
+00:56:00.000 --> 00:56:08.000
+Share and remind people how much progress you made in the first week, just to show you that sometimes you think you're not doing the progress, but you are.
+
+00:56:08.000 --> 00:56:22.000
+And also, when you do keep like overthinking, I think it's important to get back to the user problem if especially like when you're trying to decide what to do next, I think it's important to get back to like, okay, what's the problem you were trying to solve with your app?
+
+00:56:22.000 --> 00:56:28.000
+And it seems like maybe it's time to talk to the users. Maybe it's time to like share it with somebody else.
+
+00:56:28.000 --> 00:56:34.000
+Maybe what you think is valuable other thing is not. Maybe there's something else for you to discover.
+
+00:56:34.000 --> 00:56:42.000
+But either way, this whole process is all about just trying and trying and failing and learning And sharing with everybody else.
+
+00:56:42.000 --> 00:56:57.000
+And Kelsey said it wonderfully like if you If you get stuck, there are so many ways to like get unstuck and we're here for it. Thank you for sharing also this is This is very valuable what you're sharing. And it looks like on the chat, many people are sharing the similar
+
+00:56:57.000 --> 00:57:15.000
+Sentiment as well. It's not easy guys like imagine this you're learning TypeScript in two weeks it's crazy. People were dedicating months and years. I mean, Hai was teaching that for people in like six months to cover what you're covering now
+
+00:57:15.000 --> 00:57:16.000
+That's true. That's true. Yeah.
+
+00:57:16.000 --> 00:57:34.000
+So it's totally okay to feel overwhelmed. And I talked earlier today with Dwayne, with Oren as well earlier today. And Oren's been saying like he's not sleeping. He's like he's working 24 7 trying to debug stuff So same with Dwayne like they show up on the vibe coding sessions and asking lots of questions. So this is part of the
+
+00:57:34.000 --> 00:57:37.000
+Learning journey and you're doing great, Vecta.
+
+00:57:37.000 --> 00:57:38.000
+That's such a good point because that's such a good point But the full stack bootcamp that I've been teaching for the past five years.
+
+00:57:38.000 --> 00:57:43.000
+Thank you.
+
+00:57:43.000 --> 00:57:53.000
+It used to take somebody six months to a whole year to like build something in like react and node.js Express and all that stuff.
+
+00:57:53.000 --> 00:58:02.000
+And this is pre-AI. Since ChatGPT got popular, we had this change in our strategy so that our students are using AI tools more.
+
+00:58:02.000 --> 00:58:10.000
+Which also expedites the the time that they would take to build and complete a project.
+
+00:58:10.000 --> 00:58:18.000
+When you're stuck into details, just zoom out. You're in the best time in our lifetime so far to create something.
+
+00:58:18.000 --> 00:58:31.000
+And to be able to build the stuff and like five weeks has it's impossible before. It's literally impossible But you're doing it and it's supposed to be hard. And this is what heart feels like.
+
+00:58:31.000 --> 00:58:35.000
+Yeah.
+
+00:58:35.000 --> 00:58:42.000
+I mean, I'm very proud because i am very proud For my first time in life, I am doing whatever I'm doing.
+
+00:58:42.000 --> 00:58:53.000
+Like scaling so many APIs together thinking of the database, thinking of authorization and all so I'm happy.
+
+00:58:53.000 --> 00:58:56.000
+Yeah, things are a little slow on my end, I feel.
+
+00:58:56.000 --> 00:58:57.000
+Yeah, Hector, I need you to push a little bit more. I need to push a little bit more.
+
+00:58:57.000 --> 00:59:00.000
+So.
+
+00:59:00.000 --> 00:59:14.000
+You can do this. I swear to God, like three weeks from now you're going to pull this off and then we're gonna we're gonna blow up your project everywhere, basically, because we're going to be very proud of you. Everybody on this call is going to be very proud of you.
+
+00:59:14.000 --> 00:59:25.000
+Because now you've been yapping for the past two minutes. I don't care but And not everybody knows what their problem is. And not everyone's going to be watching you, right? This girl who didn't know TypeScript.
+
+00:59:25.000 --> 00:59:31.000
+But didn't you use Python? That's courage in itself.
+
+00:59:31.000 --> 00:59:34.000
+Whatever you do from this point on, you got to look back and be like.
+
+00:59:34.000 --> 00:59:46.000
+I was that girl who chose touchscreen over Python. So whenever it comes in my I can tackle it. I don't remember that.
+
+00:59:46.000 --> 00:59:52.000
+Okay, don't start crying on my Zoom, okay? Just kidding. Buy all you want.
+
+00:59:52.000 --> 00:59:59.000
+Kelsey is saying it's a Q&A and event session. Love it.
+
+00:59:59.000 --> 01:00:10.000
+Cool. Yeah. And I feel like, feel free, guys, like who are like spending a lot of time or an autumn duane i literally see you on every vibe session. Like, please speak up.
+
+01:00:10.000 --> 01:00:23.000
+You guys are like now responsible because you're showing up and there are many people that want to get inspired and see the progress that you guys are making. And I think it's on your responsibility to share and share what worked and what hasn't.
+
+01:00:23.000 --> 01:00:34.000
+And I'm not saying it's only you guys. I know there are people that are working different time zones, but whoever is getting ahead, please share with others as well.
+
+01:00:34.000 --> 01:00:35.000
+I'm going to do it the first time the code isn't broken once I'm on the call.
+
+01:00:35.000 --> 01:00:38.000
+Also, one…
+
+01:00:38.000 --> 01:00:39.000
+The first time it's not broken, I'm going to do it.
+
+01:00:39.000 --> 01:00:53.000
+Ice. Very nice. And I just want to add one more thing. So I'm not sure, I'm not doing lip service here. Like Ekta, if you Just start messaging me on circle and like DM me.
+
+01:00:53.000 --> 01:01:04.000
+As we progress and then i will personally see if… Wherever you need an outfit, I'll make sure that I'll look into it like thoroughly.
+
+01:01:04.000 --> 01:01:07.000
+Just for you.
+
+01:01:07.000 --> 01:01:14.000
+Yeah, I just want your help where I could see something which I'm not seeing. So I'll start sharing on the demo day maybe.
+
+01:01:14.000 --> 01:01:24.000
+If i so i just need some direction in that because sometime like like Mary said, you can't see things And people cancel.
+
+01:01:24.000 --> 01:01:25.000
+I want to take that advantage.
+
+01:01:25.000 --> 01:01:26.000
+Yes.
+
+01:01:26.000 --> 01:01:35.000
+That's actually a good idea. On the demo day, guys, it's not only about showing off what you build, but also time for you to share what you're struggling with big time.
+
+01:01:35.000 --> 01:01:37.000
+And it's another opportunity to get unblocked
+
+01:01:37.000 --> 01:01:43.000
+So keep that in mind.
+
+01:01:43.000 --> 01:01:44.000
+Awesome. If there's anything else, yeah, Melissa, go ahead.
+
+01:01:44.000 --> 01:01:52.000
+Um… Yeah, I'll share something. I had a revelation earlier.
+
+01:01:52.000 --> 01:02:03.000
+I've been doing get commits like crazy and this is my first time using Git for like an active project. I was just committing stuff like here and there over the months and years.
+
+01:02:03.000 --> 01:02:19.000
+So I realized, I'm like, oh, I started reading like all of the texts and I was It's a private repo, so whatever, but I was committing like my computer username and I'm like, oh, no, this is a cybersecurity risk so um
+
+01:02:19.000 --> 01:02:29.000
+I went and updated that and fixed it. But it just made me like come back to the fact that I'm like, okay, once I get to a certain point.
+
+01:02:29.000 --> 01:02:51.000
+I'm going to slow down and do like a security Like sweep because I've seen, like, I see horror stories and everything else nowadays about different security vulnerabilities and being that i don't know the explicit details of them. I'm like, okay, let me create like a little checklist and make sure my DB
+
+01:02:51.000 --> 01:02:57.000
+It's good and it's not susceptible to certain type of vulnerabilities and things like that.
+
+01:02:57.000 --> 01:03:04.000
+You know this this like That's like something that I want to take seriously as I'm trying to build things out.
+
+01:03:04.000 --> 01:03:14.000
+I think like the first app i tried to build like My teacher was showing me how to do it. He was like, yeah, I'm showing you how to do it. But this here it could, you know, someone can do like SQL injection and
+
+01:03:14.000 --> 01:03:24.000
+Do some bad things. So I'm like, oh, shit, I need to try to… get up on it so I can know what I'm dealing with here.
+
+01:03:24.000 --> 01:03:44.000
+Yeah, that's in between fighting my project and trying just to get certain support types to work correctly, the security layer draped over my head today. So I'm going to have to keep that in mind as I go.
+
+01:03:44.000 --> 01:04:04.000
+No, this is great. Thanks for sharing, Melissa. I think you're like already thinking in the production environment. It's so cool that you're like three steps ahead already But it's a good practice to keep that in mind. But we're still in the week three and I love that you're already thinking about it. We're trying to ship the MVP.
+
+01:04:04.000 --> 01:04:13.000
+Or what was the other name? Remember the guest speaker mentioned Don, not the MVP, but maybe how you know this too Another term.
+
+01:04:13.000 --> 01:04:15.000
+It's like minimum lovable something?
+
+01:04:15.000 --> 01:04:17.000
+No, something else. It was CLI.
+
+01:04:17.000 --> 01:04:26.000
+Simplified something. Sec or something simplified workbook something you know
+
+01:04:26.000 --> 01:04:27.000
+A scene illness.
+
+01:04:27.000 --> 01:04:40.000
+Yeah. Yeah, that was, yeah, we should… What should… Yeah, but… Melissa, you're doing great. If nobody else has any other questions, we can wrap this.
+
+01:04:40.000 --> 01:04:51.000
+Office hours and uh Yeah, and we'll see you on demo day. I'm going to put up the form for the progress or the homework, whatever you like to call it.
+
+01:04:51.000 --> 01:04:55.000
+On circle and can't wait to see what you guys are building this week.
+
+01:04:55.000 --> 01:05:12.000
+Hey, Mary. I just had a quick question for hi i'm like Maybe it's like more rudimentary possibly i don't know, because I've not watched all the videos. I'm like slowly watching them and then trying to build on the site. So I'm still like catching up.
+
+01:05:12.000 --> 01:05:18.000
+Maybe this is something which is already discussed. I don't know, but I just still just wanted to bring it up in case.
+
+01:05:18.000 --> 01:05:43.000
+You know what? Different people are building different things, right? I know Hai gives them some kind of a guidance about, oh, if you have to do this, do such and such API or whatever it may be the case. For example, I asked him a question, oh, how do I extract text from PDF? Then he told me to do Gemini Flash API and also ask it to give a markdown.
+
+01:05:43.000 --> 01:05:51.000
+So how do you develop that intuition? Maybe it's like a the question. I was like, oh, how does he How do you do that?
+
+01:05:51.000 --> 01:05:55.000
+Yeah, I had the same question for my boss at my first job.
+
+01:05:55.000 --> 01:06:04.000
+And I think the context was that I had this really easy task to do, which was adding like email to Salesforce.
+
+01:06:04.000 --> 01:06:07.000
+And I always spend like two days on it not knowing what to do.
+
+01:06:07.000 --> 01:06:14.000
+And then I asked my boss and he like took like two seconds to go on Salesforce documentation and find the exact doc.
+
+01:06:14.000 --> 01:06:30.000
+To do it. And I was like, how did you do that? And he's like, well, I just had like 17 years of development experience And I'm like, okay.
+
+01:06:30.000 --> 01:06:31.000
+Okay.
+
+01:06:31.000 --> 01:06:43.000
+But then I think over time, what I realized was that you just start to solve like similar problems And then you kind of like develop a mental model of like how to find answers So for example, whatever problems you throw at me now, I have like a problem solving framework where I'm like, okay, do I know everything that you're talking about?
+
+01:06:43.000 --> 01:06:57.000
+Maybe there's a part that I don't understand. I try to like preliminary Google that just to understand what's going on and then I have a mental model of like, is this like an SDK? Is this like code or is this like a concept or like what is this?
+
+01:06:57.000 --> 01:07:14.000
+And then I'll try to look for sources that I think if you just expose yourself to a lot of different types of technical challenges you will develop like an intuition to solve certain problems Because everything that you guys asked me in this call, I've
+
+01:07:14.000 --> 01:07:21.000
+Worked on like at least maybe like 70% of all those things So I can kind of pull from my personal experience.
+
+01:07:21.000 --> 01:07:39.000
+That's why you guys sucked out because you got this guy who's been working for real and not like, you know, that saying like those who can't do teach those who teach I wouldn't say that, but… like it's, I don't know like
+
+01:07:39.000 --> 01:07:53.000
+We want this to be kind of like how you would sit next to your coworker at work and like ask whatever so Of course, the coworker has to be doing work to know how to answer these questions. And I would hopefully answer this question the way
+
+01:07:53.000 --> 01:08:00.000
+A coworker would do to you when you you know, we're sitting nice together next to each other at a cubicle.
+
+01:08:00.000 --> 01:08:04.000
+Instead of giving your lecture about how to do stuff. Yeah, so I guess it just comes to time
+
+01:08:04.000 --> 01:08:24.000
+Sure. I think I'm hoping. Okay, yeah, thank you. That answers my question. I mean, that's what I thought it is. But then I just want to know if there is Anything you wanted to say? Also, I'm hoping that, as I said, I didn't watch all the videos. Once you watch all those videos and try it, maybe you start to develop at least
+
+01:08:24.000 --> 01:08:27.000
+Begin to develop is what I'm thinking maybe the case.
+
+01:08:27.000 --> 01:08:34.000
+Yeah, I think… I think there were a few people who show up consistently to all of the coding streams.
+
+01:08:34.000 --> 01:08:42.000
+And they just subconsciously picked up on how i go about solving problems because we run into problems all the time on the stream.
+
+01:08:42.000 --> 01:08:43.000
+All the time. Things that are… Okay.
+
+01:08:43.000 --> 01:08:51.000
+Yeah. The reason I'm not able to keep up is because I have a long like work day plus.
+
+01:08:51.000 --> 01:09:02.000
+I'm trying to watch it not just once, a few times because I know what you did. And I also try to do it by myself, not just watching like a movie you know so that I think time. Okay, that answers my question. Thank you.
+
+01:09:02.000 --> 01:09:16.000
+Yeah. Yeah, I think for me, it was looking at my boss problem solve. And I hope that for you guys would like look at me running into issues and then trying to solve my own issues.
+
+01:09:16.000 --> 01:09:20.000
+I hope that you guys pick up on stuff like, you know.
+
+01:09:20.000 --> 01:09:26.000
+Me going. I don't think I ever pulled up Stack Overflow even once.
+
+01:09:26.000 --> 01:09:27.000
+Only Carson.
+
+01:09:27.000 --> 01:09:28.000
+Not even once. Always go directly to docs. Always try to read stuff Or if I'm too tired, I'll be like, okay, cursor, solve this for me.
+
+01:09:28.000 --> 01:09:32.000
+Mm-hmm.
+
+01:09:32.000 --> 01:09:37.000
+Or if there's already a pattern before, then I'm like, okay, cursor, follow the same pattern, do the same here.
+
+01:09:37.000 --> 01:09:58.000
+So yeah, I think seeing somebody going through problem solving in real time is in my life has been tremendously useful, whether that's a coworker or a boss or somebody Because when you go on YouTube, you watch a tutorial, it's always almost perfectly like from end to end. And real life is never like that.
+
+01:09:58.000 --> 01:10:12.000
+But seeing somebody struggle a little bit, I think, gives you permission to struggle and work through things so
+
+01:10:12.000 --> 01:10:23.000
+Yeah, somebody else can say how they can problem solve really that'll be useful for other people.
+
+01:10:23.000 --> 01:10:36.000
+I'm like curious how Autumn knows all her stuff because like A lot of stuff that she mentions, that's the stuff that I know, but I never told the class. I'm like, how do you know all this stuff? Then you got to tell everybody
+
+01:10:36.000 --> 01:10:37.000
+She's taking two boot camps at once.
+
+01:10:37.000 --> 01:10:53.000
+Like what? I'm not going to lie. I read a lot of documentation just because I feel like I don't, I don't know. I've never used Vercel or anything before a few weeks ago. So I would say at least like an hour a day. That sounds weird, but I just I'm just looking at the docs.
+
+01:10:53.000 --> 01:11:06.000
+So that's how I saw that there was an update for the AI SDK. And I was like, oh, I have to check that out but But yeah, I'm not a software developer so
+
+01:11:06.000 --> 01:11:23.000
+Yeah, so stuff like that, big nerd alert right like who like reads documentation And then just like geeked out about, oh, like a 4.2 update just came out. Holy shit. Or like Oren. Oren like posts updates about like what's happening in AI like all the time.
+
+01:11:23.000 --> 01:11:28.000
+And like these people don't feel like they're wasting their time doing that because they like it.
+
+01:11:28.000 --> 01:11:39.000
+So if you have something that you're really into. You do more of it, then you're kind of almost like have an intuition of like You have a bit of mental model of like how things work and stuff like that.
+
+01:11:39.000 --> 01:11:43.000
+Yeah.
+
+01:11:43.000 --> 01:11:47.000
+Yeah, thank you. That's very helpful.
+
+01:11:47.000 --> 01:11:53.000
+Cool. So before we wrap up, I have a question for you guys.
+
+01:11:53.000 --> 01:11:58.000
+Me and Mary were thinking about like getting TAs Because I know some of you guys are doing pretty well.
+
+01:11:58.000 --> 01:12:09.000
+And, you know, we're like, oh, maybe they can essentially teach to or like help out the class and whatever not just this class, by the way like we're thinking some like potentially classes after this.
+
+01:12:09.000 --> 01:12:17.000
+So if you're interested in doing TA stuff. What GA means was basically like be like me helping out the class.
+
+01:12:17.000 --> 01:12:26.000
+Be like Frederick, like just jumping in like helping people in chat and stuff like that Because obviously you have knowledge And the best way to learn is to teach it.
+
+01:12:26.000 --> 01:12:31.000
+That's how I did my full psych boot camp. I didn't know shit when I joined them. I'm like, yeah, I know React.
+
+01:12:31.000 --> 01:12:36.000
+I was literally learning React as I'm teaching it. And then by the end, I know React.
+
+01:12:36.000 --> 01:12:39.000
+So teaching is a great way to reinforce what you're learning.
+
+01:12:39.000 --> 01:12:54.000
+So if you're interested in this, shoot me or Mary a DM. There's no concrete plan yet We're really, really excited about the idea of like you know, having our students from the first boot camp be like teaching or something like that. That'd be a cool idea.
+
+01:12:54.000 --> 01:12:55.000
+So.
+
+01:12:55.000 --> 01:13:11.000
+Yes, guys, message us because i can see that message you'll benefit a lot from this as well. And this is again a community that we're building And I would love to see you guys in the future cohorts maybe. And that's what happens you know the superstars are the most active
+
+01:13:11.000 --> 01:13:20.000
+People, consistent people end up doing something together you know and Again, I think all of you guys have great potential.
+
+01:13:20.000 --> 01:13:35.000
+Yeah, so the path goes like this. Running Airbnbs or like be a data scientist and data analyst somewhere And then join this bootcamp, learn how to ship stuff, build AI product engineering.
+
+01:13:35.000 --> 01:13:40.000
+And then be a TA. And then be a crack engineer at the end.
+
+01:13:40.000 --> 01:13:46.000
+So you can't skip the TA part. You have to be a TA before you become a crack engineer.
+
+01:13:46.000 --> 01:13:50.000
+And then you go work for a startup or something.
+
+01:13:50.000 --> 01:14:12.000
+Either startup or TA. I don't know. Because you could be building internal tools too. You know, we have so many like things inside that we need to automate like even this Even the recording things but but yeah Yeah, let us know. And we're thinking of it's not 100% sure yet. We're thinking of organizing a hackathon.
+
+01:14:12.000 --> 01:14:29.000
+Probably in a month or so, probably both online or San Francisco, but definitely online And we would love any volunteers or anyone who would like to participate as like a leader or how do you say someone who helps manages things because it's going to be a lot
+
+01:14:29.000 --> 01:14:30.000
+But…
+
+01:14:30.000 --> 01:14:37.000
+Yeah, people are going to be asking questions about the stuff that you guys have learned already so It'd be great to have some help.
+
+01:14:37.000 --> 01:14:40.000
+Yeah. Yeah.
+
+01:14:40.000 --> 01:14:51.000
+Okay, sick. I gotta do some other stuff now but uh Adam says, I'm in. And then Keisha said, okay, five coding documentation. Cool.
+
+01:14:51.000 --> 01:14:53.000
+Which one are you in? You got to DM Marietta or me about it.
+
+01:14:53.000 --> 01:15:00.000
+Yeah. Which one?
+
+01:15:00.000 --> 01:15:01.000
+Yeah.
+
+01:15:01.000 --> 01:15:06.000
+For sure. The hackathon sounds cool. I don't know if I could teach anyone anything, but… Take it till you make it. I could teach you that.
+
+01:15:06.000 --> 01:15:09.000
+Yeah, one step at a time.
+
+01:15:09.000 --> 01:15:15.000
+Love it. Lauren's 90% in and what?
+
+01:15:15.000 --> 01:15:20.000
+In a month, but we'll see. I mean… We'll get to it.
+
+01:15:20.000 --> 01:15:24.000
+Great. Awesome.
+
+01:15:24.000 --> 01:15:29.000
+All right, Gabe. I'll see y'all tomorrow.
+
+01:15:29.000 --> 01:15:40.000
+I love this thing. Oh, guys, let me take a screenshot. That is so cool.
+
+01:15:40.000 --> 01:15:46.000
+Wait, wait, wait. Okay, how can I do both?
+
+01:15:46.000 --> 01:15:52.000
+All right. All right. One, two. I can do with one hand.
+
+01:15:52.000 --> 01:15:57.000
+All right, one, two, three. Awesome.
+
+01:15:57.000 --> 01:15:58.000
+Take it one more time. One more time. Melissa, just pop on. Melissa, just pop on.
+
+01:15:58.000 --> 01:16:08.000
+Oh, yeah, that's true. That's true. That's true. That's true. Anybody else who wants to show their face, this is the time to do it.
+
+01:16:08.000 --> 01:16:17.000
+Okay. Oh, nice. I see it. Go. I see just one hand. Awesome. Awesome. One, two, three.
+
+01:16:17.000 --> 01:16:19.000
+Oh my God. I love it.
+
+01:16:19.000 --> 01:16:20.000
+This is not political at all.
+
+01:16:20.000 --> 01:16:25.000
+Heidi's posture was tight. You had perfect posture, dude.
+
+01:16:25.000 --> 01:16:27.000
+Cool. All right. Thanks, guys. See you.
+
+01:16:27.000 --> 01:16:29.000
+Okay. All right. See you.
+
+01:16:29.000 --> 01:16:35.000
+Right. Good night, everybody.
+

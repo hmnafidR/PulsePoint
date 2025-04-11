@@ -1,0 +1,107 @@
+{
+  "id": "GMT20250327-000123",
+  "name": "Vibecamp Bootcamp Q&A Session",
+  "date": "2025-03-27T00:01:23",
+  "duration": "01:15:36",
+  "platform": "Zoom",
+  "participants": [
+    {
+      "id": "P1",
+      "name": "Meri Nova",
+      "role": "Instructor/Host"
+    },
+    {
+      "id": "P2",
+      "name": "Autumn Hicks",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P3",
+      "name": "Oren",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P4",
+      "name": "Frederick Z",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P5",
+      "name": "Hai",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P6",
+      "name": "Gil",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P7",
+      "name": "Tamilarasee S",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P8",
+      "name": "kelseydilullo",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P9",
+      "name": "Kasia Swiech",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P10",
+      "name": "asiah maryam",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P11",
+      "name": "Melissa",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P12",
+      "name": "Dwayne Joseph",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P13",
+      "name": "Ekta",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P14",
+      "name": "Praveena Suresh",
+      "role": "Student/Participant"
+    }
+  ],
+  "topics": [
+    "Bootcamp Progress",
+    "Tool Use Implementation",
+    "Project Demos",
+    "Vibe Coding",
+    "AI Tools for Development",
+    "Project Organization",
+    "Debugging Tips",
+    "Project Sharing"
+  ],
+  "files": {
+    "video": [
+      "GMT20250327-000123_Recording_2104x1118.mp4",
+      "GMT20250327-000123_Recording_gallery_2104x1118.mp4"
+    ],
+    "audio": [
+      "GMT20250327-000123_Recording.m4a"
+    ],
+    "transcript": [
+      "GMT20250327-000123_Recording.transcript.vtt",
+      "GMT20250327-000123_Recording.cc.vtt",
+      "GMT20250327-000123_Recording.cc (1).vtt"
+    ],
+    "chat": [
+      "GMT20250327-000123_RecordingnewChat.txt"
+    ]
+  },
+  "summary": "A Q&A session for the Vibecamp Bootcamp where participants discussed their progress, shared demos of their projects, and exchanged tips about using AI tools for development. Participants showed their projects, discussed challenges with debugging and project organization, and shared various AI tools and resources they found useful. There was significant discussion about 'vibe coding' approaches, debugging strategies, and how to effectively use AI tools like Cursor."
+} 

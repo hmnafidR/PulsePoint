@@ -1,0 +1,147 @@
+{
+  "meeting_id": "GMT20250325-000008",
+  "total_reactions": 68,
+  "reaction_types": {
+    "👍 Thumbs Up": {
+      "count": 25,
+      "percentage": 36.8
+    },
+    "❤️ Heart": {
+      "count": 14,
+      "percentage": 20.6
+    },
+    "🙏 Thank You": {
+      "count": 6,
+      "percentage": 8.8
+    },
+    "👏 Clap": {
+      "count": 11,
+      "percentage": 16.2
+    },
+    "😂 Laugh": {
+      "count": 5,
+      "percentage": 7.4
+    },
+    "😮 Surprised": {
+      "count": 2,
+      "percentage": 2.9
+    },
+    "🫡 Salute": {
+      "count": 1,
+      "percentage": 1.5
+    },
+    "💡 Idea": {
+      "count": 1,
+      "percentage": 1.5
+    },
+    "💰 Money": {
+      "count": 3,
+      "percentage": 4.4
+    }
+  },
+  "reactions_by_participant": {
+    "Meri Nova": {
+      "given": 11,
+      "received": 3
+    },
+    "Praveena Suresh": {
+      "given": 8,
+      "received": 4
+    },
+    "Frederick Z": {
+      "given": 8,
+      "received": 5
+    },
+    "kelseydilullo": {
+      "given": 4,
+      "received": 3
+    },
+    "Autumn Hicks": {
+      "given": 6,
+      "received": 7
+    },
+    "Gil": {
+      "given": 11,
+      "received": 2
+    },
+    "Oren": {
+      "given": 5,
+      "received": 1
+    },
+    "Kasia Swiech": {
+      "given": 1,
+      "received": 0
+    },
+    "Dwayne Joseph": {
+      "given": 1,
+      "received": 1
+    },
+    "Ekta": {
+      "given": 2,
+      "received": 0
+    },
+    "Nafid": {
+      "given": 1,
+      "received": 0
+    },
+    "Athira Praveen": {
+      "given": 2,
+      "received": 0
+    },
+    "demetrios dolios": {
+      "given": 1,
+      "received": 0
+    },
+    "Melissa": {
+      "given": 1,
+      "received": 0
+    },
+    "Hai": {
+      "given": 0,
+      "received": 4
+    },
+    "Sagar": {
+      "given": 1,
+      "received": 0
+    }
+  },
+  "top_reacted_messages": [
+    {
+      "message": "Fun fact, Linkedin Learning had approached me about creating this Agentic course. But I decided to run this bootcamp w Hai instead. 🙂",
+      "author": "Meri Nova",
+      "reaction_count": 10,
+      "reactions": ["😮", "👍", "👏", "👏", "👏", "👏", "👏", "👏", "👏", "👏"]
+    },
+    {
+      "message": "I found this tool for using multiple APIs for search functions: https://serpapi.com/ Might be helpful in someone else's project! I'm using it to search Yelp and Bing without needing separate APIs",
+      "author": "Autumn Hicks",
+      "reaction_count": 9,
+      "reactions": ["❤️", "❤️", "❤️", "❤️", "❤️", "🙏", "🙏"]
+    },
+    {
+      "message": "Here are a few of my tools. I wrote them myself (doesn't have to be an external API).",
+      "author": "Frederick Z",
+      "reaction_count": 6,
+      "reactions": ["👍", "👍", "👍", "👍", "👍", "👍"]
+    },
+    {
+      "message": "There are also these DeepLearning.ai short courses: https://learn.deeplearning.ai/courses/ai-agents-in-langgraph https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph",
+      "author": "Frederick Z",
+      "reaction_count": 5,
+      "reactions": ["👍", "💡", "👍"]
+    }
+  ],
+  "reaction_trends": {
+    "most_used_reaction": "👍 Thumbs Up",
+    "most_reacted_topics": [
+      "Resource Sharing",
+      "Mentorship Announcements",
+      "Project Demos"
+    ],
+    "reaction_density": {
+      "first_third": 21,
+      "middle_third": 34,
+      "last_third": 13
+    }
+  }
+} 

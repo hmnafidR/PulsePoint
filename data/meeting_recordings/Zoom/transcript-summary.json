@@ -1,0 +1,172 @@
+{
+  "meeting_id": "GMT20250327-000123",
+  "transcript_summary": {
+    "key_segments": [
+      {
+        "start_time": "00:00:07",
+        "end_time": "00:05:01",
+        "topic": "Introduction and Check-in",
+        "summary": "Meri Nova welcomes participants and asks them to share their progress since the start of the week, particularly focusing on tool use implementation and SDK exploration.",
+        "key_speakers": ["Meri Nova", "Frederick Z", "Autumn Hicks"]
+      },
+      {
+        "start_time": "00:05:01",
+        "end_time": "00:10:15",
+        "topic": "Project Demo - Autumn's Lead Search Tool",
+        "summary": "Autumn Hicks demonstrates her lead search project that uses AI agents with AI SDK, web search, Yelp API, and Bing API to find and process business leads. She also shows how the leads are stored in a SuperBase database and discusses her next development steps.",
+        "key_speakers": ["Autumn Hicks", "Meri Nova"],
+        "key_insights": [
+          "Integration of multiple APIs with AI agents",
+          "Database storage for lead management",
+          "Multi-stage processing pipeline"
+        ]
+      },
+      {
+        "start_time": "00:14:10",
+        "end_time": "00:25:03",
+        "topic": "Project Organization and Cleanup",
+        "summary": "Discussion about tools and techniques to organize and clean up code projects. Oren shares a technique using 'gitingest' to analyze code with Gemini Pro 2.5 for identifying redundancies and improving organization.",
+        "key_speakers": ["Oren", "Gil", "Autumn Hicks"],
+        "key_insights": [
+          "Using AI tools for code refactoring",
+          "Managing large projects with automated analysis",
+          "Importance of organization in collaborative coding"
+        ]
+      },
+      {
+        "start_time": "00:25:03",
+        "end_time": "00:35:00",
+        "topic": "AI Tools and Resources",
+        "summary": "Participants share various AI tools and resources they've discovered, including Mermaid.js for diagramming, NotebookLM for mind maps, and discussion about using different AI models like Gemma 3.",
+        "key_speakers": ["Hai", "Oren", "Frederick Z", "kelseydilullo"],
+        "resources_shared": [
+          "https://mermaid.js.org/",
+          "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+          "https://aistudio.google.com/prompts/new_chat",
+          "https://www.chat.numan.ai/"
+        ]
+      },
+      {
+        "start_time": "00:35:00",
+        "end_time": "00:45:00",
+        "topic": "Vibe Coding Challenges",
+        "summary": "Participants discuss challenges with 'vibe coding', particularly when working with unfamiliar programming languages. They share strategies for debugging and learning while using AI assistance.",
+        "key_speakers": ["Frederick Z", "Gil", "Tamilarasee S", "kelseydilullo"],
+        "key_insights": [
+          "Difficulties in debugging code when unfamiliar with language",
+          "Strategies for working with AI assistance",
+          "Learning while building vs. traditional learning approaches"
+        ]
+      },
+      {
+        "start_time": "00:45:00",
+        "end_time": "00:55:00",
+        "topic": "Debugging and Mental Approach",
+        "summary": "Discussion about debugging challenges, dealing with frustration, and the mental approach to problem-solving. Participants share humor about their experiences with AI assistants and debugging.",
+        "key_speakers": ["kelseydilullo", "Gil", "Oren", "Frederick Z"],
+        "key_insights": [
+          "Humor as a coping mechanism for coding challenges",
+          "Taking breaks as a problem-solving strategy",
+          "AI assistant 'gaslighting' and language patterns"
+        ]
+      },
+      {
+        "start_time": "00:55:00",
+        "end_time": "01:05:00",
+        "topic": "Project Sharing and Community Support",
+        "summary": "Discussion about the importance of sharing projects with others, getting feedback, and the therapeutic nature of community support in learning.",
+        "key_speakers": ["Oren", "kelseydilullo", "Meri Nova", "Frederick Z"],
+        "key_insights": [
+          "Sharing projects provides motivation and new perspectives",
+          "Community support is crucial for sustained learning",
+          "The bootcamp approach creates necessary productive struggle"
+        ]
+      },
+      {
+        "start_time": "01:05:00",
+        "end_time": "01:15:36",
+        "topic": "Project Planning and Next Steps",
+        "summary": "Participants discuss their project plans, upcoming features, and the challenges they anticipate. Includes humorous comments about project appearances and functionality.",
+        "key_speakers": ["Frederick Z", "Oren", "Meri Nova"],
+        "key_insights": [
+          "Balancing ambition with realistic timelines",
+          "Using humor to manage expectations",
+          "Supporting each other through implementation challenges"
+        ]
+      }
+    ],
+    "engagement_analysis": {
+      "most_active_speakers": [
+        {
+          "name": "Meri Nova",
+          "speaking_time_percentage": 25,
+          "comment_count": 12
+        },
+        {
+          "name": "Frederick Z",
+          "speaking_time_percentage": 15,
+          "comment_count": 10
+        },
+        {
+          "name": "Oren",
+          "speaking_time_percentage": 14,
+          "comment_count": 11
+        }
+      ],
+      "discussion_intensity": {
+        "introduction": "low",
+        "project_demos": "medium",
+        "debugging_discussion": "high",
+        "tool_sharing": "medium",
+        "project_planning": "medium"
+      },
+      "sentiment_trends": {
+        "overall": "positive",
+        "challenges_discussion": "mixed",
+        "project_sharing": "highly positive",
+        "tool_recommendations": "positive",
+        "debugging_frustrations": "humorous negative"
+      }
+    },
+    "key_takeaways": [
+      "Using documentation as a reference when prompting AI tools like Cursor increases effectiveness",
+      "Taking breaks and stepping away from the keyboard can help solve persistent problems",
+      "Sharing projects with others provides motivation and new perspectives",
+      "Community support is important for managing frustration during learning",
+      "AI tools can assist with project organization and refactoring",
+      "Humor helps manage the frustration of debugging and learning"
+    ],
+    "shared_resources": [
+      {
+        "url": "https://mermaid.js.org/",
+        "description": "Tool for creating diagrams and visualizations using text definitions",
+        "shared_by": "Hai"
+      },
+      {
+        "url": "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+        "description": "Article about NotebookLM for generating mind maps",
+        "shared_by": "Hai"
+      },
+      {
+        "url": "https://aistudio.google.com/prompts/new_chat",
+        "description": "Google AI Studio for accessing large language models like Gemma 3",
+        "shared_by": "Oren"
+      },
+      {
+        "url": "https://www.chat.numan.ai/",
+        "description": "AI chat application shared as an example project",
+        "shared_by": "Meri Nova"
+      },
+      {
+        "url": "https://www.npmjs.com/package/psd",
+        "description": "NPM package for working with PSD files",
+        "shared_by": "Hai"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+        "description": "YouTube video shared as a resource",
+        "shared_by": "Hai"
+      }
+    ]
+  }
+} 

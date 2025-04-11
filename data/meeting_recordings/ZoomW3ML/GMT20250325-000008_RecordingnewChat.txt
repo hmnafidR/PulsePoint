@@ -1,0 +1,140 @@
+00:00:57	Matías Rebolledo:	Hi there!!
+00:03:25	Matías Rebolledo:	That great!
+00:07:03	Autumn Hicks:	Yay Praveena!
+00:07:12	Ekta:	Praveena so proud of you
+00:07:25	Autumn Hicks:	And Kelsey!!
+00:07:42	Oren:	🫡
+00:07:56	Praveena Suresh:	Thank you Meri! That’s very kind of you! Thanks everyone.
+00:08:07	Dwayne Joseph:	Congrats yall!
+00:08:31	Praveena Suresh:	Reacted to "Praveena so proud of..." with ❤️
+00:08:36	Praveena Suresh:	Reacted to "Yay Praveena!" with ❤️
+00:08:43	Meri Nova:	Reacted to "Thank you Meri! That..." with ❤️
+00:08:47	Meri Nova:	Reacted to "Yay Praveena!" with ❤️
+00:08:48	Meri Nova:	Reacted to "Praveena so proud of..." with ❤️
+00:08:54	Praveena Suresh:	Congrats Kelsey!
+00:09:27	kelseydilullo:	Reacted to "And Kelsey!!" with ❤️
+00:09:29	kelseydilullo:	Reacted to "Praveena so proud of..." with 👍
+00:09:30	Hai:	https://www.figma.com/board/Xoo19tDsQ8gbW0lAndhfoo/Untitled?node-id=0-1&t=Eiqe54rPlNYXOdrI-1
+00:09:34	Kasia Swiech:	Reacted to "Congrats yall!" with 👏
+00:13:43	Frederick Z:	I am using an open source LLM for my agent... and it is not fun!
+00:14:01	kelseydilullo:	Reacted to "Congrats Kelsey!" with ❤️
+00:17:30	Frederick Z:	Here are a few of my tools. I wrote them myself (doesn't have to be an external API).
+00:18:45	Autumn Hicks:	Replying to "tools.jpg"
+
+Nice!
+00:18:47	Autumn Hicks:	Reacted to "tools.jpg" with 👍
+00:19:31	Gil:	Reacted to "Here are a few of my..." with 👍
+00:19:55	Gil:	Replying to "Here are a few of my..."
+
+When are you writing that tutorial? 😉
+00:20:49	Frederick Z:	Replying to "Here are a few of ..."
+
+I just followed this:
+
+https://python.langchain.com/docs/versions/migrating_memory/long_term_memory_agent/
+00:21:18	Meri Nova:	Reacted to "tools.jpg" with 👍
+00:21:24	Meri Nova:	Reacted to "Here are a few of my..." with 👍
+00:21:27	Frederick Z:	Replying to "Here are a few of ..."
+
+It does not work well with open source models. 😞
+00:21:54	Gil:	Reacted to "I just followed this..." with 🙏
+00:22:37	Gil:	Replying to "Here are a few of my..."
+
+Why is that? (and thanks for the link!)
+00:23:20	Praveena Suresh:	Reacted to "Here are a few of my..." with 👍
+00:23:22	Praveena Suresh:	Reacted to "I just followed this..." with 🙏
+00:24:36	Frederick Z:	Replying to "Here are a few of ..."
+
+There are also these DeepLearning.ai short courses:
+ 
+https://learn.deeplearning.ai/courses/ai-agents-in-langgraph
+ 
+https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph
+00:24:53	Nafid:	Reacted to "There are also these..." with 👍
+00:25:26	Frederick Z:	Replying to "Here are a few of ..."
+
+I think Hai just answered your question: open source models are not tuned for this.
+00:25:36	Oren:	Replying to "Here are a few of my..."
+
+@Frederick Z Featuring all the people that took the Andrew Ng classes before launching their own startups
+00:27:32	Gil:	Reacted to "I think Hai just ans..." with 💡
+00:28:00	Gil:	Reacted to "There are also these..." with 👍
+00:41:57	Frederick Z:	Replying to "Here are a few of ..."
+
+I got notified just right now of a LinkedIn Learning course:
+
+https://www.linkedin.com/learning/agentic-ai-fundamentals-architectures-frameworks-and-applications
+00:46:09	Meri Nova:	Replying to "Here are a few of my..."
+
+Fun fact, Linkedin Learning had approached me about creating this Agentic course. 
+
+But I decided to run this bootcamp w Hai instead.   🙂
+00:46:26	Frederick Z:	Reacted to "Fun fact, Linkedin..." with 😮
+00:46:31	Frederick Z:	Reacted to "Fun fact, Linkedin..." with 👍
+00:46:39	Frederick Z:	Reacted to "Fun fact, Linkedin..." with 👏
+00:46:44	kelseydilullo:	Replying to "Here are a few of my..."
+
+@Meri Nova OMG so thankful
+00:46:52	Autumn Hicks:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:46:54	Oren:	Reacted to "Fun fact, Linkedin L..." with 😮
+00:47:02	demetrios dolios:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:47:05	Melissa:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:47:07	Praveena Suresh:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:47:10	Gil:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:47:14	Sagar:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:49:58	Gil:	This is exactly what I need for the model to spit out the DSL content in a standardized and reliable way for future integrations with other tools.
+00:50:22	kelseydilullo:	Reacted to "Fun fact, Linkedin L..." with 👏
+00:50:36	Athira Praveen:	This is what I was looking for ! Haha dint even know this existed.
+00:51:05	Oren:	I was literally working with AI Studio without realizing it’s right there.
+00:51:06	Gil:	I’m giving the model the JSON spec within a prompt template. Probably not a reliable approach.
+00:51:17	Praveena Suresh:	Yes I tried Hai!
+00:51:20	Gil:	I did, pretty cool tool.
+00:51:28	Meri Nova:	Reacted to "@Meri Nova OMG so th..." with ❤️
+00:55:16	Sagar:	@Hai
+01:03:14	Ekta:	Thanks for asking
+01:03:16	Ekta:	Sagar
+01:03:33	Athira Praveen:	Reacted to "Screenshot2025_03_24_175520.jpg" with 👍
+01:04:13	Athira Praveen:	YES!!
+01:04:22	Praveena Suresh:	Yes please
+01:04:22	Gil:	Let’s go!
+01:05:49	Gil:	There are also alternatives like Miro and Mural.
+01:06:20	Gil:	Make money!
+01:07:30	Frederick Z:	Get that 💰💰💰
+01:08:16	Gil:	Replying to "Get that 💰💰💰"
+
+Frederick knows!
+01:17:38	Autumn Hicks:	I found this tool for using multiple APIs for search functions: https://serpapi.com/                       Might be helpful in someone else's project! I'm using it to search Yelp and Bing without needing separate APIs
+01:17:59	Oren:	Reacted to "I found this tool fo..." with ❤️
+01:18:48	Dwayne Joseph:	Reacted to "I found this tool fo..." with ❤️
+01:18:53	Autumn Hicks:	Replying to "I found this tool fo..."
+
+This is the use for recipes: https://serpapi.com/bing-recipes-results
+01:19:25	Oren:	Replying to "I found this tool fo..."
+
+@Autumn Hicks omg thanks!
+01:20:05	Gil:	Reacted to "I found this tool fo..." with 🙏
+01:20:21	Gil:	Replying to "I found this tool fo..."
+
+Awesome, thanks!
+01:20:38	Praveena Suresh:	Reacted to "I found this tool fo..." with ❤️
+01:21:19	Meri Nova:	Replying to "I found this tool fo..."
+
+Thank you Autumn!!
+01:21:26	Meri Nova:	Reacted to "I found this tool fo..." with ❤️
+01:21:27	Meri Nova:	Reacted to "I found this tool fo..." with 🙏
+01:22:28	Autumn Hicks:	Replying to "I found this tool fo..."
+
+Sure, I can add it to the chat on Circle if it's helpful 😃 There's a free tier (100 free searches per month)
+01:35:09	Dwayne Joseph:	Reacted to "Screenshot2025_03_24_213505.jpg" with 😂
+01:37:54	Meri Nova:	Reacted to "Screenshot2025_03_24_213505.jpg" with 😂
+01:41:14	Autumn Hicks:	I have to drop, thanks Hai!!
+01:41:18	Athira Praveen:	YAYYY
+01:41:40	Athira Praveen:	Thanks again Hai!
+01:42:47	Gil:	Agreed!
+01:43:17	Frederick Z:	I'll wait for Wednesday's office hours to ask my questions. Hai needs rest.
+01:43:31	Oren:	Reacted to "I'll wait for Wednes..." with ❤️
+01:43:35	Meri Nova:	Reacted to "I'll wait for Wednes..." with ❤️
+01:43:46	Gil:	Thanks, always fun!
+02:04:45	Frederick Z:	If latency is greater than 30s, it's considered unacceptable for prod.
+02:11:32	Ekta:	ok gott hop off
+02:14:19	Gil:	Wow, that’s a cool tip!

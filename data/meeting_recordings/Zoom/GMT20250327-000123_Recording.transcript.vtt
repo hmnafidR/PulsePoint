@@ -1,0 +1,2646 @@
+WEBVTT
+
+1
+00:00:07.780 --> 00:00:09.530
+Meri Nova: Hello, guys.
+
+2
+00:00:11.750 --> 00:00:19.309
+Meri Nova: I I love how I just actually talked with you earlier today, with both, with both of you, too.
+
+3
+00:00:20.560 --> 00:00:24.480
+Meri Nova: What's up? Hi, Noor, I see. Yeah, I mean.
+
+4
+00:00:29.000 --> 00:00:30.320
+Meri Nova: Hi, autumn
+
+5
+00:00:32.070 --> 00:00:32.960
+Autumn Hicks: Thank you.
+
+6
+00:00:33.693 --> 00:00:43.506
+Meri Nova: You know, the other day I was thinking, I'm gonna freaking, miss. You guys, we only have less than 3 weeks. But we already attached. I'm attached.
+
+7
+00:00:46.080 --> 00:00:48.580
+Meri Nova: Hi, Hi, Tamil! Hi, Fred!
+
+8
+00:00:51.250 --> 00:00:52.009
+Frederick Z: Hey! Hey!
+
+9
+00:00:55.490 --> 00:00:58.879
+Meri Nova: Let me remind everyone in the chat that we started.
+
+10
+00:00:59.820 --> 00:01:04.580
+Meri Nova: So Orin told me today that you guys cannot message each other.
+
+11
+00:01:04.879 --> 00:01:06.320
+Meri Nova: Is that right?
+
+12
+00:01:09.750 --> 00:01:10.929
+Autumn Hicks: Like in circle.
+
+13
+00:01:11.250 --> 00:01:13.200
+Meri Nova: Yeah. Like, DM, each other.
+
+14
+00:01:14.840 --> 00:01:17.730
+Autumn Hicks: Yeah, I've I've been able to. Yeah.
+
+15
+00:01:18.740 --> 00:01:19.720
+Meri Nova: Oh, really
+
+16
+00:01:19.720 --> 00:01:23.359
+Oren: I guess it depends on the initial, preferences, or whatever
+
+17
+00:01:23.830 --> 00:01:24.779
+Meri Nova: Oh, my goodness!
+
+18
+00:01:24.780 --> 00:01:26.479
+Oren: And then Kelsey couldn't. I think
+
+19
+00:01:27.090 --> 00:01:30.839
+Meri Nova: Huh! That's it. But I do. You have like a way to change that
+
+20
+00:01:32.010 --> 00:01:33.700
+Oren: Yeah, I, I was able to
+
+21
+00:01:34.830 --> 00:01:36.135
+Meri Nova: Okay. Okay. Okay.
+
+22
+00:01:36.570 --> 00:01:38.979
+Oren: I think not a lot of people know about this
+
+23
+00:01:39.880 --> 00:01:43.573
+Meri Nova: Yeah, I was like, Oh, my, gosh, that's like complete opposite of what I wanted.
+
+24
+00:01:44.630 --> 00:01:45.655
+Meri Nova: Great
+
+25
+00:01:48.400 --> 00:02:05.910
+Meri Nova: alright, Hi says he's gonna be a few minutes late. But meanwhile share with each other and with me how? How it's been since the start of the week. How's it going with the tool use. Did you guys get to incorporate it, or maybe try out some sdks
+
+26
+00:02:10.349 --> 00:02:40.179
+Frederick Z: Yeah, I think I got my tool used down. Heist advice about like like his advice about changing the system. Prompt. Where? Like you asked multiple times to to like use the tools. That really, that made a huge difference like I didn't even need to do anything. Fancy like a tinker with a tool function descriptions, or with a few shot prompting all I did was like repeat the request to use the tools at certain times, and that made a significant difference
+
+27
+00:02:41.380 --> 00:02:44.440
+Meri Nova: So it actually worked for you this time. I remember you were saying
+
+28
+00:02:44.710 --> 00:02:51.529
+Meri Nova: that it wasn't following the prompt. So you included in the system prompt in the tool, and where else in the main function, I guess
+
+29
+00:02:52.150 --> 00:03:16.799
+Frederick Z: No, no, I think it was just the agent agent system prompt. I just repeated the the request. I didn't even know that that was the thing. But now I'm like I'm thinking about changing all my system prompts to to get it, to behave because you like like, you know, you know, when you when you put in the system prompt for for the agent or for the Llm. To either do something or not do something, and it doesn't
+
+30
+00:03:16.800 --> 00:03:27.620
+Frederick Z: anyway. Because it has a mind of its own. Now, I'm thinking I'm rethinking about the like, Re repeated. Asks why I didn't even know that was the thing. So until I talked about it. So
+
+31
+00:03:27.660 --> 00:03:28.560
+Frederick Z: yeah.
+
+32
+00:03:28.960 --> 00:03:33.949
+Meri Nova: That's so cool. That's so cool. You should tell him now, when he joins that he'll be happy to hear that.
+
+33
+00:03:34.603 --> 00:03:50.259
+Meri Nova: Yeah, but I was. Also, you know what guys, since everyone is making so much progress. And the only way to share what you guys are building, it's usually through the Demos. But I've been thinking, why don't we? Now that everyone is learning on their own?
+
+34
+00:03:50.260 --> 00:04:16.009
+Meri Nova: And why don't we? 10 x our learning, and actually let you guys show what you built? What kind of like challenges that you face? And how did you overcome it? Because that's how we ultimately learn from each other, and I know, like the format on General Chat does not allow you that much. So I was hoping to use this time as well to just like, if you guys, if some of you guys are up for it just to show like, what is your project right now?
+
+35
+00:04:16.019 --> 00:04:22.700
+Meri Nova: What? How's it going? What are you guys building what maybe wins you already got? That would be that would be really cool.
+
+36
+00:04:23.410 --> 00:04:32.769
+Meri Nova: I think I texted you that autumn, because I know you're building a lot of cool things with web search. And I would like to hear from you guys, what are you learning from your experiments so far?
+
+37
+00:04:34.130 --> 00:04:38.119
+Meri Nova: Who let me know. Whoever wants to start maybe share their screen and walk us through
+
+38
+00:04:48.480 --> 00:04:49.770
+Meri Nova: anybody
+
+39
+00:04:54.540 --> 00:05:01.820
+Autumn Hicks: Sure I I can go ahead and and show you guys if I can figure it out, hang on gonna share.
+
+40
+00:05:02.860 --> 00:05:09.257
+Autumn Hicks: Okay, you can't judge me for my! How many tabs I have open
+
+41
+00:05:09.750 --> 00:05:10.710
+Meri Nova: Owen.
+
+42
+00:05:10.910 --> 00:05:13.369
+Autumn Hicks: Okay. Can you see my browser
+
+43
+00:05:14.190 --> 00:05:19.075
+Meri Nova: I think we're waiting to. Okay. Cool now. Oh, my goodness.
+
+44
+00:05:20.810 --> 00:05:24.635
+Autumn Hicks: Okay, I usually don't use this browser. It's just for like testing. So
+
+45
+00:05:25.040 --> 00:05:39.210
+Autumn Hicks: actually. So I wanted to show you. Let's see, of course, when I show you guys, it's not gonna work this time. Okay, so here is the, this is what I was working on. The 1st 2 weeks is the lead search
+
+46
+00:05:39.540 --> 00:06:08.109
+Autumn Hicks: so essentially when you add in the business name. And you know, business types of search, for it's using an AI agent with AI SDK, and it's going through like 3 different processes. So the web search function. And then I'm using a yelp, Api, and then Bing Api. So it's a lot, and I'm kind of tweaking it to see what the best solution is. But what I've been working on this week is going into these. Once the leads are found, you can actually, the user can save them.
+
+47
+00:06:08.470 --> 00:06:18.480
+Autumn Hicks: And this is actually from the. And of course, it's kind of jumbled because I have a bunch of test leads in here. But this is from the super base database.
+
+48
+00:06:18.520 --> 00:06:44.328
+Autumn Hicks: So these right here like, for just as an example. So these are actual like businesses. So then you can go up here and then start like the Aid research. And this is the second agent that I'm building right now. That's gonna actually use fire. Crawl to like, crawl the Urls for each of the leads. So it doesn't do anything right this second. But that's what I'm working on. And it's just setting up that
+
+49
+00:06:45.481 --> 00:06:51.420
+Autumn Hicks: basically like crawling and then scraping for more information. So the next step in the process
+
+50
+00:06:51.420 --> 00:06:52.970
+Meri Nova: Hmm! That is so cool
+
+51
+00:06:52.970 --> 00:06:54.630
+Autumn Hicks: Yeah. Thanks.
+
+52
+00:06:54.630 --> 00:06:56.029
+Meri Nova: Oh, my goodness!
+
+53
+00:06:56.030 --> 00:06:58.348
+Autumn Hicks: How do I stop sharing? Hang on?
+
+54
+00:06:59.090 --> 00:07:00.260
+Autumn Hicks: Sorry.
+
+55
+00:07:01.193 --> 00:07:05.526
+Meri Nova: Oh, here we go. Stop! Share. Okay, alright. We're good now.
+
+56
+00:07:06.450 --> 00:07:26.290
+Meri Nova: Thank you for sharing. That was so cool. Autumn. Hi! We were just like sharing each other's projects and the progress and learnings from the experimentation. So autumn was the 1st one to show. But I was also hoping autumn, like, what is your implementation like if you're comfortable sharing with your code, just walk
+
+57
+00:07:26.290 --> 00:07:27.190
+Autumn Hicks: Yeah.
+
+58
+00:07:27.190 --> 00:07:27.990
+Meri Nova: True. Yeah.
+
+59
+00:07:28.470 --> 00:07:31.330
+Autumn Hicks: Sure. Hang on, let me
+
+60
+00:07:32.610 --> 00:07:40.359
+Autumn Hicks: sorry I'm not super used to this. I'm in cursor right now, so give me a second share.
+
+61
+00:07:42.270 --> 00:07:53.090
+Autumn Hicks: I am I able to share this? Okay, yeah, okay, sorry. Here we go.
+
+62
+00:07:55.020 --> 00:07:56.499
+Autumn Hicks: Can you guys see this
+
+63
+00:07:56.500 --> 00:07:57.180
+Meri Nova: Yeah.
+
+64
+00:07:57.480 --> 00:08:05.910
+Autumn Hicks: Okay, cool. So, this is my project structure here. So I'm trying to pull up my.
+
+65
+00:08:07.240 --> 00:08:10.670
+Autumn Hicks: the 1st agent that I have. Let's see, where are you at?
+
+66
+00:08:12.980 --> 00:08:15.389
+Autumn Hicks: Of course I'm not gonna be able to find it this second.
+
+67
+00:08:16.150 --> 00:08:17.179
+Autumn Hicks: Hmm, hmm!
+
+68
+00:08:19.850 --> 00:08:28.959
+Autumn Hicks: This is kind of my my general overview here. I'm looking for my search agent. It's in here somewhere.
+
+69
+00:08:31.030 --> 00:08:33.017
+Autumn Hicks: No, no, no!
+
+70
+00:08:35.929 --> 00:08:39.622
+Autumn Hicks: Sorry now that I now that I have.
+
+71
+00:08:40.320 --> 00:08:44.240
+Autumn Hicks: no, no, no! Now that I have it pulled up. I'm like trying to find
+
+72
+00:08:44.910 --> 00:08:46.789
+Meri Nova: Web search. Maybe it's under there.
+
+73
+00:08:47.500 --> 00:08:51.258
+Autumn Hicks: Yeah, yeah, yeah, let me, yeah, this is my test page.
+
+74
+00:08:53.750 --> 00:08:55.444
+Autumn Hicks: No.
+
+75
+00:08:58.090 --> 00:09:05.700
+Autumn Hicks: yeah. I'll have to. I'll have to pull some stuff up to show you guys later. But this is the general. This is the general overview of what I'm working on here.
+
+76
+00:09:06.516 --> 00:09:09.329
+Autumn Hicks: So and I have some of the I need to clean up this
+
+77
+00:09:09.947 --> 00:09:12.512
+Autumn Hicks: really bad. But let's see
+
+78
+00:09:13.170 --> 00:09:18.750
+Hai: And search for like specific that usually
+
+79
+00:09:19.380 --> 00:09:21.959
+Autumn Hicks: That usually pulls it up. Okay, let's find it.
+
+80
+00:09:24.035 --> 00:09:28.870
+Autumn Hicks: It is search business business agent.
+
+81
+00:09:30.040 --> 00:09:31.619
+Autumn Hicks: No, hang on.
+
+82
+00:09:32.850 --> 00:09:33.930
+Autumn Hicks: Sorry guys.
+
+83
+00:09:35.180 --> 00:09:35.910
+Meri Nova: All right.
+
+84
+00:09:36.440 --> 00:09:37.880
+Autumn Hicks: Where are you?
+
+85
+00:09:39.005 --> 00:09:41.490
+Autumn Hicks: Business agents? How do I open this?
+
+86
+00:09:44.570 --> 00:09:47.670
+Autumn Hicks: Okay.
+
+87
+00:09:47.670 --> 00:09:51.730
+Hai: Search, go back to search, and then just delete where you says, enhance
+
+88
+00:09:52.430 --> 00:09:54.019
+Autumn Hicks: Oh, yeah, yeah, hang on.
+
+89
+00:09:54.980 --> 00:09:58.850
+Autumn Hicks: I was trying to replace digit business agents. This is the
+
+90
+00:09:59.220 --> 00:10:00.340
+Hai: Yeah, right? Click on that
+
+91
+00:10:00.530 --> 00:10:00.785
+Autumn Hicks: Yeah.
+
+92
+00:10:01.040 --> 00:10:02.719
+Hai: And then reveal in explore view
+
+93
+00:10:03.240 --> 00:10:13.340
+Autumn Hicks: There we go. Fantastic. Okay, perfect. So now, I can actually show you guys what it does. Okay?
+
+94
+00:10:15.440 --> 00:10:16.330
+Autumn Hicks: Sorry.
+
+95
+00:10:17.270 --> 00:10:20.377
+Autumn Hicks: Okay, can you guys see this now. Finally I found what I'm looking for
+
+96
+00:10:20.600 --> 00:10:21.580
+Meri Nova: Amazing. Yes.
+
+97
+00:10:22.050 --> 00:10:36.679
+Autumn Hicks: Yeah, so this is the business agent for the web search. So I have it going through 3 processes. So it's using a yelp Api bing! And then openai for web search. So
+
+98
+00:10:36.830 --> 00:10:38.200
+Autumn Hicks: up here.
+
+99
+00:10:39.120 --> 00:11:00.245
+Autumn Hicks: And then this Serp Api is actually really cool. So it's like one and I only have. It's like it's paid. There's like a free version, but you can only do like a hundred searches a month. So, but instead of signing up for all these Apis, and you know you can just use one login, which is kind of cool. So
+
+100
+00:11:01.170 --> 00:11:04.570
+Autumn Hicks: this is the business. Search parameters. So this is where.
+
+101
+00:11:05.670 --> 00:11:12.050
+Autumn Hicks: let's see. You know, we're searching for city state address, zip code. All that stuff.
+
+102
+00:11:16.940 --> 00:11:25.089
+Autumn Hicks: I'm not as good as explaining the code as you are. I was about to say, there we go. So we're gonna find business, save it.
+
+103
+00:11:29.180 --> 00:11:33.679
+Autumn Hicks: Oh, this is another thing I had to add in there. I have it like batch
+
+104
+00:11:35.010 --> 00:11:49.300
+Autumn Hicks: batching because of the rate limits I was having issues when I 1st did this. It would just there would be a rate limit like every time I try to search for something. And so now it it does like, you know it like batches it, which is kind of cool. That took some troubleshooting.
+
+105
+00:11:52.930 --> 00:11:56.820
+Autumn Hicks: Yeah, it's like, just queuing. Let's see.
+
+106
+00:12:04.570 --> 00:12:07.714
+Autumn Hicks: trying to get down to like where it's actually doing stuff.
+
+107
+00:12:12.800 --> 00:12:20.830
+Autumn Hicks: Okay? So here's the steps. So this is where I was trying to get down to. So it goes through multiple steps. So it's gonna go to the yelp. Search 1st and then
+
+108
+00:12:21.522 --> 00:12:29.420
+Autumn Hicks: business types, location, and then I have a radius, for you know, if I search a location and then it's like a 50 mile radius, for example.
+
+109
+00:12:31.040 --> 00:12:34.630
+Autumn Hicks: And then it will search process and then save the results.
+
+110
+00:12:34.770 --> 00:12:37.120
+Autumn Hicks: And then step 2. Is the Bing search
+
+111
+00:12:37.390 --> 00:12:41.699
+Autumn Hicks: same thing with the rate limits. That was an issue that I had to
+
+112
+00:12:41.810 --> 00:12:50.610
+Autumn Hicks: do, and then and then the 3rd step is directly do the web search for each business type. So at the end of the search
+
+113
+00:12:50.720 --> 00:12:52.639
+Autumn Hicks: which I can actually show you
+
+114
+00:12:55.130 --> 00:13:02.750
+Autumn Hicks: hang on. Let me switch my screen really quick, and then I can show you how it works, and
+
+115
+00:13:04.780 --> 00:13:06.290
+Autumn Hicks: oh, never mind!
+
+116
+00:13:07.620 --> 00:13:08.647
+Autumn Hicks: Oh, hang on
+
+117
+00:13:11.290 --> 00:13:15.056
+Meri Nova: Sorry guys. Impromptu demo today.
+
+118
+00:13:15.810 --> 00:13:19.430
+Meri Nova: No, I just wanna give you kudos for stepping outside of your comfort zone.
+
+119
+00:13:19.430 --> 00:13:30.779
+Autumn Hicks: Sure. Yeah, yeah. The agents is, it's been really cool to play around with, and you know it. It wasn't working at all at 1st for me, and then I had to troubleshoot a lot, so
+
+120
+00:13:30.780 --> 00:13:31.750
+Meri Nova: Hmm, yeah.
+
+121
+00:13:31.750 --> 00:13:32.440
+Autumn Hicks: Yeah.
+
+122
+00:13:32.440 --> 00:13:36.209
+Meri Nova: Are you using Openai SDK, or Resell's SDK, for these
+
+123
+00:13:36.800 --> 00:13:37.389
+Autumn Hicks: Purcell
+
+124
+00:13:37.770 --> 00:13:38.570
+Meri Nova: Hmm.
+
+125
+00:13:38.960 --> 00:13:39.650
+Autumn Hicks: Yep.
+
+126
+00:13:40.360 --> 00:13:40.770
+Meri Nova: Pass.
+
+127
+00:13:40.770 --> 00:13:41.240
+Autumn Hicks: Yeah.
+
+128
+00:13:41.240 --> 00:13:46.099
+Meri Nova: For sharing. What's auto? What's your biggest learning this week? So far
+
+129
+00:13:46.580 --> 00:13:47.200
+Autumn Hicks: Oh,
+
+130
+00:13:48.250 --> 00:13:55.752
+Autumn Hicks: biggest learning this week. Honestly, it's been databases. So working with super base. I was having some issues with
+
+131
+00:13:56.260 --> 00:14:13.410
+Autumn Hicks: like fetching. And then I'm not. I don't work in data so props to you guys who work with this stuff all day long, cause you know. Getting it to work was a little a little complicated, but I finally got it to work. It's finally fetching the database now, and it's you know, saving things correctly. So
+
+132
+00:14:14.657 --> 00:14:17.642
+Autumn Hicks: yeah. So databases this week
+
+133
+00:14:18.970 --> 00:14:20.619
+Meri Nova: Great everyone. Let's
+
+134
+00:14:22.650 --> 00:14:24.060
+Autumn Hicks: Thanks guys
+
+135
+00:14:24.420 --> 00:14:36.320
+Meri Nova: Great job autumn. That's so cool. Yeah, no, this is great. How about anybody else wants to share what they built so far, and what they learned. So everybody else can learn
+
+136
+00:14:36.890 --> 00:14:59.330
+Frederick Z: I I actually had a question over that's somewhat related to autumn's project, and like, I guess I can ask autumn or Hi either either one. Also, I was just wondering like, how do you decide whether you wanna build you wanna use multiple agents or one agent that just calls multiple tools.
+
+137
+00:15:04.080 --> 00:15:27.655
+Frederick Z: either one like, you know. Either one can can tackle that. I know how how you describe that because I right now, I'm only using one like a 1 agent. But it calls like a multiple tools, like one of the tools is for web search and another tools for saving and retrieving memories from the vector database. So yeah, I don't use like separate agents for these. So I just use one. But
+
+138
+00:15:27.970 --> 00:15:36.349
+Frederick Z: but like, is there a yeah. I was, I was interested in your input. If you have like experience, we're doing both
+
+139
+00:15:37.720 --> 00:15:42.489
+Hai: Are you ask asking about? Multi agent versus one agent, many tools
+
+140
+00:15:42.820 --> 00:15:43.500
+Frederick Z: Yes.
+
+141
+00:15:44.440 --> 00:15:45.590
+Hai: Okay. Autumn. You go first.st
+
+142
+00:15:47.140 --> 00:16:03.040
+Autumn Hicks: Sure. My project personally. I'm gonna use 3 separate agents. One for the search, one for enhancing, enhancing the data with the web crawling with fire crawl, and then the 3rd for the email
+
+143
+00:16:03.548 --> 00:16:17.129
+Autumn Hicks: integration. So I was trying to just kind of stick with one main tool for each agent, but I don't know if that's the right answer. I just didn't want it to get too complicated. And so if something breaks, I know exactly what to fix personally.
+
+144
+00:16:18.990 --> 00:16:27.610
+Hai: Traditionally, traditionally, is around 10.3. Like, if you give an agent more than 3 tools, it'll just pass out and not do a good job.
+
+145
+00:16:27.750 --> 00:16:29.910
+Hai: That's why people start doing multi agents.
+
+146
+00:16:30.060 --> 00:16:36.219
+Hai: But nowadays, you have all sorts of things. You can do. Give many tools to an agent.
+
+147
+00:16:36.954 --> 00:16:44.739
+Hai: You can do, vector retrieval to pick tool on the spot. If you have like 5,000 tools to give to an agent.
+
+148
+00:16:46.200 --> 00:16:48.620
+Hai: to do. Multi agent, it all comes down to
+
+149
+00:16:48.800 --> 00:17:02.808
+Hai: having something to test easier. So it's easier to test an agent that can do like 3 different tools or 5 different tools compared to an agent that can do 1020 tools. It's really hard to test an agent that can do so many things like that.
+
+150
+00:17:03.340 --> 00:17:20.330
+Hai: so yeah, usually comes down to the preferences. And if you think the performance is not great, for, like a lot of tools, break it down to smaller agents. That's why the supervisor agent kind of pattern is always has always been like hot
+
+151
+00:17:21.670 --> 00:17:23.261
+Hai: I, personally would do
+
+152
+00:17:24.150 --> 00:17:35.300
+Hai: multi agent just because I can. At least I can test out, like an agent with 3, a set of 3 tools, 4 tools to compare as opposed to like a set of like 12 tools. It's much easier to test it that way.
+
+153
+00:17:36.490 --> 00:17:38.110
+Frederick Z: Okay. Cool. Thanks.
+
+154
+00:17:40.603 --> 00:17:45.850
+Hai: The cat is just waiting for you to unmute yourself. That's so funny.
+
+155
+00:17:47.960 --> 00:17:50.319
+Hai: Cool! What what else are we doing today? Mary?
+
+156
+00:17:51.960 --> 00:18:00.779
+Meri Nova: No, I just. I wanted to give a chance to people to share, you know, to share their learnings. And and of course, the questions as they come. But yeah.
+
+157
+00:18:04.250 --> 00:18:08.723
+Hai: Cool. Alright! That was a very impressive demo, I think.
+
+158
+00:18:09.480 --> 00:18:22.833
+Hai: I think you have a lot of stuff that I haven't talked about which which always impressed me. When people like go above and beyond. They're like, Oh, I built this and that, and I went, you know, and I had this idea that there's always this moment. So I've been teaching
+
+159
+00:18:23.340 --> 00:18:27.400
+Hai: people full stack development for the past 5 years, and
+
+160
+00:18:28.510 --> 00:18:38.010
+Hai: there are people from like all kinds of backgrounds. So they were like, ex military ex, you know, medical workers and carpentry and like trade
+
+161
+00:18:38.130 --> 00:18:42.869
+Hai: trade workers and stuff like that. And it's incredibly difficult to
+
+162
+00:18:43.510 --> 00:18:47.869
+Hai: kind of predict who's gonna go above, beyond it? In what way?
+
+163
+00:18:48.020 --> 00:19:09.590
+Hai: And it it works the same way. It's almost like for me. It's so unpredict. It's so predictable for me now that that I'm like, I I can't tell you guys from this bootcam cohort who's gonna go above, beyond. But you. What you saw is an example of going above, beyond which is, you know, she she went to build all this stuff, and it's it's it's working. And
+
+164
+00:19:09.950 --> 00:19:24.650
+Hai: you know all of you had an idea about Mcp, right? You were like, you're not sure if you wanted to do it. But then I'm like, given your track record, you could probably figure it out, and then you will figure it out. So I think I think that's everyone should should follow.
+
+165
+00:19:24.780 --> 00:19:31.659
+Hai: Almost like, if if you feel like you want to build something within this day and age like it's just, it's not much, is holding you back from like
+
+166
+00:19:31.860 --> 00:19:34.710
+Hai: putting at least like a component or something out there
+
+167
+00:19:34.910 --> 00:19:37.170
+Hai: that that is working out right off the bat. So
+
+168
+00:19:37.380 --> 00:19:41.718
+Hai: I think that was a good example. Anyways. It's it's Q&A day. So
+
+169
+00:19:42.540 --> 00:19:43.750
+Hai: give me some cues
+
+170
+00:19:49.960 --> 00:20:10.080
+Meri Nova: It can also be like something that you like. I like how orange is shared in the chat like the new tools that you're using. I know there's so many new models that are coming out, and people are very impressed with the Gemini pro 2.5. Also, too. Let us know if you're like trying out these tools because this is a dynamic field and we're all learning from each other as well
+
+171
+00:20:11.710 --> 00:20:14.229
+Hai: Who is using Gemini 2.0 pro right now.
+
+172
+00:20:18.370 --> 00:20:24.640
+Oren: I'm using the 2.5 right now, but I'm doing the experimental for free now. It's like 50 requests a day
+
+173
+00:20:24.880 --> 00:20:26.069
+Oren: that should do it
+
+174
+00:20:26.910 --> 00:20:29.260
+Hai: Do you find it to be super smart?
+
+175
+00:20:30.130 --> 00:20:36.119
+Oren: Extremely smart. I mean, the context is obscene. That's just dirty, like over 2 million tokens.
+
+176
+00:20:38.160 --> 00:20:38.870
+Hai: How many.
+
+177
+00:20:39.310 --> 00:20:41.549
+Oren: Over 2 million tokens. That's like too much
+
+178
+00:20:44.500 --> 00:20:46.058
+Hai: That's great. That's great, because,
+
+179
+00:20:46.510 --> 00:20:51.279
+Hai: you can fit like whole book in it, or in my case, I can fit like a whole like code base in it.
+
+180
+00:20:51.280 --> 00:21:04.880
+Oren: Yeah, that that's exactly what I told the autumn, like in the chat like, just drop it in and ask ask it to like reorder it. It's gonna tell you what files you should remove, what files, what functions you should move to the other files.
+
+181
+00:21:05.360 --> 00:21:09.669
+Oren: It's like so useful. And with AI studio. It just makes sense
+
+182
+00:21:11.100 --> 00:21:11.770
+Hai: Yeah.
+
+183
+00:21:15.510 --> 00:21:20.019
+Hai: there's a youtuber that I don't know if they told you guys his name is.
+
+184
+00:21:20.860 --> 00:21:25.970
+Hai: And with convenience he's kind of like a
+
+185
+00:21:26.330 --> 00:21:28.730
+Hai: mentor to me in some ways.
+
+186
+00:21:29.350 --> 00:21:39.210
+Hai: But he's on like the he works with the Gemini team on a couple of different things, and he makes he always makes videos right right when they launch something. So
+
+187
+00:21:39.550 --> 00:21:43.029
+Hai: his his opinion is usually high quality. And I I do.
+
+188
+00:21:43.420 --> 00:21:45.630
+Hai: I do follow this guy. So
+
+189
+00:21:46.130 --> 00:21:47.889
+Hai: just drop the link to the chat.
+
+190
+00:21:58.040 --> 00:21:58.720
+Hai: cool
+
+191
+00:21:58.720 --> 00:22:18.519
+kelseydilullo: Okay, I have a question if nobody else is okay. So this week I'm trying to think about the sort of like mind, map aspect of Scienceaurus. And I'm wondering, what tools can I use to like dynamically create kind of like a word rep or a dynamic diagram? As part of my app. You have any ideas for that
+
+192
+00:22:20.282 --> 00:22:26.610
+Hai: When you say my map, my wind goes to like a chart almost like a flow chart.
+
+193
+00:22:26.970 --> 00:22:31.206
+kelseydilullo: Yeah, even similar to what you've been drawing like.
+
+194
+00:22:31.890 --> 00:22:47.199
+kelseydilullo: Excali draw just like. So let's say, I have the the keywords from an article, and there's like 6 keywords, and then I wanna I'll have similar articles right? So now I have, like some articles, share a keyword, and so I can link them through a keyword.
+
+195
+00:22:47.530 --> 00:22:54.237
+kelseydilullo: So I haven't really figured out what are going to be like the nodes of the diagram. But
+
+196
+00:22:54.920 --> 00:23:01.929
+kelseydilullo: I guess I'm wondering if you know of any tools that it's almost like, I guess, a graph kind of like a graph display
+
+197
+00:23:02.860 --> 00:23:09.719
+Hai: Yeah. So I have an answer for you. It's not perfect. So on cats and bats. I have this thing where I can
+
+198
+00:23:10.160 --> 00:23:25.739
+Hai: look at like a diagram from a video frame and then replicate that in this thing called mermaid chart. So a mermaid chart is basically what you would see an Excali draw. It's like you got like notes, and you got like links between notes, and you can do like arrows and stuff.
+
+199
+00:23:27.420 --> 00:23:42.430
+Hai: large language models is not great at right at drawing Mermaid Chart perfectly. I always get broken charts, even though I, even when I give it like almost like a grammar or syntax that it can go off of. It's really hard for even
+
+200
+00:23:42.940 --> 00:23:51.459
+Hai: it's really hard for, like Gpt models and gemini models to do that, I think Claude also does a little bit better, but not perfect.
+
+201
+00:23:52.080 --> 00:24:05.590
+Hai: So if you want to generate like a chart from Lm, it might not be perfect all the time. But if you already have the words, and you can like programmatically, create a chart, I think that's much easier.
+
+202
+00:24:05.860 --> 00:24:13.740
+Hai: So what I use is what I use was, I think it's called mermaid. Js, yeah. So
+
+203
+00:24:14.510 --> 00:24:19.539
+Hai: if you if you make the An Lm. Draw the chart, it's
+
+204
+00:24:19.840 --> 00:24:28.979
+Hai: very hard to get it right. But if you already have the words, and then you can be like, Okay, so these are the words. And then I can just programmatically draw the lines.
+
+205
+00:24:29.160 --> 00:24:32.029
+Hai: and that's 100% doable.
+
+206
+00:24:32.472 --> 00:24:40.830
+Hai: So I use mermaid chart. And I, I can like draw like stuff on the screen. I don't know if it's what you're looking for, but I can show you what it looks like real quick
+
+207
+00:24:41.110 --> 00:24:42.370
+kelseydilullo: Sure. Yeah.
+
+208
+00:24:42.590 --> 00:24:44.670
+Hai: Yes, let me share my screen. Here.
+
+209
+00:24:46.930 --> 00:24:49.409
+Hai: Are you using Nextjs
+
+210
+00:24:49.990 --> 00:24:50.600
+kelseydilullo: Yeah.
+
+211
+00:24:51.230 --> 00:24:57.539
+Hai: Okay, let me go to my app.
+
+212
+00:24:58.910 --> 00:25:01.010
+Hai: And then, huh!
+
+213
+00:25:01.530 --> 00:25:03.820
+Hai: Who have a look at this. That's fun.
+
+214
+00:25:06.350 --> 00:25:11.659
+Hai: That's the go to authorize.
+
+215
+00:25:14.590 --> 00:25:16.289
+Hai: And I built this.
+
+216
+00:25:23.420 --> 00:25:28.769
+Hai: for example, this frame right here. It has, like a somewhat of a flow shot right here
+
+217
+00:25:29.140 --> 00:25:30.350
+kelseydilullo: So.
+
+218
+00:25:30.570 --> 00:25:34.289
+Hai: I think I have a flow chart that can display here. No, it's broken.
+
+219
+00:25:34.500 --> 00:25:36.680
+Hai: Yeah, this is why it's not perfect.
+
+220
+00:25:37.590 --> 00:25:40.980
+kelseydilullo: Is that X-ray, like part of a feature of cats with bats
+
+221
+00:25:41.650 --> 00:25:48.980
+Hai: Yeah. So see? So I was able to like draw this using mermaid. Js, and
+
+222
+00:25:50.080 --> 00:25:56.370
+Hai: if I can show you what the syntax for this looks like notes.
+
+223
+00:25:59.530 --> 00:26:04.060
+Hai: Maybe text name.
+
+224
+00:26:05.920 --> 00:26:14.780
+Hai: and then copy this over here to here. This is what is represented in the diagram like this is literally it.
+
+225
+00:26:14.950 --> 00:26:21.420
+Hai: Oh, it has graphs left to right. And then did they
+
+226
+00:26:21.890 --> 00:26:25.039
+Hai: let me get this this guy right here
+
+227
+00:26:26.810 --> 00:26:27.690
+kelseydilullo: Very cool.
+
+228
+00:26:28.060 --> 00:26:31.430
+Hai: Yeah, there's I don't know if that's what you're looking for.
+
+229
+00:26:32.460 --> 00:26:35.819
+kelseydilullo: Yeah, yeah, thank you. That gives me something to start with.
+
+230
+00:26:36.910 --> 00:26:37.400
+Meri Nova: It actually
+
+231
+00:26:37.400 --> 00:26:40.399
+kelseydilullo: That looks like super useful cats with bats
+
+232
+00:26:40.840 --> 00:26:41.570
+Meri Nova: No.
+
+233
+00:26:42.200 --> 00:27:00.819
+Meri Nova: that's for sure. It just reminded me of the of another open source project that helps you visualize the Github Repos. They also use mermaid chart, but this is cool. I think this might be also useful for you, Kelsey. A friend of mine just shared yesterday. His.
+
+234
+00:27:01.040 --> 00:27:03.420
+Meri Nova: I can show you real quick. Maybe it's like
+
+235
+00:27:03.905 --> 00:27:07.010
+Meri Nova: maybe this will be relevant for your project, too.
+
+236
+00:27:07.420 --> 00:27:08.570
+Meri Nova: Desktop.
+
+237
+00:27:12.140 --> 00:27:20.199
+Meri Nova: So so he's also an educator. He also creates things on Linkedin, and he just showed me yesterday, like
+
+238
+00:27:21.109 --> 00:27:27.050
+Meri Nova: he wants to organize, for instance, your the material that you want to learn and let's say
+
+239
+00:27:28.980 --> 00:27:47.589
+Meri Nova: I don't know. I like this example, decorators, decorators, and what it does. So this tool might be useful for you. It generates, like like the chapters that are relevant to the main topic, and once you, for instance, press on one of them, it creates a branch in your tree
+
+240
+00:27:47.810 --> 00:27:57.300
+Meri Nova: so that you can see the the flow of just like your ui here. So it creates a new one.
+
+241
+00:27:57.500 --> 00:28:06.149
+Meri Nova: So he said that he's using react, flow. And you can integrate that with just whatever you're trying to generate here as well and
+
+242
+00:28:06.400 --> 00:28:09.899
+Meri Nova: see it here. So I guess this is more deterministic. In a way.
+
+243
+00:28:10.360 --> 00:28:16.249
+Meri Nova: this is called react flow. I have not personally used that, but this sounds this looks interesting.
+
+244
+00:28:16.790 --> 00:28:17.910
+Meri Nova: Check it out
+
+245
+00:28:17.910 --> 00:28:19.460
+kelseydilullo: Yeah, looks, similar.
+
+246
+00:28:19.710 --> 00:28:20.640
+Meri Nova: But yeah.
+
+247
+00:28:20.640 --> 00:28:21.190
+kelseydilullo: Cool.
+
+248
+00:28:23.540 --> 00:28:25.039
+kelseydilullo: Thank you. Thank you both
+
+249
+00:28:38.030 --> 00:28:39.240
+Meri Nova: Anyone else.
+
+250
+00:28:43.520 --> 00:28:46.910
+Hai: I was just waiting to see how long this silence would go on for
+
+251
+00:28:48.310 --> 00:28:49.130
+Oren: And I
+
+252
+00:28:49.130 --> 00:28:58.929
+Oren: about to ask, I was basically about to ask what Kelsey was asking like just regarding recipes. But that was perfect. And I'm gonna try it
+
+253
+00:29:00.260 --> 00:29:01.239
+Oren: and thank you
+
+254
+00:29:03.430 --> 00:29:12.239
+Autumn Hicks: I was gonna ask what Llm's models everyone is using for their projects and kind of why? Yeah, that was my question.
+
+255
+00:29:14.360 --> 00:29:18.350
+Oren: I think Gemini provides the best value in most cases.
+
+256
+00:29:19.540 --> 00:29:24.189
+Oren: I mean, the context is massive, and you have the best value for money
+
+257
+00:29:24.330 --> 00:29:29.199
+Oren: unless you need a specific use case, which case I can, I can tell you
+
+258
+00:29:32.020 --> 00:29:35.720
+Hai: Oh, you gotta say one more time because I was not listening. Say, one more time
+
+259
+00:29:37.080 --> 00:29:44.680
+Oren: I think that in most cases we should just like most of us, will probably use Gemini for the best.
+
+260
+00:29:44.870 --> 00:29:47.300
+Oren: A value value for money.
+
+261
+00:29:47.995 --> 00:29:55.329
+Oren: but unless there's some specific use case that we should refer to, maybe Claude is better at some stuff.
+
+262
+00:29:56.060 --> 00:29:58.290
+Oren: but most cases it just means gemini
+
+263
+00:29:58.930 --> 00:29:59.680
+Hai: I agree.
+
+264
+00:30:04.320 --> 00:30:04.790
+Frederick Z: Beautiful.
+
+265
+00:30:04.790 --> 00:30:27.830
+Frederick Z: I'm I'm sticking with open source for as long as I can, you know until I until I can no longer do so, and I'm sure if they're nowhere near as performant as gemini. But like until I actually deploy, everything is served on a llama
+
+266
+00:30:29.310 --> 00:30:30.080
+Hai: Nice
+
+267
+00:30:30.480 --> 00:30:36.929
+Oren: You. You can also use Gemma with an Api. It's all free, and you can use it for AI studio.
+
+268
+00:30:37.430 --> 00:30:39.169
+Oren: Also open source, by the way.
+
+269
+00:30:39.590 --> 00:30:42.025
+Oren: But I'm not a Google Ambassador, or anything
+
+270
+00:30:42.640 --> 00:30:47.340
+Frederick Z: Okay? No. Oh, okay. Did did you say Gemma or Gemma Nye?
+
+271
+00:30:47.340 --> 00:30:52.549
+Oren: No, Gemma. There's also Gemma that's open source and hosted by Google and Free
+
+272
+00:30:52.960 --> 00:30:56.040
+Frederick Z: Okay, all right, I will. I will definitely check
+
+273
+00:30:57.160 --> 00:30:59.159
+Oren: Yeah, it's available at AI studio
+
+274
+00:31:05.590 --> 00:31:08.470
+Hai: Dwayne speak now
+
+275
+00:31:08.680 --> 00:31:13.850
+Dwayne Joseph: I am using gem Gemini 2 point. Oh, flash for
+
+276
+00:31:14.020 --> 00:31:28.059
+Dwayne Joseph: converting my design files into HTML and Css. When it comes to the code assistant. I was going to use Gemini. I'm building it currently now. I have the Ui set up working on the back end stuff, but
+
+277
+00:31:28.170 --> 00:31:33.639
+Dwayne Joseph: I'm pretty sure I'm going to use Gemini as well. Think about Claude, but
+
+278
+00:31:33.770 --> 00:31:36.979
+Dwayne Joseph: I don't know if there's 1 over the other that I should.
+
+279
+00:31:37.110 --> 00:31:37.800
+Dwayne Joseph: I should use it
+
+280
+00:31:37.800 --> 00:31:42.089
+Hai: Think you should try them all. I think that will give.
+
+281
+00:31:42.590 --> 00:31:47.180
+Hai: Think about your learning stuff right? So like, don't think about it from a perspective of.
+
+282
+00:31:47.310 --> 00:32:03.179
+Hai: I try to squeeze the most amount of performance whatever you're learning stuff. So just just try them all. And then, if you don't like something about it that's actually really good, because then you have an opinion over it. Which is better than not having an opinion over these tools, because then, on your next project, you can just
+
+283
+00:32:03.340 --> 00:32:07.740
+Hai: dive right in and use the stack that you want and have a good reason for doing so.
+
+284
+00:32:08.770 --> 00:32:13.739
+Hai: Yeah, so even though here we're saying that you know Gemini is great, or whatever.
+
+285
+00:32:13.930 --> 00:32:17.090
+Hai: If you want to use grok, just go and use it like
+
+286
+00:32:17.090 --> 00:32:17.750
+Dwayne Joseph: Yeah.
+
+287
+00:32:18.470 --> 00:32:40.309
+Dwayne Joseph: actually had a huge issue that I never really shared. But so my original idea was to be able to convert Photoshop files, figma files and Xd files into code, because that's what we get at my job. However, no AI actually takes those files. I had to
+
+288
+00:32:40.370 --> 00:32:56.220
+Dwayne Joseph: either convert them in my app like, convert those files into like a photo, like a like a jpeg, or like a Png file, or I had to just give give the AI, an image file. So that was a huge kind of
+
+289
+00:32:56.330 --> 00:33:11.190
+Dwayne Joseph: hurdle that I kind of had to go over. And the problem with that is that in Photoshop files and fig files and Xd files, you actually get things like font sizes, fonts, things like that. And these vision models can't really.
+
+290
+00:33:11.390 --> 00:33:20.100
+Dwayne Joseph: most of them can't really tell what font you're using or what you know. And and so it was kind. It's kind of tricky. I didn't know how to
+
+291
+00:33:20.210 --> 00:33:25.939
+Dwayne Joseph: really go like, fix that issue. If that makes sense. Yeah.
+
+292
+00:33:26.276 --> 00:33:33.009
+Hai: So were you able to find like a library somewhere that can read Photoshop files and get you the metadata
+
+293
+00:33:33.630 --> 00:33:35.409
+Dwayne Joseph: No, no.
+
+294
+00:33:35.590 --> 00:33:44.119
+Dwayne Joseph: no! I well, what I what I looked for was, I think it's called a Ocr. Like optical Ocr models that
+
+295
+00:33:44.950 --> 00:33:51.109
+Dwayne Joseph: could read font sizes, and some of them can, but they're not that good at.
+
+296
+00:33:51.110 --> 00:33:52.440
+Dwayne Joseph: Yeah, I wouldn't. I wouldn't.
+
+297
+00:33:52.440 --> 00:33:52.820
+Dwayne Joseph: Goes
+
+298
+00:33:52.820 --> 00:33:53.939
+Hai: My money on that
+
+299
+00:33:53.940 --> 00:33:54.830
+Dwayne Joseph: Yeah.
+
+300
+00:33:54.830 --> 00:34:04.169
+Hai: If you can extract that. If you could extract that, what does a Psd file look like? Let me see, I'm I'm actually curious. Now, what does a Psd file look like
+
+301
+00:34:04.170 --> 00:34:06.480
+Dwayne Joseph: I can. Sh! I can.
+
+302
+00:34:07.090 --> 00:34:20.629
+Dwayne Joseph: It's it's basically very similar to like even a figma file. The thing is, you can click the font. Let's say you have a design, right? You have an email. And I want, like as a designer or a developer. I have to. You know.
+
+303
+00:34:21.040 --> 00:34:39.460
+Dwayne Joseph: figure out what font it is. All I have to do. All I can do is click on it. Kind of like a word document, right? If you want to know what the font is. You could just click the font or the word, and it'll tell you the font in the corner. Tell you the font size, the color, everything like that. A image won't do that. You see what I'm saying. The image is just an image. You can't really click the
+
+304
+00:34:40.639 --> 00:34:43.220
+Dwayne Joseph: the contents of it. So
+
+305
+00:34:44.280 --> 00:34:46.939
+Dwayne Joseph: I was. Kinda I didn't know how to get around that
+
+306
+00:34:47.770 --> 00:34:51.990
+Hai: Alright! Alright! I pop my screen here, let's do this together.
+
+307
+00:34:52.139 --> 00:34:52.839
+Dwayne Joseph: Okay.
+
+308
+00:34:52.840 --> 00:34:56.439
+Hai: Mpm package to read. Esd.
+
+309
+00:35:00.740 --> 00:35:03.069
+Hai: there's a parser right here. Psdrjs.
+
+310
+00:35:03.897 --> 00:35:09.620
+Hai: it gives you document structure document size on data. I'm sure that you need this right
+
+311
+00:35:09.620 --> 00:35:10.570
+Dwayne Joseph: That's what I need
+
+312
+00:35:10.920 --> 00:35:37.569
+Hai: So what you can do is you can use like a gemini model like 2 point. Oh, Flash! To do like to understand the layout right? And then you can extract the font size and other stuff. You can stuff that in the prompt and be like, hey, this is what the layout looks like. And then here are the precise like a description of like what the font should be, and what font family should be, which you don't honestly, you don't need to put this.
+
+313
+00:35:38.130 --> 00:35:47.290
+Hai: I'm I'm trying to think if you should even need to put this into the Lm. To generate it, or you can insert these in after the Lm has has generated all the stuff.
+
+314
+00:35:47.640 --> 00:35:54.270
+Hai: And then you can just kind of like programmatically insert these these details in, because these are hard coded numbers right?
+
+315
+00:35:54.530 --> 00:35:57.210
+Hai: But to make it super easy.
+
+316
+00:35:57.470 --> 00:36:07.360
+Hai: get the information out of the Psd file and then stuff that into the prompt after the Ocr part and be like, okay. You know, the
+
+317
+00:36:07.530 --> 00:36:13.380
+Hai: the layout should look like this, but then the numbers are like this, and then hopefully, that will help
+
+318
+00:36:14.000 --> 00:36:34.469
+Dwayne Joseph: Helps a lot, should I? Would you recommend sticking to one type of file? Then? Maybe like a Psd, because different clients send the creative in different ways. Some might prefer Psd. Some might prefer figma files, should I? But for my project, should I just stick to one
+
+319
+00:36:34.590 --> 00:36:35.680
+Dwayne Joseph: type of file
+
+320
+00:36:42.930 --> 00:36:43.900
+Hai: Hmm!
+
+321
+00:36:51.560 --> 00:36:56.310
+Hai: I think this is to call the click my Api or something. Yeah, this is not what you're looking for.
+
+322
+00:36:58.130 --> 00:37:02.649
+Hai: So when you say, Figma File, do you mean like a file that is shared over like a link
+
+323
+00:37:03.316 --> 00:37:10.440
+Dwayne Joseph: It's it's a downloadable file, just like a image. It's literally I think it's a dot fig file. So it's literally a file
+
+324
+00:37:10.440 --> 00:37:11.460
+Hai: Oh, wow!
+
+325
+00:37:11.870 --> 00:37:14.330
+Hai: I've never seen anyone download a figma file before.
+
+326
+00:37:14.330 --> 00:37:17.475
+Dwayne Joseph: Yeah, it's like a figma file that you can download
+
+327
+00:37:17.900 --> 00:37:28.430
+Dwayne Joseph: But I do think it's all I do think that there's also a link for it. I don't use figma like that. I just know that there, this is a type of file that creative
+
+328
+00:37:28.710 --> 00:37:30.899
+Dwayne Joseph: or clients make for their creative
+
+329
+00:37:32.500 --> 00:37:39.360
+Hai: Okay? Let's see uploading assets.
+
+330
+00:37:41.000 --> 00:37:42.580
+Hai: Let's see.
+
+331
+00:37:46.900 --> 00:37:48.870
+Hai: let's the pn.
+
+332
+00:37:53.090 --> 00:38:02.639
+Hai: pick my files, everything. But every file thing that consists of true notes. Okay, global properties.
+
+333
+00:38:03.610 --> 00:38:07.630
+Hai: Okay, no types. Okay?
+
+334
+00:38:11.600 --> 00:38:15.300
+Hai: I guess if the file has some sort of like identifiable
+
+335
+00:38:15.690 --> 00:38:19.690
+Hai: information about it, you could probably hit up the Api and
+
+336
+00:38:19.810 --> 00:38:21.722
+Dwayne Joseph: Okay, info or something
+
+337
+00:38:22.600 --> 00:38:23.510
+Hai: Font
+
+338
+00:38:25.170 --> 00:38:28.986
+Dwayne Joseph: I think what I'll do is I'll focus because my client we use
+
+339
+00:38:29.400 --> 00:38:34.409
+Dwayne Joseph: Xd adobe Xd, I don't know if you heard of it very similar, Photoshop.
+
+340
+00:38:34.510 --> 00:38:40.919
+Dwayne Joseph: I think I'll stick to just that or Photoshop either, or but I think cause my client right now
+
+341
+00:38:41.420 --> 00:38:42.670
+Dwayne Joseph: uses these type of files
+
+342
+00:38:45.010 --> 00:38:48.730
+Hai: Yeah, 10.
+
+343
+00:38:55.600 --> 00:38:57.610
+Hai: Hmm, that's cool.
+
+344
+00:39:00.430 --> 00:39:04.389
+Hai: So yeah, I think Psd is probably the easiest
+
+345
+00:39:04.530 --> 00:39:07.650
+Dwayne Joseph: Okay, I'll I'll do. Psd. Then sounds good
+
+346
+00:39:16.730 --> 00:39:17.440
+Hai: payment.
+
+347
+00:39:18.300 --> 00:39:19.040
+Hai: The
+
+348
+00:39:24.390 --> 00:39:30.070
+Hai: is this like a universal file metadata thing.
+
+349
+00:39:31.920 --> 00:39:36.380
+Hai: I wonder if you can even get that straight out of like any file.
+
+350
+00:39:42.090 --> 00:39:43.469
+Hai: Anyways, yeah.
+
+351
+00:39:43.930 --> 00:39:47.130
+Dwayne Joseph: Can you send me the that you went that you said
+
+352
+00:39:47.130 --> 00:39:52.850
+Hai: Yeah, yeah, yeah, let me double check. This is, is this like a popular one?
+
+353
+00:39:53.480 --> 00:39:54.879
+Hai: Yeah, it's pretty popular.
+
+354
+00:39:55.430 --> 00:40:01.700
+Hai: But it hasn't been updated for a long time. So 4 years
+
+355
+00:40:02.850 --> 00:40:03.540
+Dwayne Joseph: Wow!
+
+356
+00:40:04.240 --> 00:40:09.220
+Hai: So let's see, history that Rb has from B.
+
+357
+00:40:11.610 --> 00:40:14.920
+Hai: This one also hasn't been updated since 10 years ago.
+
+358
+00:40:17.120 --> 00:40:22.859
+Hai: So not necessarily like a super popular use case. I imagine
+
+359
+00:40:24.680 --> 00:40:31.779
+Hai: But let's see, you are still using it.
+
+360
+00:40:34.800 --> 00:40:36.749
+Hai: But you can have it. I
+
+361
+00:40:36.860 --> 00:40:45.119
+Hai: I think what teams usually do is if this is super useful for them. They'll probably fork it, and then they'll develop this further in house.
+
+362
+00:40:47.540 --> 00:40:49.120
+Hai: But here, let me send it to you.
+
+363
+00:40:51.130 --> 00:40:51.850
+Hai: Boom
+
+364
+00:40:53.990 --> 00:40:54.799
+Dwayne Joseph: Thank you. Huh!
+
+365
+00:41:03.420 --> 00:41:18.720
+Sarthak 13: Okay, Hi, I have a like a question in general. The question is like, are there any good resources for? You know. Llm system design, like, you know, like building applications and end to end system designs or something
+
+366
+00:41:22.760 --> 00:41:27.800
+Hai: Resources for building end-to-end. Llm. Application.
+
+367
+00:41:29.845 --> 00:41:32.900
+Hai: Do you have a particular problem in mind that you're trying to solve
+
+368
+00:41:33.687 --> 00:41:38.830
+Sarthak 13: It would be. Let's say text to SQL. Use case
+
+369
+00:41:40.910 --> 00:41:41.689
+Hai: Okay,
+
+370
+00:41:45.900 --> 00:41:50.330
+Hai: do you have any opinions about what tech stack you want to use to solve that or
+
+371
+00:41:50.510 --> 00:41:53.150
+Hai: any more context around what you're trying to solve
+
+372
+00:41:54.226 --> 00:42:01.653
+Sarthak 13: So basically, if someone has, let's say, like their own data warehouse, like schemas where there are
+
+373
+00:42:02.330 --> 00:42:07.870
+Sarthak 13: 20 tables, and they want to write the
+
+374
+00:42:08.080 --> 00:42:20.089
+Sarthak 13: like, write in English, and then the application would convert it to SQL. And write a query. So something like that, for, like a small data set, maybe 1015 tables.
+
+375
+00:42:20.640 --> 00:42:26.940
+Hai: Okay, some quick examples. Langchain has a tech to SQL agent
+
+376
+00:42:27.050 --> 00:42:29.329
+Hai: example that you can look up on Google.
+
+377
+00:42:30.027 --> 00:42:33.599
+Hai: If you if you want to see something in production. I know
+
+378
+00:42:33.880 --> 00:42:38.490
+Hai: neon has one neon neon the database company
+
+379
+00:42:38.680 --> 00:42:43.750
+Hai: and super base also has one. I know
+
+380
+00:42:44.211 --> 00:42:50.870
+Hai: data bricks, and you go to databricks. There's 1 that you can use to query stuff it's
+
+381
+00:42:52.320 --> 00:42:57.010
+Hai: and yeah, that's like a
+
+382
+00:42:57.760 --> 00:43:00.339
+Hai: crazy ton of text to SQL.
+
+383
+00:43:00.950 --> 00:43:04.830
+Hai: Resources. I, I can blocks and stuff online if you just Google it.
+
+384
+00:43:05.650 --> 00:43:10.260
+Hai: I don't personally have a opinion on it, because I personally feel like
+
+385
+00:43:10.680 --> 00:43:15.637
+Hai: Texas sequel only gets complicated when you talk about the
+
+386
+00:43:16.490 --> 00:43:19.160
+Hai: like when when you have like a lot of tables and
+
+387
+00:43:19.520 --> 00:43:23.309
+Hai: your query gets complicated, then you might have issues. But
+
+388
+00:43:23.750 --> 00:43:29.869
+Hai: from my personal experience, if you just throw the tails definition into your your prompt.
+
+389
+00:43:30.090 --> 00:43:34.880
+Hai: it usually can do a pretty good job, especially with like a frontier model like Claude.
+
+390
+00:43:35.450 --> 00:43:43.810
+Hai: So from my perspective for small projects, it's a solved problem for enterprise level. Probably not.
+
+391
+00:43:44.080 --> 00:43:50.270
+Hai: But then enterprise enterprise needs are very unique right. Every every enterprise is kind of like a snowflake.
+
+392
+00:43:50.880 --> 00:43:56.599
+Hai: you know. So unless we have details here, I can't speak more on on that
+
+393
+00:43:57.480 --> 00:43:58.180
+Sarthak 13: Okay.
+
+394
+00:43:58.590 --> 00:43:59.250
+Hai: Yeah.
+
+395
+00:43:59.250 --> 00:44:06.949
+Meri Nova: By the way, I think it's the 1st time I probably see you at the Live Sessions. Is that true? And if so, welcome
+
+396
+00:44:07.320 --> 00:44:09.050
+Sarthak 13: Thank you. Thank you. Yeah.
+
+397
+00:44:09.650 --> 00:44:11.820
+Meri Nova: Cool, cool. Good. Is it good to see you here
+
+398
+00:44:13.240 --> 00:44:14.020
+Sarthak 13: Yeah,
+
+399
+00:44:15.150 --> 00:44:19.456
+Sarthak 13: Next time I'll switch on the video. So you can like, actually see me. But yeah, okay.
+
+400
+00:44:30.160 --> 00:44:35.189
+Meri Nova: Hey? How? How? How's should we start calling names, or what? Hecta, you're you're trying to speak
+
+401
+00:44:35.380 --> 00:44:36.340
+Ekta: Yeah, yeah.
+
+402
+00:44:36.750 --> 00:44:45.259
+Ekta: So yeah, coming from, I, I just have a Mlm competition background, particularly working with models and modeling
+
+403
+00:44:45.400 --> 00:45:09.520
+Ekta: like designing model and stuff like that. So software design is not my strongest suit. And I am like stuck like, there's a lot of processes going on like starting from searching the papers assembling them, querying them, and putting them database, and again summarizing them. So all this 1st part is still easy to, you know, capture, and I'm understanding, how do I
+
+404
+00:45:10.117 --> 00:45:16.660
+Ekta: save it and use it for further use? Because I want to attach this with per user, like, how is a user.
+
+405
+00:45:16.920 --> 00:45:29.749
+Ekta: actually querying and saving the required resource. Articles stuff like that. But the the last part that's writing with the help of the summary that the writing tool
+
+406
+00:45:29.990 --> 00:45:48.260
+Ekta: like I'm I'm kind of wrapping my head around it like what would actually happen? Because, I'm I'm right now stuck like I'm not use any agent development on this project yet. So how should I? Am I not seeing something? How should I interpret this going forward? And
+
+407
+00:45:48.980 --> 00:45:53.929
+Ekta: like? What exactly would happen with writing like. I understand that
+
+408
+00:45:54.550 --> 00:46:00.310
+Ekta: Llm. Would help me write the research summary of the articles and
+
+409
+00:46:00.480 --> 00:46:06.280
+Ekta: take me forward. But, like with all of these processes going on like it's it's just being confusing for me. So
+
+410
+00:46:09.370 --> 00:46:09.730
+Hai: Yeah.
+
+411
+00:46:09.730 --> 00:46:12.320
+Ekta: Yeah, that's the situation of the question. Yeah.
+
+412
+00:46:12.320 --> 00:46:16.389
+Hai: Cool. Yeah. Can you? Can you ask it one more time? Because I got a little bit confused
+
+413
+00:46:17.060 --> 00:46:19.179
+Ekta: Yeah, yeah, it's
+
+414
+00:46:19.180 --> 00:46:24.140
+Hai: I have like, I have like 2 brain cells left. It's like 8, 47 pm. But please ask again.
+
+415
+00:46:24.960 --> 00:46:31.940
+Ekta: Yeah, yeah, it's kind of situation more than a question, I guess. So. Since I don't have an
+
+416
+00:46:31.940 --> 00:46:35.760
+Hai: It's an event. Okay, let me let me turn on that part of my brain. Okay, go ahead.
+
+417
+00:46:36.320 --> 00:46:37.230
+Ekta: Yeah.
+
+418
+00:46:37.230 --> 00:46:38.180
+Hai: I'm listening.
+
+419
+00:46:38.600 --> 00:46:53.640
+Ekta: So yeah, so more of because the project has a lot of processes like I can tackle one by one. And I have pretty much figured out what happens in the 1st part like searching and then analyzing them.
+
+420
+00:46:54.209 --> 00:47:01.989
+Ekta: Summarizing the articles, etc. But the the main part that's writing a report based on that, so that
+
+421
+00:47:02.220 --> 00:47:23.369
+Ekta: the user can have access to the articles. Write the report immediately so that they don't have. You know, there's some contact between summarizing and writing the research direction. So I'm just just lost, like, how do I like, put this process together and like the pieces together, and
+
+422
+00:47:23.961 --> 00:47:28.600
+Ekta: think of some solid design like, because design is not my strongest suit, like
+
+423
+00:47:28.600 --> 00:47:29.540
+Hai: Oh, yeah.
+
+424
+00:47:29.540 --> 00:47:30.180
+Ekta: Bye.
+
+425
+00:47:30.660 --> 00:47:31.520
+Hai: A failure.
+
+426
+00:47:32.170 --> 00:47:33.849
+Hai: Yeah. But have you tried so far
+
+427
+00:47:35.060 --> 00:47:35.930
+Ekta: What was that?
+
+428
+00:47:36.330 --> 00:47:37.660
+Hai: What have you tried so far?
+
+429
+00:47:38.080 --> 00:47:48.660
+Ekta: So I am trying like there's today. I was just trying to keep one unified agent, because I never like. I was just trying a very simple workflow way, just to understand, like my blog diagram
+
+430
+00:47:48.800 --> 00:48:09.285
+Ekta: and trying to call process one by one. I have not included a lot of asynchronous design, or like a lot of tool calling because I need to 1st understand what exactly. I'm me as a person I can't just, you know, wipe code and keep it aside. I have to keep on understanding one by one, because I'm learning it right? I'm I'm new to software engineering and design. So
+
+431
+00:48:10.030 --> 00:48:30.990
+Ekta: so by learning this, I I just get lost in one process and just lose the context of what I want to do next. So this learning part engaging with that learning part, and then also thinking, How do I exercise this agent? So right now, I just thought a very simple way like kept a unified agent. That's just
+
+432
+00:48:31.530 --> 00:48:54.360
+Ekta: helping us search and maybe rewriting the query in order to search a better publication or article, and then saving it into a database per user wise. So I was also stuck in that way like, should I save as a Json? Or should I just keep the abstract your publication safe. But I figured out
+
+433
+00:48:54.600 --> 00:48:55.869
+Ekta: some of that.
+
+434
+00:48:56.160 --> 00:49:01.400
+Ekta: The next process that's haunting me like, would I be able to complete the writing tool part?
+
+435
+00:49:02.042 --> 00:49:08.489
+Ekta: Or should I just stick to the 1st process from searching to analyzing, filtering, and summarizing.
+
+436
+00:49:08.900 --> 00:49:13.170
+Ekta: and just complete this for the boot camp? Like.
+
+437
+00:49:13.540 --> 00:49:14.390
+Ekta: So
+
+438
+00:49:15.190 --> 00:49:21.310
+Hai: Okay, if if you were to, if either way works out perfectly, which one would you go with
+
+439
+00:49:21.900 --> 00:49:22.990
+Hai: either way
+
+440
+00:49:23.990 --> 00:49:28.969
+Ekta: You can accomplish it, because that is the foundation of the project. Like, to begin with,
+
+441
+00:49:30.440 --> 00:49:44.640
+Ekta: searching, summarizing, and accumulating the very important stuff, the relevant stuff I exactly need. And so that the the user at least has a direction of the research like, what's the research gap? Because that's the main focus of my project. Like.
+
+442
+00:49:44.730 --> 00:50:09.650
+Ekta: exactly, was the research gap. Like, of course, there's a lot of materials available. But what I'm trying to do. So I want to figure out the direction like, because as a user like I have seen in the research space, like, what happens is the researcher would get lost and would not get to the ultimate goal. And the direction is not as straightforward. So that is what I wanted to solve this problem
+
+443
+00:50:09.920 --> 00:50:17.629
+Ekta: like having the right summary together. And you know, quickly analyzing what's going on and then moving forward to the research direction.
+
+444
+00:50:17.950 --> 00:50:24.829
+Ekta: So I would like to establish the foundation part. That's summarizing exactly what I need
+
+445
+00:50:25.240 --> 00:50:29.900
+Ekta: and like. If I wanted to do, I would rather focus on that. So
+
+446
+00:50:31.480 --> 00:50:36.350
+Hai: Yeah. Next step, what? What we like, the next small step that you can take to get there
+
+447
+00:50:37.000 --> 00:50:42.120
+Ekta: Like, I want to store the relevant information
+
+448
+00:50:42.420 --> 00:50:45.769
+Ekta: into a database that is easily accessible.
+
+449
+00:50:46.170 --> 00:50:48.320
+Ekta: And so, yeah.
+
+450
+00:50:48.950 --> 00:50:52.039
+Hai: Let's do that. Then you gotta do that, and then let me know when you're done.
+
+451
+00:50:52.755 --> 00:50:59.340
+Ekta: I'm still thinking like it's it's very I don't know. It just gets a lot but
+
+452
+00:50:59.340 --> 00:51:07.820
+Hai: I know. I know this is why this is why some of us are sipping extremely fast and others are not, and if you want to break into.
+
+453
+00:51:08.800 --> 00:51:13.490
+Hai: Here's the thing. So some people have stronger tendencies to overthink than others.
+
+454
+00:51:16.340 --> 00:51:22.150
+Hai: Either way, like a month from now. I wouldn't say a month from now, 2 weeks from now.
+
+455
+00:51:22.360 --> 00:51:23.989
+Hai: Do you want to see something
+
+456
+00:51:24.130 --> 00:51:32.560
+Hai: that you've built? Or do you want to see a diagram? That's what I'm trying to say so. Either way, it's it's it's still. Gonna you're still gonna be left with the the
+
+457
+00:51:33.310 --> 00:51:40.430
+Hai: the problem that you know. You gotta think through like the the best possible architecture for what you're building.
+
+458
+00:51:40.770 --> 00:51:41.330
+Hai: but
+
+459
+00:51:41.330 --> 00:51:41.850
+Ekta: And
+
+460
+00:51:42.180 --> 00:51:48.109
+Hai: And again, like nobody's gonna hold you accountable for this like, we're all just strangers on the Internet. Right? So
+
+461
+00:51:48.620 --> 00:51:50.310
+Hai: I'm I'm telling you like
+
+462
+00:51:50.870 --> 00:51:51.779
+Oren: Not any problem.
+
+463
+00:51:51.780 --> 00:51:56.830
+Hai: If you're relying on me, if you're rely on me to tell you what to do.
+
+464
+00:51:56.980 --> 00:51:59.630
+Hai: I can't. I want you to understand that
+
+465
+00:52:00.410 --> 00:52:04.060
+Hai: after this boot camp. If you can get over this hurdle of like.
+
+466
+00:52:04.370 --> 00:52:13.500
+Hai: get over yourself, you would do so well when you're shipping stuff really fast and like make decisions faster. So, Hecta, this is like.
+
+467
+00:52:14.500 --> 00:52:19.756
+Hai: and in time, when you, when you become a developer.
+
+468
+00:52:20.650 --> 00:52:21.350
+Ekta: One second.
+
+469
+00:52:21.350 --> 00:52:22.059
+Ekta: No, I think I
+
+470
+00:52:22.060 --> 00:52:22.850
+Hai: Vancoder.
+
+471
+00:52:22.850 --> 00:52:23.780
+Ekta: Good
+
+472
+00:52:24.141 --> 00:52:49.100
+Ekta: like I I according to my because I'm very new to, of course, like I said, like system development. But according to that like I was able to quickly web scrape, and, you know, call the Apis asynchronously. And I'm not using 3 different like I'm using different Apis. But right now I'm able to call like what whatever I need, the most frequent needed and stuff like that. So so
+
+473
+00:52:49.120 --> 00:52:59.700
+Ekta: I think I'm able to grasp quickly. It's just that. I also took a difficult route, like maybe the typescript route and understanding the code and like
+
+474
+00:52:59.700 --> 00:53:05.980
+Hai: Take that. Listen. We're all watching. We're all watching. I know exactly what you're doing, and I remember what you said in the beginning. So
+
+475
+00:53:06.460 --> 00:53:10.929
+Hai: that's why I'm trying to like. I'm trying to push you a little bit, because I know you can do it. So
+
+476
+00:53:11.800 --> 00:53:21.699
+Hai: you you overthink stuff right? But you gotta. You gotta. You gotta get over that. And I know you can and I know you're thinking because you're putting in work. It's just that it's working your head.
+
+477
+00:53:21.990 --> 00:53:28.950
+Hai: What I should I want you to do is put an initiative into like, just just build something concrete like a slice. We talked about a slice in the beginning. Right? So
+
+478
+00:53:29.510 --> 00:53:35.540
+Hai: you all the stuff that you're thinking about right now that count as work that's not wasted time. By the way
+
+479
+00:53:35.730 --> 00:53:38.879
+Hai: like you're not wasting time you're you're
+
+480
+00:53:39.260 --> 00:54:06.470
+Hai: you're getting over yourself, and that's that's great. So don't think about like all the time that you like overthinking. These make them the best stories when you go on into interviews, when you go and talk to like a team somewhere else, because then they can relate to that. And they're like, Oh, we had the same issue here, and well, how did you do it? And then you can tell the story like, oh, I did this, and then kind of kind of done happens so many times in my career and other people's career as well. I think
+
+481
+00:54:06.760 --> 00:54:08.819
+Hai: there's a shortcut to this. So
+
+482
+00:54:09.300 --> 00:54:19.050
+Hai: the fact that you're struggling through it, it's it's supposed to be hard like for people who overthink it's supposed to be hard and people who are new, and you decide to do typescript, even though you don't know if typescript so kudos to you.
+
+483
+00:54:19.500 --> 00:54:22.230
+Hai: What I need you to understand is that it's not gonna be hard forever.
+
+484
+00:54:22.930 --> 00:54:26.050
+Hai: One day you're gonna get over this and you're gonna ship something, and then
+
+485
+00:54:26.570 --> 00:54:28.530
+Hai: you won't even remember it today.
+
+486
+00:54:29.790 --> 00:54:30.810
+Hai: And I know you can do it.
+
+487
+00:54:30.810 --> 00:54:33.699
+kelseydilullo: So I want to share something. I feel like this will help.
+
+488
+00:54:34.440 --> 00:54:41.279
+kelseydilullo: Okay. So there is this scientific thing. Where, when you're if you go for a walk
+
+489
+00:54:41.520 --> 00:55:08.979
+kelseydilullo: or running, or something that activates both sides of your brain. And you're thinking about something you're processing while you're activating both sides of your brain. So you have your logical and your creative side so literally what I do. It sounds crazy, but I don't care. I will go for a walk. I'll put in headphones, and I will talk to myself, and I will describe the issue, and then I will like brainstorm, and by the time I'm done with my walk. I'm like, all right, I know what to do next. So I feel like if you get stuck, which I currently am.
+
+490
+00:55:09.160 --> 00:55:10.069
+kelseydilullo: try that.
+
+491
+00:55:10.310 --> 00:55:16.459
+kelseydilullo: Go for a walk, talk to yourself, and it will activate both sides of your brain in order to like problem, solve better
+
+492
+00:55:17.580 --> 00:55:18.819
+Meri Nova: That's awesome.
+
+493
+00:55:19.060 --> 00:55:19.920
+Meri Nova: Yeah. And also
+
+494
+00:55:19.920 --> 00:55:24.130
+kelseydilullo: Also, I feel like Week 3 is really hard. I want to say that like I feel like this is like a
+
+495
+00:55:24.270 --> 00:55:40.170
+kelseydilullo: I don't know, like I'm having the hardest week. So I don't know if anybody else is having a really hard time with Week 3. But I feel like we're you're like over the initial like, this is so cool. And now you're like, you still have to like push through the hard part. I guess this is why you guys said, choose something that you really like, because we get stuff.
+
+496
+00:55:40.510 --> 00:55:42.800
+kelseydilullo: Okay. Now, I'm done and rant
+
+497
+00:55:43.560 --> 00:56:07.590
+Meri Nova: No, this is great. This is perfect. Ecta. I just wanted to share with everybody that the project that you submitted on the 1st Demo. It's mind blowing, and congrats again for choosing the hard path. And if you are okay with this, I can share and remind people how much progress you made in the 1st week, just to show you that sometimes you think you're not doing the progress, but you are.
+
+498
+00:56:07.590 --> 00:56:22.009
+Meri Nova: and also when you do keep like overthinking. I think it's important to get back to the user problem. If, especially like, when you're trying to decide what to do next. I think it's important to get back to like, okay, what's the problem we're trying to solve with your app.
+
+499
+00:56:22.010 --> 00:56:38.800
+Meri Nova: And it seems like, maybe it's time to talk to the users. Maybe it's time to like share it with somebody else. Of what? What? Maybe what you think is valuable. Other thing is not. Maybe there's something else for you to discover. But either way, this whole process is all about just trying and trying, and failing, and learning
+
+500
+00:56:38.850 --> 00:56:41.659
+Meri Nova: and sharing with everybody else. So.
+
+501
+00:56:41.740 --> 00:57:08.010
+Meri Nova: and Kelsey said it wonderfully like if you, if you get stuck, there are so many ways to like, get unstuck, and we're here for it, like, thank you for sharing also. This is this is very valuable, what you're sharing, and it looks like on the chat. Many people are sharing this similar sentiment as well, it's it's not easy. Guys like, imagine this, you're learning typescript. In 2 weeks it's crazy. People were dedicating months and years. I mean, Hai was teaching that
+
+502
+00:57:08.100 --> 00:57:15.499
+Meri Nova: for people in like 6 months to cover what you're covering now. So it's totally okay to feel overwhelmed. And I talked earlier
+
+503
+00:57:15.500 --> 00:57:16.649
+Hai: That's true. That's true.
+
+504
+00:57:16.860 --> 00:57:36.009
+Meri Nova: Dwayne with Oren as well earlier today, and Orin's been saying like he's not sleeping. He's like 24, 7, trying to debug stuff. So same with Dwayne, like they show up on the vibe, coding sessions and asking lots of questions. So this is part of the learning journey, and you're doing great Ecta.
+
+505
+00:57:37.400 --> 00:57:47.029
+Hai: So that's such a good point, because for the full stack boot camp that I've been teaching for the past 5 years. It used to take somebody 6 months to a whole year to like build something
+
+506
+00:57:47.440 --> 00:57:54.649
+Hai: in like react and no js, express and all that stuff. And this is pre AI
+
+507
+00:57:55.192 --> 00:58:03.330
+Hai: since, you know, Chat Gpt got popular, we have to change our strategy so that our students are using AI tools more, which also expedites the
+
+508
+00:58:03.440 --> 00:58:06.839
+Hai: the time that they they would take to build and complete a project.
+
+509
+00:58:07.633 --> 00:58:12.630
+Hai: So when you're stuck into details, just zoom out.
+
+510
+00:58:12.760 --> 00:58:20.369
+Hai: you're in the perfect. You end up the best time in our lifetime so far to create something and to be able to build the stuff in like
+
+511
+00:58:20.560 --> 00:58:24.969
+Hai: 5 weeks has. It's impossible before. It's literally impossible.
+
+512
+00:58:25.430 --> 00:58:30.540
+Hai: But you're doing it. And it's supposed to be hard. And this is what hard feels like.
+
+513
+00:58:30.900 --> 00:58:33.140
+Hai: Yeah.
+
+514
+00:58:34.780 --> 00:58:41.210
+Ekta: I mean, I am very proud because for my 1st time in life I am doing whatever I'm doing
+
+515
+00:58:42.290 --> 00:58:50.079
+Ekta: like like scrolling so many apis together thinking of the database thinking of authorization. And also
+
+516
+00:58:50.330 --> 00:58:55.359
+Ekta: I mean, I'm happy. But yeah, things are a little slow on my end. I feel
+
+517
+00:58:56.150 --> 00:59:00.190
+Hai: Yeah, Hector, I need you to push a little bit more. I need you to push a little bit more. You can do this.
+
+518
+00:59:00.310 --> 00:59:02.650
+Hai: It's where I got like, 3 weeks from now.
+
+519
+00:59:03.130 --> 00:59:06.604
+Hai: you're gonna pull this off. And then we're gonna we're gonna
+
+520
+00:59:07.690 --> 00:59:13.470
+Hai: blow up your project everywhere, basically because we're we're gonna be very proud of you. Everybody on this call is, gonna be very proud of you.
+
+521
+00:59:13.650 --> 00:59:17.390
+Hai: because now you've been yapping for the past 2 min, I don't care, but
+
+522
+00:59:17.710 --> 00:59:24.259
+Hai: and not everybody knows what the problem is, and not everyone's gonna be watching you right? This girl who didn't know typescript
+
+523
+00:59:24.450 --> 00:59:26.570
+Hai: but didn't choose didn't choose python.
+
+524
+00:59:27.880 --> 00:59:30.019
+Hai: That's courty in itself. So
+
+525
+00:59:30.820 --> 00:59:41.150
+Hai: whatever you do from this point on, you gotta look back and be like I I was that girl who chose touch gear over python. So whatever it comes in my way, I can tackle it. Gotta remember that.
+
+526
+00:59:45.410 --> 00:59:48.100
+Hai: Okay, don't start crying on my zoom. Okay, just kidding.
+
+527
+00:59:48.500 --> 00:59:49.580
+Hai: Buy all you want.
+
+528
+00:59:51.280 --> 00:59:55.701
+Meri Nova: Kelsey is saying, it's a QA. And event session. Love it
+
+529
+00:59:58.960 --> 01:00:22.630
+Meri Nova: cool. Yeah. And I feel like, feel free guys like who are like spending a lot of time or an autumn. Dwayne. I literally see you on every vibe session like, Please speak up. You guys are like now responsible because you are showing up. And there are many people that want to get inspired and see the progress that you guys are making. And I think it's on your responsibility to to share and share what worked and what hasn't.
+
+530
+01:00:22.630 --> 01:00:32.300
+Meri Nova: And I'm not saying it's only you guys, I know there are people that are working different time zones. But whoever is getting ahead please share with others as well. It's time to support each other
+
+531
+01:00:33.780 --> 01:00:37.830
+Oren: I'm gonna do it the 1st time. The code isn't broken. Once I'm on the call
+
+532
+01:00:38.120 --> 01:00:40.420
+Oren: the 1st time it's not broken, I'm gonna do it
+
+533
+01:00:43.040 --> 01:00:43.950
+Hai: Very nice.
+
+534
+01:00:44.200 --> 01:00:54.840
+Hai: and I just wanna add one more thing. So I'm not sure I'm not doing lip service here like Ector. If you just start messaging me on on circle like DM. Me as you could progress, and then I will
+
+535
+01:00:55.010 --> 01:01:01.770
+Hai: personally see if, wherever you need help with, I'll I'll make sure that I'll look at into it like thoroughly.
+
+536
+01:01:03.530 --> 01:01:04.489
+Hai: just for you.
+
+537
+01:01:06.660 --> 01:01:22.960
+Ekta: Yeah, I just want your help, where I could see something which I'm not seeing. So I'll start sharing on the demo day, maybe if I so I just need some direction in that, because sometime like like, Mary said, you can't see things and people can. So
+
+538
+01:01:23.320 --> 01:01:25.459
+Ekta: I want to take advantage. Yeah.
+
+539
+01:01:26.200 --> 01:01:38.490
+Meri Nova: That's actually a good idea on the Demo Day guys, it's not only about showing off what you build, but also time like for you to share what you're struggling with big time, and it's another opportunity to get unblocked. So keep that in mind.
+
+540
+01:01:43.020 --> 01:01:46.510
+Meri Nova: Awesome. Anything else. Yeah, Melissa, go ahead
+
+541
+01:01:47.150 --> 01:01:51.329
+Melissa: Yeah, I'll share something. I had a revelation earlier.
+
+542
+01:01:51.560 --> 01:02:21.010
+Melissa: I've been doing get commits like crazy. And this is my 1st time using get, for, like the active project. I was just committing stuff like here and there over the months and years. So I realized I'm like, Oh, I started reading, like all of the text. And I was, it's a private repost, or whatever. But I was committing like my computer username. And I'm like, oh, no, this is a cyber security risk. So I went and updated that and fixed it
+
+543
+01:02:21.747 --> 01:02:31.899
+Melissa: but it just made me like come back to the fact that I'm like, okay, once I get to a certain point, I'm gonna slow down and do like a security
+
+544
+01:02:32.260 --> 01:02:44.569
+Melissa: like Sweep, because I've seen like I see horror stories and everything else nowadays about different security vulner vulnerabilities. And being that I don't know.
+
+545
+01:02:45.050 --> 01:02:58.140
+Melissa: you know the explicit details of them. I'm like, okay, let me create like a little checklist and make sure my dB is good, and it's not susceptible to certain type of vulnerabilities and and things like that. So you know, that's that's like.
+
+546
+01:02:58.440 --> 01:03:22.759
+Melissa: that's like something that I want to take. Seriously, as I'm trying to build things out. I think like the 1st app I tried to build like my teacher was showing me how to do it. He was like, Yeah, I'm showing you how to do it. But this year it could. You know that someone can do like sequel injection and do some bad things? So I'm like, Oh, shit! I need to try to get up on it so I can know what I'm I'm I'm dealing with here. So
+
+547
+01:03:23.636 --> 01:03:35.500
+Melissa: yeah, that's in between fighting my project and trying just to get certain support types to work correctly. The security layer draped over my head today. So I'm gonna have to keep that in mind as I go
+
+548
+01:03:43.330 --> 01:04:03.890
+Meri Nova: No, this is great thanks for sharing Melissa. I think you're like already thinking in the production environment. You know, there's it's so cool that you're like 3 steps ahead already. But it's a good practice to keep that in mind. But we're still in the week 3, and I love that you're already thinking about it. We're trying to ship the Mvp.
+
+549
+01:04:04.060 --> 01:04:11.730
+Meri Nova: Or what was the other name? Remember? The guest speaker mentioned Don. Not the Mvp. But maybe Hi, you know this, too.
+
+550
+01:04:12.170 --> 01:04:12.690
+Meri Nova: and
+
+551
+01:04:12.690 --> 01:04:14.749
+Hai: Like minimum, lovable, something
+
+552
+01:04:15.520 --> 01:04:17.560
+Meri Nova: Yeah, something else. So let's see.
+
+553
+01:04:17.560 --> 01:04:20.349
+Ekta: Something sec or something
+
+554
+01:04:20.350 --> 01:04:20.730
+Meri Nova: Yeah.
+
+555
+01:04:20.730 --> 01:04:22.970
+Ekta: Alright. We'll give something, you know.
+
+556
+01:04:23.300 --> 01:04:25.409
+Meri Nova: Yeah, that was, yeah, we should.
+
+557
+01:04:30.000 --> 01:04:31.100
+Meri Nova: Yeah. But
+
+558
+01:04:32.390 --> 01:04:40.589
+Meri Nova: Melissa, you're doing great if nobody else has any other questions. So we can wrap this office hours.
+
+559
+01:04:40.740 --> 01:04:41.960
+Meri Nova: And
+
+560
+01:04:42.300 --> 01:04:55.100
+Meri Nova: yeah, and we can. We'll see on demo day. I'm gonna put up the form for the progress or the homework, whatever you like to call it on Circle, and can't wait to see what you guys are building this week.
+
+561
+01:04:55.230 --> 01:05:24.073
+Praveena Suresh: Hey, hey, Mary? I just had a quick question for Hi, and like, maybe it's like more rudimentary. Possibly I don't know, because I've not watched all the videos and like slowly watching them and then trying to build on the side. So I'm still like catching up. Maybe this is something which is already discussed. I don't know, but I just still just wanted to bring it up in case you know what different people are building different things right? I know. Hi gives them
+
+562
+01:05:24.430 --> 01:05:50.780
+Praveena Suresh: some kind of a guidance about. Oh, if you have to do this, do such and such Api, or whatever it may be the case. For example, I asked him a question. Oh, how do I extract text from Pdf. Then he told me to do Gemini Flash Api, and also ask it to give Markdown. So how do you develop that intuition? Maybe it's like a big question I was like, oh, how does he? How do you do that
+
+563
+01:05:51.240 --> 01:05:57.100
+Hai: Yeah, I had the same question for my boss at my 1st job. And I think the context was that
+
+564
+01:05:57.720 --> 01:06:03.069
+Hai: I had this really easy task to do, which was adding, like email to salesforce.
+
+565
+01:06:03.230 --> 01:06:06.360
+Hai: And I would spend like 2 days on it, not knowing what to do.
+
+566
+01:06:06.880 --> 01:06:20.730
+Hai: And then I I asked my boss, and he, like took like 2 seconds to go on salesforce documentation and find the exact doc to do it. And I was like, how did you do that? And he's like, well, I just had like 17 years of development experience.
+
+567
+01:06:20.880 --> 01:06:26.530
+Hai: And I'm like, Okay, but then I think over time, my real. What I realized was that
+
+568
+01:06:27.310 --> 01:06:33.700
+Hai: you just start to solve like similar problems. And then you kind of like develop a mental model of like how to find answers.
+
+569
+01:06:33.900 --> 01:06:42.149
+Hai: So, for example, whatever problems you throw at me now, I have like a problem solving framework where I'm like, okay, do I know everything that you're talking about.
+
+570
+01:06:42.380 --> 01:06:50.500
+Hai: Maybe there's a part that I understand. I try to like preliminary Google that just to understand what's going on. And then
+
+571
+01:06:50.850 --> 01:07:02.310
+Hai: I have a mental model of like, is this like an SDK? Is this like code, or is this like a concept or like? What is this? And then I'll try to look for sources that way. I think if you just expose yourself to a lot of different
+
+572
+01:07:02.530 --> 01:07:05.309
+Hai: types of technical challenges, you will
+
+573
+01:07:05.480 --> 01:07:20.190
+Hai: develop the like an intuition to solve certain problems. Because everything that you guys asked me in this call. I I've I've worked on like at least maybe like 70% of the all those things. So I can kind of pull from my personal experience.
+
+574
+01:07:21.960 --> 01:07:35.209
+Hai: that's why you guys sucked out because you got this guy who has been working for real and not like, you know this, that saying like those who can't do, teach, do those who teach? I wouldn't say that. But like
+
+575
+01:07:35.850 --> 01:07:37.870
+Hai: it's I don't know like
+
+576
+01:07:39.110 --> 01:07:45.689
+Hai: it's I. We want this to be kind of like how you would sit next to your coworker at work and like ask whatever. So.
+
+577
+01:07:46.110 --> 01:07:52.059
+Hai: of course, the coworker has to be doing work to know how to answer these questions, and I would hopefully answer those questions the way
+
+578
+01:07:52.300 --> 01:07:59.120
+Hai: a coworker would do to you when you know we're sitting next together next to each other at at a cubicle.
+
+579
+01:07:59.390 --> 01:08:02.980
+Hai: instead of having giving you a lecture about how to do so.
+
+580
+01:08:04.290 --> 01:08:06.579
+Hai: Sure, yeah. So I guess it just comes to time
+
+581
+01:08:07.250 --> 01:08:26.879
+Praveena Suresh: Okay, yeah, thank you. That answers my question. I mean, that's what I thought it is. But then I just wanted to know if there is anything you wanted to say. Also, I'm I'm hoping that, as I said, I didn't watch all the videos once you watch all those videos and try it. Maybe you start to develop, at least begin to develop is what I'm I'm thinking. Maybe the
+
+582
+01:08:26.880 --> 01:08:28.132
+Hai: Yeah, I think.
+
+583
+01:08:29.060 --> 01:08:33.310
+Hai: I think there were a few people who show up consistently to all of the coding streams.
+
+584
+01:08:33.420 --> 01:08:41.150
+Hai: and they just sub subconsciously picked up on how I go about solving problems because we run into problems all the time on the on the stream
+
+585
+01:08:41.439 --> 01:08:42.269
+Praveena Suresh: All the time
+
+586
+01:08:42.580 --> 01:08:43.429
+Oren: That's the best thing
+
+587
+01:08:43.750 --> 01:09:05.459
+Praveena Suresh: I. The reason I'm not able to like I have to. I mean, I have a long like work day, plus I'm trying to watch it not just once, a few times, because I know what you did. And I also try to do it by myself, not just watching like a movie, you know. So that I think time. Okay, that answers my question. Thank you.
+
+588
+01:09:05.460 --> 01:09:15.019
+Hai: Yeah, I think I think for me it was looking at my boss problem solved. And I hope that for you guys, it would like, look at me going into issues and then trying to solve my own issues.
+
+589
+01:09:15.559 --> 01:09:37.919
+Hai: I think, I hope, that you guys pick up on stuff like you know me going. I don't think I would pull up, stack, overflow even once, not even once. Always go directly to the to docs, always trying to read stuff, or if if I'm too tired, I'll be like, Okay, cursor. Solve this for me, or if there's already a pattern before then I'm like, Okay, cursor follow the same pattern and do the same here. So
+
+590
+01:09:38.109 --> 01:09:47.530
+Hai: yeah, I think seeing somebody going through problem solving in real time is has been in my life has been tremendously useful, whether that's a coworker or a boss
+
+591
+01:09:47.670 --> 01:09:48.943
+Hai: or somebody.
+
+592
+01:09:49.899 --> 01:09:57.489
+Hai: Because when you go on Youtube, you watch a tutorial, it's always almost perfectly like from end to end, and real life is never like that.
+
+593
+01:09:57.610 --> 01:10:02.630
+Hai: But, you know, seeing somebody struggle a little bit, I think, gives you permission to struggle and
+
+594
+01:10:02.740 --> 01:10:04.359
+Hai: work through things so
+
+595
+01:10:05.340 --> 01:10:06.049
+Praveena Suresh: You know.
+
+596
+01:10:11.490 --> 01:10:16.530
+Hai: Yeah. Somebody else can say how they problem solve. That'll be useful for other people.
+
+597
+01:10:22.700 --> 01:10:34.060
+Hai: I'm like curious how autumn knows all her know her all her stuff, because, like a lot of stuff that she mentions, that's the stuff that I know that I never told the class I'm like, how do you know all this stuff that you gotta tell everybody
+
+598
+01:10:34.980 --> 01:11:02.942
+Autumn Hicks: Like what I read a lot of documentation just cause I I feel like I don't. I don't know. I've never used for cell or anything before a few weeks ago. So I would say at least like an hour a day. That sounds weird. But I just I'm just looking at the docs. So that's how I saw that. There was an update for the AI SDK, and I was like, Oh, I have to check that out. But but yeah, I'm I'm not a software developer. So
+
+599
+01:11:03.460 --> 01:11:05.560
+Autumn Hicks: I just Google, a lot
+
+600
+01:11:05.990 --> 01:11:11.729
+Hai: Yeah. So, stuff like that big nerd alert, right? Like, who like reads documentation
+
+601
+01:11:12.308 --> 01:11:22.369
+Hai: and then just like geeked out about oh, like a 4.2 update just came out. Holy shit, you know, all like Orin, or in like post updates about like what's happening in AI like all the time
+
+602
+01:11:22.470 --> 01:11:33.889
+Hai: that, and like these people don't feel like they're wasting their time doing that because they like it. So if you have something that you're really into you do more of it. Then you kind of almost like, have an intuition of like
+
+603
+01:11:34.220 --> 01:11:38.209
+Hai: you have. You have a better mental model of like how things, work and stuff like that.
+
+604
+01:11:38.640 --> 01:11:39.370
+Hai: Thank you.
+
+605
+01:11:40.090 --> 01:11:40.870
+Hai: Yeah.
+
+606
+01:11:43.170 --> 01:11:45.690
+Praveena Suresh: Yeah, thank you. That's very helpful.
+
+607
+01:11:47.690 --> 01:12:07.020
+Hai: cool. So before we wrap up. I have a question for you guys, so me and Mary, we're thinking about like getting Tas, because I know some of you guys are doing pretty well, and you know, we're like, Oh, maybe they can essentially teach to or like help out the class and whatever not just this class. By the way, like, we're thinking, some like potentially
+
+608
+01:12:07.270 --> 01:12:11.150
+Hai: process after this. So if you're interested in like doing ta stuff.
+
+609
+01:12:11.400 --> 01:12:14.399
+Hai: What today means is basically like, be like me.
+
+610
+01:12:14.778 --> 01:12:35.170
+Hai: helping out the class. Be like Frederick, like just jumping in like helping people in chat and stuff like that, because obviously you have knowledge, and the best way to learn is to teach it. That's how I did my my most like food camp. I didn't know shit when I joined them. I'm like, yeah, I know, react. That was literally learning react as I'm teaching it. And then by the end, I know react. So
+
+611
+01:12:35.330 --> 01:12:44.810
+Hai: so teaching is a great way to like reinforce what you're learning. So if you're interested in this shoot me a marry a DM, there's there's no concrete plan yet, but we're
+
+612
+01:12:45.040 --> 01:12:47.650
+Hai: we're really really excited about the idea of, like.
+
+613
+01:12:48.370 --> 01:12:53.950
+Hai: you know, having our students from the 1st boot camp be like teaching, or something like that? I feel like that'd be cool idea.
+
+614
+01:12:54.120 --> 01:12:54.850
+Hai: So
+
+615
+01:12:54.850 --> 01:13:19.549
+Meri Nova: Yes, guys message us, because I can see that you'll benefit a lot from this as well. And this is again a community that we're building. And I would love to see you guys in the future cohorts, maybe. And that's how that's what happens. You know, the superstars are the most active people. Consistent people end up doing something together, you know. And again, I think all of you guys have great potential
+
+616
+01:13:20.190 --> 01:13:22.020
+Hai: Yeah, so the path goes like this,
+
+617
+01:13:24.430 --> 01:13:29.069
+Hai: owning running airbnbs, or like, be a data scientist or data analyst somewhere.
+
+618
+01:13:29.420 --> 01:13:36.620
+Hai: and then join this bootcamp. Learn how to ship stuff, build AI product engineering, and then be a ta
+
+619
+01:13:36.750 --> 01:13:39.350
+Hai: and then be a correct engineer at the end.
+
+620
+01:13:39.590 --> 01:13:43.709
+Hai: so you can't skip the ta part. You have to be a ta before we become a crack engineer.
+
+621
+01:13:45.620 --> 01:13:48.300
+Hai: and then you go work for a startup or something. Everyone else
+
+622
+01:13:49.470 --> 01:13:54.829
+Meri Nova: Either startup or ta. I don't know, because you could be building internal tools, too. You know, we have so many like
+
+623
+01:13:54.970 --> 01:13:58.470
+Meri Nova: things inside that we need to automate like even this.
+
+624
+01:13:58.670 --> 01:14:28.160
+Meri Nova: And they're recording things. But but yeah, yeah, let us let us know. And we're we're thinking of. It's not 100% sure. Yet we're thinking of organizing a hackathon, probably in a month or so, probably both online or San Francisco, but definitely online. And we would love any volunteers or anyone who would like to participate as like a leader? Or how do you say someone who helps manages things because it's going to be a lot.
+
+625
+01:14:28.300 --> 01:14:28.890
+Meri Nova: But yeah.
+
+626
+01:14:28.890 --> 01:14:32.519
+Hai: People are going to be asking questions about the stuff that you guys have learned already. So
+
+627
+01:14:33.930 --> 01:14:36.957
+Hai: it'd be great to have some help
+
+628
+01:14:37.940 --> 01:14:38.300
+Meri Nova: Yeah.
+
+629
+01:14:39.980 --> 01:14:49.719
+Hai: Okay, sick. I gotta. I gotta do some other stuff now. But autumn autumn says I'm in. And then Keisha said, Okay, 5. Coding be documentation cool.
+
+630
+01:14:50.080 --> 01:14:53.669
+Hai: I don't. Which one are you in? You gotta you gotta DM. Mary or me about
+
+631
+01:14:54.710 --> 01:14:55.740
+Meri Nova: Which one
+
+632
+01:14:56.080 --> 01:14:58.933
+Autumn Hicks: For sure. The hackathon sounds cool.
+
+633
+01:14:59.679 --> 01:15:02.479
+Autumn Hicks: I don't know if I could teach anyone anything, but
+
+634
+01:15:03.110 --> 01:15:05.140
+Autumn Hicks: take it till you make it. I could see
+
+635
+01:15:06.210 --> 01:15:07.709
+Hai: Yeah, once, several times.
+
+636
+01:15:09.064 --> 01:15:12.780
+Meri Nova: Love it. Lauren's 90% in in what
+
+637
+01:15:14.590 --> 01:15:18.340
+Oren: In a month, but we'll see. I mean we'll get to it
+
+638
+01:15:20.110 --> 01:15:22.460
+Meri Nova: Right, awesome.
+
+639
+01:15:23.640 --> 01:15:24.510
+Hai: Alright gang.
+
+640
+01:15:25.560 --> 01:15:27.470
+Hai: I'll see y'all tomorrow.
+
+641
+01:15:28.850 --> 01:15:31.906
+Meri Nova: I love this thing
+
+642
+01:15:32.670 --> 01:15:33.830
+Oren: It is a boot camp
+
+643
+01:15:35.311 --> 01:15:42.540
+Meri Nova: Oh, guys, let me take a screenshot that is so cool. Wait. Wait.
+
+644
+01:15:42.750 --> 01:15:44.850
+Meri Nova: Okay. How can I do both?
+
+645
+01:15:45.910 --> 01:15:55.934
+Meri Nova: Alright. Alright! 1, 2 I can do with one hand. Right, 1, 2, 3 awesome
+
+646
+01:15:56.800 --> 01:15:58.350
+Hai: Wait! Take it one more time. One more time.
+
+647
+01:15:58.350 --> 01:15:58.870
+Meri Nova: Oh! Oh!
+
+648
+01:15:58.870 --> 01:15:59.710
+Hai: Just pop on. Let's
+
+649
+01:15:59.710 --> 01:16:15.689
+Meri Nova: Oh, yeah, that's true. That's true. That's true. That's true. Anybody else who wants to show their face. This is the time to do it. Okay? Oh, nice. I see it. Let's go. I see. Just one hand awesome. Awesome. 1, 2, 3.
+
+650
+01:16:16.360 --> 01:16:18.659
+Meri Nova: Oh, my God! I love it!
+
+651
+01:16:18.970 --> 01:16:19.850
+Melissa: Nice posture.
+
+652
+01:16:19.850 --> 01:16:20.270
+Hai: At all.
+
+653
+01:16:20.270 --> 01:16:24.698
+Melissa: Right. You had perfect posture to do this
+
+654
+01:16:26.090 --> 01:16:26.720
+Meri Nova: Cool.
+
+655
+01:16:26.720 --> 01:16:27.230
+Melissa: Me!
+
+656
+01:16:28.670 --> 01:16:29.970
+Meri Nova: Alright. Thanks. Guys.
+
+657
+01:16:29.970 --> 01:16:30.720
+Dwayne Joseph: Good night, everyone.
+
+658
+01:16:30.720 --> 01:16:31.370
+Melissa: All right.
+
+659
+01:16:31.370 --> 01:16:31.899
+Hai: Good night, everybody!
+
+660
+01:16:31.900 --> 01:16:32.290
+Melissa: And
+
+661
+01:16:32.290 --> 01:16:33.329
+Dwayne Joseph: Alright. Thank you.
+

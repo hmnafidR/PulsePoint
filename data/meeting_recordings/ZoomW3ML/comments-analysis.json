@@ -1,0 +1,218 @@
+{
+  "meeting_id": "GMT20250325-000008",
+  "total_comments": 42,
+  "reply_threads": [
+    {
+      "id": "thread-1",
+      "root_message": {
+        "time": "00:17:30",
+        "author": "Frederick Z",
+        "content": "Here are a few of my tools. I wrote them myself (doesn't have to be an external API)."
+      },
+      "replies": [
+        {
+          "time": "00:18:45",
+          "author": "Autumn Hicks",
+          "content": "Nice!"
+        },
+        {
+          "time": "00:19:55",
+          "author": "Gil",
+          "content": "When are you writing that tutorial? 😉"
+        },
+        {
+          "time": "00:20:49",
+          "author": "Frederick Z",
+          "content": "I just followed this: https://python.langchain.com/docs/versions/migrating_memory/long_term_memory_agent/"
+        },
+        {
+          "time": "00:21:27",
+          "author": "Frederick Z",
+          "content": "It does not work well with open source models. 😞"
+        },
+        {
+          "time": "00:22:37",
+          "author": "Gil",
+          "content": "Why is that? (and thanks for the link!)"
+        },
+        {
+          "time": "00:24:36",
+          "author": "Frederick Z",
+          "content": "There are also these DeepLearning.ai short courses: https://learn.deeplearning.ai/courses/ai-agents-in-langgraph https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph"
+        },
+        {
+          "time": "00:25:26",
+          "author": "Frederick Z",
+          "content": "I think Hai just answered your question: open source models are not tuned for this."
+        },
+        {
+          "time": "00:25:36",
+          "author": "Oren",
+          "content": "@Frederick Z Featuring all the people that took the Andrew Ng classes before launching their own startups"
+        },
+        {
+          "time": "00:41:57",
+          "author": "Frederick Z",
+          "content": "I got notified just right now of a LinkedIn Learning course: https://www.linkedin.com/learning/agentic-ai-fundamentals-architectures-frameworks-and-applications"
+        },
+        {
+          "time": "00:46:09",
+          "author": "Meri Nova",
+          "content": "Fun fact, Linkedin Learning had approached me about creating this Agentic course. But I decided to run this bootcamp w Hai instead. 🙂"
+        },
+        {
+          "time": "00:46:44",
+          "author": "kelseydilullo",
+          "content": "@Meri Nova OMG so thankful"
+        }
+      ],
+      "sentiment": {
+        "overall": "positive",
+        "support_level": "high",
+        "problem_solving": "collaborative"
+      }
+    },
+    {
+      "id": "thread-2",
+      "root_message": {
+        "time": "01:17:38",
+        "author": "Autumn Hicks",
+        "content": "I found this tool for using multiple APIs for search functions: https://serpapi.com/ Might be helpful in someone else's project! I'm using it to search Yelp and Bing without needing separate APIs"
+      },
+      "replies": [
+        {
+          "time": "01:18:53",
+          "author": "Autumn Hicks",
+          "content": "This is the use for recipes: https://serpapi.com/bing-recipes-results"
+        },
+        {
+          "time": "01:19:25",
+          "author": "Oren",
+          "content": "@Autumn Hicks omg thanks!"
+        },
+        {
+          "time": "01:20:21",
+          "author": "Gil",
+          "content": "Awesome, thanks!"
+        },
+        {
+          "time": "01:21:19",
+          "author": "Meri Nova",
+          "content": "Thank you Autumn!!"
+        },
+        {
+          "time": "01:22:28",
+          "author": "Autumn Hicks",
+          "content": "Sure, I can add it to the chat on Circle if it's helpful 😃 There's a free tier (100 free searches per month)"
+        }
+      ],
+      "sentiment": {
+        "overall": "highly positive",
+        "enthusiasm": "high",
+        "resource_sharing": "constructive"
+      }
+    },
+    {
+      "id": "thread-3",
+      "root_message": {
+        "time": "01:43:17",
+        "author": "Frederick Z",
+        "content": "I'll wait for Wednesday's office hours to ask my questions. Hai needs rest."
+      },
+      "replies": [],
+      "sentiment": {
+        "overall": "considerate",
+        "empathy": "high",
+        "community_building": "positive"
+      }
+    },
+    {
+      "id": "thread-4",
+      "root_message": {
+        "time": "01:07:30",
+        "author": "Frederick Z",
+        "content": "Get that 💰💰💰"
+      },
+      "replies": [
+        {
+          "time": "01:08:16",
+          "author": "Gil",
+          "content": "Frederick knows!"
+        }
+      ],
+      "sentiment": {
+        "overall": "humorous",
+        "enthusiasm": "high",
+        "motivation": "positive"
+      }
+    },
+    {
+      "id": "thread-5",
+      "root_message": {
+        "time": "02:04:45",
+        "author": "Frederick Z",
+        "content": "If latency is greater than 30s, it's considered unacceptable for prod."
+      },
+      "replies": [],
+      "sentiment": {
+        "overall": "informative",
+        "expertise_sharing": "helpful",
+        "tone": "professional"
+      }
+    }
+  ],
+  "engagement_patterns": {
+    "most_active_commenters": [
+      {"name": "Frederick Z", "comment_count": 11},
+      {"name": "Autumn Hicks", "comment_count": 8},
+      {"name": "Gil", "comment_count": 5},
+      {"name": "Meri Nova", "comment_count": 3}
+    ],
+    "conversation_topics": [
+      {"topic": "Tool Implementation", "comment_count": 14, "sentiment": "positive"},
+      {"topic": "Resource Sharing", "comment_count": 12, "sentiment": "highly positive"},
+      {"topic": "Model Limitations", "comment_count": 4, "sentiment": "neutral"},
+      {"topic": "Project Monetization", "comment_count": 3, "sentiment": "humorous"},
+      {"topic": "Community Support", "comment_count": 5, "sentiment": "positive"}
+    ],
+    "reply_chains": {
+      "average_length": 5.2,
+      "longest_thread": "thread-1",
+      "most_discussed_message": "Here are a few of my tools. I wrote them myself (doesn't have to be an external API)."
+    }
+  },
+  "participation_stats": {
+    "peak_activity_period": "00:40:00-01:20:00",
+    "message_frequency": {
+      "first_hour": 24,
+      "second_hour": 16,
+      "final_section": 2
+    },
+    "active_vs_inactive": {
+      "active_participants": 12,
+      "lurkers": 5,
+      "participation_rate": 70.6
+    }
+  },
+  "sentiment_analysis": {
+    "overall_tone": "positive",
+    "primary_emotions": [
+      "enthusiasm",
+      "curiosity",
+      "appreciation",
+      "humor"
+    ],
+    "sentiment_by_topic": {
+      "resources": "highly positive",
+      "technical_challenges": "mixed",
+      "collaborations": "positive",
+      "monetization": "humorous"
+    },
+    "supportive_behavior": {
+      "resource_sharing": "high",
+      "question_answering": "medium",
+      "encouragement": "high",
+      "feedback": "medium"
+    }
+  }
+} 

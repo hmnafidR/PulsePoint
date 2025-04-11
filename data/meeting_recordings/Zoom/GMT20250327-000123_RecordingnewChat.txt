@@ -1,0 +1,243 @@
+00:06:54	Hai:	hat gang
+00:07:38	kelseydilullo:	So cool!! Love the loading screen when you clicked on the AI tools part
+00:10:40	Oren:	Reacted to "hat gang" with 🎩
+00:14:10	Oren:	One way to clean the project if necessary is to gitingest the entire thing to Gemini Pro 2.5 Experimental through AI Studio (with over 2 million tokens in context) and ask for help in avoiding clutter/redundancy with YAGNI/DRY. It’s gonna find duplicate functions, tell you which files to remove and how to better organize it.
+00:14:36	Kasia Swiech:	Reacted to "One way to clean the..." with 👍
+00:14:47	Autumn Hicks:	Reacted to "One way to clean the..." with 👍
+00:16:52	Meri Nova:	Reacted to "One way to clean the..." with 👍
+00:17:21	Autumn Hicks:	Replying to "One way to clean the..."
+
+Thanks!! Mine is a mess lol😂
+00:17:39	Autumn Hicks:	Reacted to "hat gang" with 🎩
+00:18:03	Oren:	Reacted to "Thanks!! Mine is a m..." with 😂
+00:18:06	Oren:	Replying to "One way to clean the..."
+
+@Autumn Hicks Happens to the best of us, especially with vibe coding!
+00:18:33	Gil:	Replying to "One way to clean the..."
+
+Do you know of any other AI tools for refactoring?
+00:18:36	Gil:	Reacted to "One way to clean the..." with 👍
+00:18:49	Frederick Z:	Reacted to "One way to clean t..." with 👍
+00:21:07	Frederick Z:	@Autumn Hicks Did you vibe code the landing page or use a template? I was planning on a very similar color theme.
+00:21:36	Hai:	https://www.youtube.com/watch?v=B3wLYDl2SmQ
+00:21:47	Gil:	Did anyone play with the new image generator from OpenAI? It’s so great for design that soon I’ll transition to become a farmer.
+00:21:59	Autumn Hicks:	Replying to "@Autumn Hicks Did yo..."
+
+I used v0 for front end - I can send you the code!
+00:22:15	Oren:	Replying to "One way to clean the..."
+
+@Gil Probably Cursor, Just ask Gemini to refactor your code and follow the orders
+The context is MASSIVE, so many things you can do with it
+00:22:23	Nur asiah maryam:	Replying to "Did anyone play with…"
+Yeah tried yesterday u can even create clean infographics now
+00:23:03	Gil:	Replying to "Did anyone play with..."
+
+Yeah, and it can handle/generate long strings and labels. It’s insane.
+00:23:33	Oren:	Replying to "One way to clean the..."
+
+pnpm install gitingest
+gitingest —exclude-pattern=‘*lock*’
+
+You’ll have a .txt file in your codebase, just drop it at AI Studio and ask it to do whatever you need
+00:23:45	Oren:	Reacted to "Did anyone play with..." with 😂
+00:24:07	Frederick Z:	Replying to "@Autumn Hicks Did ..."
+
+Okay, cool. 🙂 I'm gonna try vibing it at first; if I can't make any headway myself, I'll ping you for yours to use as a template. Thanks!
+00:24:19	Hai:	https://mermaid.js.org/
+00:24:28	Autumn Hicks:	Replying to "@Autumn Hicks Did yo..."
+
+For sure!
+00:24:44	Gil:	Reacted to "@Gil Probably Cursor..." with 🙏
+00:24:50	Gil:	Reacted to "pnpm install gitinge..." with 💡
+00:25:03	Oren:	Reacted to "https://mermaid.js.o..." with ❤️
+00:27:47	Autumn Hicks:	Replying to "One way to clean the..."
+
+Great tips - my project file structure looks like my 1000 browser tabs right now
+00:28:38	Oren:	Reacted to "Great tips - my proj..." with 😂
+00:30:32	kelseydilullo:	Reacted to "https://mermaid.js.o..." with ❤️
+00:30:46	asiah maryam:	Can someone reshare the youtube link hai shared earlier? I switch to another device and all the chats here gone 🙏
+00:31:10	Hai:	https://www.xda-developers.com/notebooklm-generate-mind-maps/
+00:31:10	Gil:	Oren is a VP at Google. Don’t fall for it.
+00:31:20	Oren:	Reacted to "Oren is a VP at Goog..." with 😂
+00:31:21	Hai:	Replying to "https://www.xda-deve..."
+
+another inspo for @kelseydilullo
+00:31:23	Tamilarasee S:	https://www.youtube.com/watch?v=B3wLYDl2SmQ
+00:31:33	kelseydilullo:	Reacted to "another inspo for @k..." with 👍
+00:31:46	Autumn Hicks:	Reacted to "Oren is a VP at Goog..." with 😂
+00:31:58	kelseydilullo:	Reacted to "Oren is a VP at Goog..." with 😂
+00:31:58	asiah maryam:	Reacted to "https://www.youtube.…" with ❤️
+00:32:43	Oren:	@Frederick Z https://aistudio.google.com/prompts/new_chat 
+Just pick Gemma 3 27B on the right sidebar, worth a shot and you don’t have to deploy it
+00:32:49	Frederick Z:	I see gemma3 is available on Ollama. I'm going to try it as my agent LLM.
+00:32:55	Frederick Z:	Reacted to "@Frederick Z https..." with 👍
+00:33:34	Oren:	Replying to "I see gemma3 is avai..."
+
+Yeah, but you don’t even have to Ollama it! Just take is as an API, it’s unlimited
+00:33:57	Frederick Z:	Reacted to "Yeah, but you don..." with 👍
+00:34:02	Autumn Hicks:	What about these native integrations for Vercel?
+00:34:03	Oren:	Replying to "Oren is a VP at Goog..."
+
+That’s what a VP would say
+00:34:19	Hai:	groq goes crazy ngl
+00:34:36	Gil:	Reacted to "That’s what a VP wou..." with 🤣
+00:34:37	Autumn Hicks:	Reacted to "groq goes crazy ngl" with 👍
+00:34:54	Meri Nova:	Here is my friend’s app I shared: https://www.chat.numan.ai/
+00:35:07	Meri Nova:	Reacted to "Native integrations.png" with 👍
+00:38:18	Oren:	Reacted to "Here is my friend’s ..." with ❤️
+00:40:07	Gil:	Reacted to "Here is my friend’s ..." with ❤️
+00:40:24	kelseydilullo:	Reacted to "Here is my friend’s ..." with ❤️
+00:40:51	Hai:	https://www.npmjs.com/package/psd
+00:48:12	Gil:	@Meri Nova I know you do this intentionally as a marketing tactic to create anticipation, but can you please add the password to the latest Vibe Coding recording? 😀
+00:48:32	Frederick Z:	Same here... I am very uncomfortable vibe coding in a language I don't know.
+00:48:49	Tamilarasee S:	Reacted to "Same here... I am ve..." with 👍
+00:49:16	Kasia Swiech:	Reacted to "@Meri Nova I know yo..." with 😄
+00:49:19	kelseydilullo:	Reacted to "Same here... I am ve..." with 👍
+00:49:37	Oren:	Reacted to "Same here... I am ve..." with 👍
+00:49:47	Oren:	Replying to "Same here... I am ve..."
+
+And breaking the shit out of it like 3 times a day
+00:50:14	Gil:	Replying to "Same here... I am ve..."
+
+3 times only? You’re a pro!
+00:50:39	Frederick Z:	Replying to "Same here... I am ..."
+
+And no idea how to fix (other than vibe debug) because you have no idea why it broke.
+00:51:23	kelseydilullo:	Reacted to "And no idea how to f..." with ❤️
+00:51:24	Frederick Z:	Overthinker right here!
+00:51:29	Tamilarasee S:	Reacted to "And no idea how to f..." with ❤️
+00:51:50	Oren:	Replying to "Same here... I am ve..."
+
+@Gil of course, I wouldn’t have made it to a VP at Google without my exquisite coding skills
+00:52:03	Gil:	Reacted to "@Gil of course, I wo..." with 🤣
+00:52:04	Tamilarasee S:	Replying to "Same here... I am ve..."
+
+That's true, I chose Python for that reason only. But I really do not want to miss out on Typescript, will watch all videos after Bootcamp I guess after learning a bit of basics
+00:52:33	kelseydilullo:	Have you guys noticed that when things are going well, it’s “the code” but when there is a bug, Cursor calls it “your code” 🤣 e.g. I’ll help you fix your code! thanks!
+00:52:34	Frederick Z:	Replying to "Same here... I am ..."
+
+Planning to do the exact same thing.
+00:52:44	Dwayne Joseph:	Reacted to "Have you guys notice..." with 😂
+00:52:48	Oren:	Replying to "Same here... I am ve..."
+
+@Tamilarasee S I briefly moved back to Python last week but I want the grind and practice, so I’m back at TypeScript. It’s a bootcamp!
+00:52:48	asiah maryam:	Reacted to "Have you guys notice…" with 😂
+00:52:51	Gil:	Reacted to "Have you guys notice..." with 🤣
+00:52:51	Frederick Z:	Reacted to "Have you guys noti..." with 😂
+00:52:57	Oren:	Reacted to "That's true, I chose..." with ❤️
+00:53:02	Praveena Suresh:	Reacted to "Have you guys notice..." with 😂
+00:53:06	Oren:	Reacted to "Have you guys notice..." with 😂
+00:53:06	Kasia Swiech:	Replying to "Same here... I am ve..."
+
+welcome python team xD
+00:53:26	Frederick Z:	Reacted to "welcome python tea..." with 🐍
+00:53:44	Oren:	Replying to "Have you guys notice..."
+
+Copilot wasn’t that much of a gaslighter
+00:53:49	Gil:	Replying to "Have you guys notice..."
+
+It’s like having a real relationship!
+00:53:51	Tamilarasee S:	Replying to "Same here... I am ve..."
+
+@Frederick Z, for debugging, I would suggest, don't ask cursor to debug ..tell it straight away don't solve it for me....but I think here is the problem, we will check that..also ask it to give you hints to think like a debugger...just learn debugging with llm
+00:53:54	Oren:	Reacted to "It’s like having a r..." with 😂
+00:53:54	kelseydilullo:	Reacted to "It’s like having a r..." with 🤣
+00:54:13	Frederick Z:	Reacted to "@Frederick Z, for ..." with 👍
+00:54:14	Tamilarasee S:	Reacted to "Have you guys notice..." with 🤣
+00:55:21	asiah maryam:	U are not wasting time, u are getting over urself, Hai 2025. 
+
+Gonna paste this on my wall
+00:55:38	Frederick Z:	Replying to "@Frederick Z https..."
+
+Do you have an embedding model you can recommend that goes well with Gemma?
+00:55:41	Gil:	Replying to "Overthinker right he..."
+
+I over-overthink. It’s like Inception-thinking.
+00:56:14	kelseydilullo:	Reacted to "U are not wasting ti..." with 👍
+00:56:29	Frederick Z:	It may not solve everything, but there is almost no problem that can be made worse by stepping away from the keyboard and going for a walk.
+00:56:38	Frederick Z:	Reacted to "I over-overthink. ..." with 😂
+00:56:48	Frederick Z:	Reacted to "U are not wasting ..." with 👍
+00:56:51	Hai:	Reacted to "Have you guys notice..." with 😂
+00:56:52	Hai:	Reacted to "Have you guys notice..." with 🤣
+00:56:57	Oren:	Yeah, sharing it is the best part. Every time I’m telling my friends about the project, I’m getting a big boost
+00:57:16	Autumn Hicks:	Reacted to "U are not wasting ti..." with 👍
+00:57:33	kelseydilullo:	Reacted to "It may not solve eve..." with 👍
+00:57:48	kelseydilullo:	Reacted to "Yeah, sharing it is ..." with ❤️
+00:57:55	Meri Nova:	Reacted to "Yeah, sharing it is ..." with ❤️
+00:57:58	Meri Nova:	Reacted to "It may not solve eve..." with 👍
+00:58:05	Tamilarasee S:	Reacted to "Yeah, sharing it is ..." with ❤️
+00:58:08	Autumn Hicks:	Reacted to "It’s like having a r..." with 🤣
+00:58:09	Autumn Hicks:	Reacted to "Have you guys notice..." with 🤣
+00:58:15	Gil:	So, it is okay to cry in a fetal position when debugging? Asking for a friend.
+00:58:31	Meri Nova:	Reacted to "U are not wasting ti..." with 👍
+00:58:35	Gil:	Reacted to "Yeah, sharing it is ..." with ❤️
+00:58:41	kelseydilullo:	This is definitely therapeutic…. Weds Q&A and Vent Sesh.
+00:59:15	Oren:	It’s a grind, but it’s supposed to be a grind! They called it a bootcamp for a reason
+00:59:37	Meri Nova:	Reacted to "This is definitely t..." with 😄
+00:59:40	Meri Nova:	Reacted to "This is definitely t..." with ❤️
+00:59:44	Meri Nova:	Reacted to "So, it is okay to cr..." with 😄
+00:59:50	Autumn Hicks:	Reacted to "So, it is okay to cr..." with 😄
+00:59:56	Oren:	Reacted to "This is definitely t..." with ❤️
+01:00:01	Gil:	Reacted to "This is definitely t..." with ❤️
+01:00:25	Gil:	Reacted to "It’s a grind, but it..." with 🫡
+01:00:33	kelseydilullo:	Reacted to "It’s a grind, but it..." with 👍
+01:01:04	kelseydilullo:	Reacted to "So, it is okay to cr..." with 😄
+01:02:38	Frederick Z:	As I'm planning to vibe code my UI, by this Friday, I'll be happy to show something that will surely look like Sloth from The Goonies.
+01:02:44	kelseydilullo:	Reacted to "It’s a grind, but it..." with 🫡
+01:02:50	Ekta:	Reacted to "As I'm planning to v..." with 😅
+01:02:59	Ekta:	Reacted to "This is definitely t..." with ❤️
+01:03:10	Gil:	Reacted to "As I'm planning to v..." with 🤣
+01:03:15	Meri Nova:	Reacted to "As I'm planning to v..." with 🤣
+01:04:02	Oren:	Reacted to "As I'm planning to v..." with 🤣
+01:04:08	Gil:	@Melissa You are a ninja!
+01:04:31	Melissa:	Reacted to "@Melissa You are a n..." with 🥷
+01:05:44	Oren:	Reacted to "@Melissa You are a n..." with 🥷
+01:05:49	Meri Nova:	Reacted to "@Meri Nova I know yo..." with 😄
+01:07:26	Oren:	I hope I’ll make it by week 5 but I’m planning to incorporate  flowchart breakdown to the recipes in my app, it might look like this (my favorite Hummus-related recipe)
+01:08:28	Frederick Z:	Reacted to "I hope I’ll make ..." with 👍
+01:08:57	Autumn Hicks:	Suggestion for vibe coding.. I almost always add documentation for Cursor to reference. For example I would prompt Cursor to "Implement this feature __ using this documentation: <url>"
+01:08:59	Meri Nova:	Replying to "@Meri Nova I know yo..."
+
+vuahah.. no it’s my zapper automation. Then I remember to put it after someone pings me 😅
+01:09:04	Meri Nova:	Reacted to "I hope I’ll make it ..." with 👍
+01:09:09	Frederick Z:	Reacted to "Suggestion for vib..." with 👍
+01:09:16	Dwayne Joseph:	Reacted to "Suggestion for vibe ..." with ❗
+01:09:17	Oren:	Reacted to "Suggestion for vibe ..." with 👍
+01:09:25	Kasia Swiech:	Reacted to "Suggestion for vibe ..." with ❤️
+01:09:29	Gil:	Reacted to "Suggestion for vibe ..." with 👍
+01:09:31	Ekta:	Will we stick to 12pm vibe coding moving forward?
+01:09:45	asiah maryam:	Reacted to "Suggestion for vibe …" with 👍
+01:09:47	Meri Nova:	Reacted to "Suggestion for vibe ..." with 👍
+01:09:48	Oren:	Replying to "Suggestion for vibe ..."
+
+That’s the best way to do it, really
+01:09:49	Ekta:	12pmcst sorry
+01:10:12	Meri Nova:	Replying to "Suggestion for vibe ..."
+
+True, there is a way to add a list of docs in the context window
+01:10:14	Oren:	Replying to "Suggestion for vibe ..."
+
+Cursor gets some grounding and turns less delulu
+01:10:16	Tamilarasee S:	Reacted to "Suggestion for vibe ..." with ❤️
+01:10:21	Melissa:	Reacted to "Suggestion for vibe ..." with ❤️
+01:10:25	Gil:	Replying to "@Meri Nova I know yo..."
+
+Riiiiiiiiight 😉🤣
+01:10:53	Gil:	Autumn is Oren’s boss at Google.
+01:11:37	Autumn Hicks:	Reacted to "Autumn is Oren’s bos..." with 😂
+01:11:54	Oren:	Replying to "Autumn is Oren’s bos..."
+
+Not just at Google
+01:12:01	Gil:	Reacted to "Not just at Google" with 🤣
+01:12:33	Melissa:	Reacted to "Autumn is Oren’s bos..." with 😂
+01:12:54	Frederick Z:	That's some 10x fake-it-until-you-make-it ish!
+01:13:03	Autumn Hicks:	Reacted to "That's some 10x fake..." with ❤️
+01:13:05	Tamilarasee S:	Reacted to "That's some 10x fake..." with ❤️
+01:13:21	Gil:	I can help with design, or teaching 5 years olds.
+01:13:27	Praveena Suresh:	Reacted to "That's some 10x fake..." with ❤️
+01:13:29	Gil:	Reacted to "That's some 10x fake..." with ❤️
+01:13:35	Autumn Hicks:	Reacted to "Not just at Google" with 🤣
+01:14:04	Kasia Swiech:	so far I've just been vibe coding but now I realise I need to read documentation more, not to blindly trust cursor...
+01:14:07	Praveena Suresh:	Reacted to "I can help with desi..." with 😂
+01:14:41	Autumn Hicks:	I'm in!
+01:14:50	Oren:	I’m 90% in

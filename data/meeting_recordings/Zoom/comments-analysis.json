@@ -1,0 +1,265 @@
+{
+  "meeting_id": "GMT20250327-000123",
+  "total_comments": 55,
+  "reply_threads": [
+    {
+      "id": "thread-1",
+      "root_message": {
+        "time": "00:14:10",
+        "author": "Oren",
+        "content": "One way to clean the project if necessary is to gitingest the entire thing to Gemini Pro 2.5 Experimental through AI Studio (with over 2 million tokens in context) and ask for help in avoiding clutter/redundancy with YAGNI/DRY. It's gonna find duplicate functions, tell you which files to remove and how to better organize it."
+      },
+      "replies": [
+        {
+          "time": "00:17:21",
+          "author": "Autumn Hicks",
+          "content": "Thanks!! Mine is a mess lol😂"
+        },
+        {
+          "time": "00:18:06",
+          "author": "Oren",
+          "content": "@Autumn Hicks Happens to the best of us, especially with vibe coding!"
+        },
+        {
+          "time": "00:18:33",
+          "author": "Gil",
+          "content": "Do you know of any other AI tools for refactoring?"
+        },
+        {
+          "time": "00:22:15",
+          "author": "Oren",
+          "content": "@Gil Probably Cursor, Just ask Gemini to refactor your code and follow the orders. The context is MASSIVE, so many things you can do with it"
+        },
+        {
+          "time": "00:23:33",
+          "author": "Oren",
+          "content": "pnpm install gitingest\ngitingest —exclude-pattern='*lock*'\n\nYou'll have a .txt file in your codebase, just drop it at AI Studio and ask it to do whatever you need"
+        },
+        {
+          "time": "00:27:47",
+          "author": "Autumn Hicks",
+          "content": "Great tips - my project file structure looks like my 1000 browser tabs right now"
+        }
+      ],
+      "sentiment": {
+        "overall": "positive",
+        "support_level": "high",
+        "problem_solving": "collaborative"
+      }
+    },
+    {
+      "id": "thread-2",
+      "root_message": {
+        "time": "00:21:07",
+        "author": "Frederick Z",
+        "content": "@Autumn Hicks Did you vibe code the landing page or use a template? I was planning on a very similar color theme."
+      },
+      "replies": [
+        {
+          "time": "00:21:59",
+          "author": "Autumn Hicks",
+          "content": "I used v0 for front end - I can send you the code!"
+        },
+        {
+          "time": "00:24:07",
+          "author": "Frederick Z",
+          "content": "Okay, cool. 🙂 I'm gonna try vibing it at first; if I can't make any headway myself, I'll ping you for yours to use as a template. Thanks!"
+        },
+        {
+          "time": "00:24:28",
+          "author": "Autumn Hicks",
+          "content": "For sure!"
+        }
+      ],
+      "sentiment": {
+        "overall": "positive",
+        "support_level": "high",
+        "problem_solving": "cooperative"
+      }
+    },
+    {
+      "id": "thread-3",
+      "root_message": {
+        "time": "00:21:47",
+        "author": "Gil",
+        "content": "Did anyone play with the new image generator from OpenAI? It's so great for design that soon I'll transition to become a farmer."
+      },
+      "replies": [
+        {
+          "time": "00:22:23",
+          "author": "Nur asiah maryam",
+          "content": "Yeah tried yesterday u can even create clean infographics now"
+        },
+        {
+          "time": "00:23:03",
+          "author": "Gil",
+          "content": "Yeah, and it can handle/generate long strings and labels. It's insane."
+        }
+      ],
+      "sentiment": {
+        "overall": "positive",
+        "enthusiasm": "high",
+        "technology_reception": "impressed"
+      }
+    },
+    {
+      "id": "thread-4",
+      "root_message": {
+        "time": "00:31:10",
+        "author": "Gil",
+        "content": "Oren is a VP at Google. Don't fall for it."
+      },
+      "replies": [
+        {
+          "time": "00:34:03",
+          "author": "Oren",
+          "content": "That's what a VP would say"
+        }
+      ],
+      "sentiment": {
+        "overall": "humorous",
+        "inside_joke": "high",
+        "community_building": "positive"
+      }
+    },
+    {
+      "id": "thread-5",
+      "root_message": {
+        "time": "00:48:12",
+        "author": "Gil",
+        "content": "@Meri Nova I know you do this intentionally as a marketing tactic to create anticipation, but can you please add the password to the latest Vibe Coding recording? 😀"
+      },
+      "replies": [
+        {
+          "time": "01:08:59",
+          "author": "Meri Nova",
+          "content": "vuahah.. no it's my zapper automation. Then I remember to put it after someone pings me 😅"
+        },
+        {
+          "time": "01:10:25",
+          "author": "Gil",
+          "content": "Riiiiiiiiight 😉🤣"
+        }
+      ],
+      "sentiment": {
+        "overall": "humorous",
+        "patience": "low",
+        "community_relationship": "good-natured teasing"
+      }
+    },
+    {
+      "id": "thread-6",
+      "root_message": {
+        "time": "00:48:32",
+        "author": "Frederick Z",
+        "content": "Same here... I am very uncomfortable vibe coding in a language I don't know."
+      },
+      "replies": [
+        {
+          "time": "00:49:47",
+          "author": "Oren",
+          "content": "And breaking the shit out of it like 3 times a day"
+        },
+        {
+          "time": "00:50:14",
+          "author": "Gil",
+          "content": "3 times only? You're a pro!"
+        },
+        {
+          "time": "00:50:39",
+          "author": "Frederick Z",
+          "content": "And no idea how to fix (other than vibe debug) because you have no idea why it broke."
+        },
+        {
+          "time": "00:52:04",
+          "author": "Tamilarasee S",
+          "content": "That's true, I chose Python for that reason only. But I really do not want to miss out on Typescript, will watch all videos after Bootcamp I guess after learning a bit of basics"
+        },
+        {
+          "time": "00:52:33",
+          "author": "Frederick Z",
+          "content": "Planning to do the exact same thing."
+        },
+        {
+          "time": "00:52:48",
+          "author": "Oren",
+          "content": "@Tamilarasee S I briefly moved back to Python last week but I want the grind and practice, so I'm back at TypeScript. It's a bootcamp!"
+        },
+        {
+          "time": "00:53:06",
+          "author": "Kasia Swiech",
+          "content": "welcome python team xD"
+        },
+        {
+          "time": "00:53:51",
+          "author": "Tamilarasee S",
+          "content": "@Frederick Z, for debugging, I would suggest, don't ask cursor to debug ..tell it straight away don't solve it for me....but I think here is the problem, we will check that..also ask it to give you hints to think like a debugger...just learn debugging with llm"
+        }
+      ],
+      "sentiment": {
+        "overall": "supportive",
+        "frustration_level": "medium",
+        "shared_experience": "high",
+        "humor_coping": "strong"
+      }
+    },
+    {
+      "id": "thread-7",
+      "root_message": {
+        "time": "00:52:33",
+        "author": "kelseydilullo",
+        "content": "Have you guys noticed that when things are going well, it's \"the code\" but when there is a bug, Cursor calls it \"your code\" 🤣 e.g. I'll help you fix your code! thanks!"
+      },
+      "replies": [
+        {
+          "time": "00:53:44",
+          "author": "Oren",
+          "content": "Copilot wasn't that much of a gaslighter"
+        },
+        {
+          "time": "00:53:49",
+          "author": "Gil",
+          "content": "It's like having a real relationship!"
+        }
+      ],
+      "sentiment": {
+        "overall": "humorous",
+        "insight_level": "high",
+        "shared_experience": "strong",
+        "frustration_outlet": "positive"
+      }
+    }
+  ],
+  "engagement_patterns": {
+    "most_active_commenters": [
+      {"name": "Oren", "comment_count": 11},
+      {"name": "Frederick Z", "comment_count": 10},
+      {"name": "Autumn Hicks", "comment_count": 8},
+      {"name": "Gil", "comment_count": 8}
+    ],
+    "conversation_topics": [
+      {"topic": "AI Tools", "comment_count": 18, "sentiment": "positive"},
+      {"topic": "Debugging", "comment_count": 10, "sentiment": "mixed"},
+      {"topic": "Project Organization", "comment_count": 8, "sentiment": "concerned"},
+      {"topic": "Vibe Coding", "comment_count": 12, "sentiment": "mixed"},
+      {"topic": "Humor and Camaraderie", "comment_count": 7, "sentiment": "positive"}
+    ],
+    "reply_chains": {
+      "average_length": 3.85,
+      "longest_thread": "thread-6",
+      "most_discussed_message": "Same here... I am very uncomfortable vibe coding in a language I don't know."
+    }
+  },
+  "sentiment_analysis": {
+    "overall_tone": "positive",
+    "primary_emotions": ["humor", "support", "curiosity", "mild frustration", "determination"],
+    "tone_distribution": {
+      "positive": 65,
+      "neutral": 25,
+      "negative": 10
+    },
+    "humor_frequency": "high",
+    "support_indicators": "frequent",
+    "knowledge_sharing": "very high"
+  }
+} 

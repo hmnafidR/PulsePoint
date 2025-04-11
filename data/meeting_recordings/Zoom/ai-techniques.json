@@ -1,0 +1,155 @@
+{
+  "meeting_id": "GMT20250327-000123",
+  "ai_techniques": [
+    {
+      "name": "Gitingest with Gemini Pro 2.5",
+      "described_by": "Oren",
+      "description": "A technique to analyze an entire codebase by using gitingest to extract code and feeding it to Gemini Pro 2.5's large context window (2M+ tokens). The AI can then identify duplicate functions, suggest code to remove, and provide organizational improvements.",
+      "command": "pnpm install gitingest\ngitingest —exclude-pattern='*lock*'",
+      "use_case": "Code organization and refactoring",
+      "platform": "Google AI Studio"
+    },
+    {
+      "name": "Documentation-Enhanced Prompting",
+      "described_by": "Autumn Hicks",
+      "description": "Adding documentation URLs or references when prompting AI tools to ground the model with specific context, which improves the relevance and accuracy of responses.",
+      "example": "Implement this feature [feature name] using this documentation: [URL]",
+      "use_case": "More reliable code generation with specific constraints",
+      "platform": "Cursor"
+    },
+    {
+      "name": "Repeated Instructions in System Prompts",
+      "described_by": "Frederick Z",
+      "description": "Repeating key instructions multiple times in the system prompt to increase the likelihood that the AI will follow those instructions, especially for tool use.",
+      "use_case": "Improving AI adherence to specific behaviors",
+      "platform": "Various LLMs"
+    },
+    {
+      "name": "Guided Debugging",
+      "described_by": "Tamilarasee S",
+      "description": "A technique where you explicitly tell the AI not to solve debugging problems directly, but instead to provide hints and guide you through the debugging process.",
+      "example": "Don't solve it for me, but I think here is the problem. Let's check that. Give me hints to think like a debugger.",
+      "use_case": "Learning debugging skills while using AI assistance",
+      "platform": "Cursor"
+    },
+    {
+      "name": "V0 for Front End Development",
+      "described_by": "Autumn Hicks",
+      "description": "Using v0 (a tool from Vercel) to rapidly build frontend interfaces",
+      "use_case": "Front-end development and UI creation",
+      "platform": "Vercel v0"
+    },
+    {
+      "name": "Mermaid.js Integration",
+      "described_by": "Hai",
+      "description": "Using Mermaid.js for creating diagrams and visualizations from text-based definitions",
+      "resource": "https://mermaid.js.org/",
+      "use_case": "Creating visualizations and diagrams for projects",
+      "platform": "Web/JavaScript"
+    },
+    {
+      "name": "Multi-API Integration with AI",
+      "described_by": "Autumn Hicks",
+      "description": "Combining multiple APIs (web search, Yelp API, Bing API) with AI agents using AI SDK to create a comprehensive search and processing pipeline",
+      "use_case": "Building sophisticated search tools with multiple data sources",
+      "platform": "AI SDK"
+    },
+    {
+      "name": "Vibe Coding",
+      "described_by": "Multiple participants",
+      "description": "A coding approach where developers rely heavily on AI tools to generate code for languages or frameworks they're not familiar with, 'vibing' with the AI to achieve results",
+      "challenges": [
+        "Difficulty debugging unfamiliar code",
+        "Breaking code frequently",
+        "Limited understanding of underlying principles"
+      ],
+      "use_case": "Rapid prototyping and learning new technologies",
+      "platform": "Various AI coding assistants"
+    },
+    {
+      "name": "NotebookLM for Mind Maps",
+      "described_by": "Hai",
+      "description": "Using NotebookLM to generate mind maps for organizing ideas and concepts",
+      "resource": "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+      "use_case": "Project planning and organization",
+      "platform": "Google NotebookLM"
+    },
+    {
+      "name": "Gemma 3 Model Access",
+      "described_by": "Oren",
+      "description": "Using Google AI Studio to access Gemma 3 27B models without need for local deployment",
+      "resource": "https://aistudio.google.com/prompts/new_chat",
+      "use_case": "Advanced language model capabilities without local hardware requirements",
+      "platform": "Google AI Studio"
+    }
+  ],
+  "challenges_discussed": [
+    {
+      "challenge": "Code Organization",
+      "description": "Managing growing codebases with many files and features",
+      "solutions_proposed": [
+        "Using gitingest with Gemini Pro 2.5 for analysis",
+        "AI-assisted refactoring to identify redundancies"
+      ]
+    },
+    {
+      "challenge": "Debugging Unfamiliar Code",
+      "description": "Difficulty debugging code in languages participants weren't familiar with",
+      "solutions_proposed": [
+        "Guided debugging with LLMs rather than direct solutions",
+        "Learning debugging techniques with AI assistance",
+        "Taking breaks and stepping away from the keyboard"
+      ]
+    },
+    {
+      "challenge": "AI Tool Reliability",
+      "description": "AI tools not consistently following instructions or behaving as expected",
+      "solutions_proposed": [
+        "Repeated instructions in system prompts",
+        "Using documentation to ground AI responses",
+        "Being more specific in requests to the AI"
+      ]
+    },
+    {
+      "challenge": "Learning While Building",
+      "description": "Balancing rapid development using AI with actually learning the underlying technologies",
+      "solutions_proposed": [
+        "Using AI as a guide rather than a solution provider",
+        "Planning to revisit basics after completing projects",
+        "Asking the AI to explain its code"
+      ]
+    }
+  ],
+  "resource_links": [
+    {
+      "url": "https://mermaid.js.org/",
+      "description": "Tool for creating diagrams and visualizations using text definitions",
+      "recommended_by": "Hai"
+    },
+    {
+      "url": "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+      "description": "Article about NotebookLM for generating mind maps",
+      "recommended_by": "Hai"
+    },
+    {
+      "url": "https://aistudio.google.com/prompts/new_chat",
+      "description": "Google AI Studio for accessing large language models like Gemma 3",
+      "recommended_by": "Oren"
+    },
+    {
+      "url": "https://www.chat.numan.ai/",
+      "description": "AI chat application shared as an example project",
+      "recommended_by": "Meri Nova"
+    },
+    {
+      "url": "https://www.npmjs.com/package/psd",
+      "description": "NPM package for working with PSD files",
+      "recommended_by": "Hai"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+      "description": "YouTube video resource",
+      "recommended_by": "Hai"
+    }
+  ]
+} 

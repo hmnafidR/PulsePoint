@@ -1,0 +1,148 @@
+{
+  "meeting_id": "GMT20250325-000008",
+  "ai_techniques": [
+    {
+      "name": "LangGraph for Agent Tools",
+      "described_by": "Frederick Z",
+      "description": "Using LangGraph with LangChain to implement agentic tools and workflows, particularly for creating long-term memory in conversational agents.",
+      "resources": [
+        "https://python.langchain.com/docs/versions/migrating_memory/long_term_memory_agent/",
+        "https://learn.deeplearning.ai/courses/ai-agents-in-langgraph",
+        "https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph"
+      ],
+      "use_case": "Creating conversational agents with persistent memory",
+      "platform": "LangChain/LangGraph"
+    },
+    {
+      "name": "SerpAPI for Unified Search",
+      "described_by": "Autumn Hicks",
+      "description": "Using SerpAPI to integrate multiple search sources (like Yelp and Bing) under a single API, reducing the complexity of implementing multiple separate APIs.",
+      "resources": [
+        "https://serpapi.com/",
+        "https://serpapi.com/bing-recipes-results"
+      ],
+      "use_case": "Unified search across multiple platforms",
+      "platform": "Web APIs"
+    },
+    {
+      "name": "Embedding-Based Research Paper Relevancy",
+      "described_by": "Ekta",
+      "description": "A technique to rank research papers by relevance using embeddings and LLM scoring without requiring vector databases, calculating mathematical similarity scores based on token embeddings.",
+      "use_case": "Research paper retrieval and ranking",
+      "platform": "LLM APIs (Claude, GPT)"
+    },
+    {
+      "name": "AI Schema Validation",
+      "described_by": "Hai",
+      "description": "Using Google AI Studio's new JSON schema validation feature to enforce structured output from language models, ensuring responses follow a specific format for easier integration with other systems.",
+      "use_case": "Reliable structured output generation for DSLs and APIs",
+      "platform": "Google AI Studio"
+    },
+    {
+      "name": "Open Source LLM Tool Calling",
+      "described_by": "Frederick Z",
+      "description": "Implementing function calling capabilities with open source models like Quinn, addressing challenges related to inconsistent behavior compared to proprietary models even at temperature zero.",
+      "challenges": [
+        "Stochastic behavior even at temperature zero",
+        "Inconsistent tool usage",
+        "Lack of specific fine-tuning for tool calling"
+      ],
+      "use_case": "Building agents with local open source models",
+      "platform": "Quinn/Local LLMs"
+    },
+    {
+      "name": "Few-Shot Prompting for Tool Use",
+      "described_by": "Hai",
+      "description": "Using few-shot examples to improve tool calling reliability with smaller open source models that may not be specifically tuned for function calling.",
+      "use_case": "Enhancing tool use reliability with open source models",
+      "platform": "Various open source LLMs"
+    },
+    {
+      "name": "FigJam for AI Project Planning",
+      "described_by": "Hai",
+      "description": "Using FigJam (a collaborative whiteboarding tool from Figma) for planning and wireframing AI applications and agent workflows.",
+      "resource": "https://www.figma.com/board/Xoo19tDsQ8gbW0lAndhfoo/Untitled?node-id=0-1&t=Eiqe54rPlNYXOdrI-1",
+      "use_case": "Collaborative AI project planning and visualization",
+      "platform": "Figma/FigJam"
+    },
+    {
+      "name": "Cross-API Research Tool",
+      "described_by": "Ekta",
+      "description": "Building a system that queries multiple academic APIs (like Semantic Scholar, PubMed) to cross-reference research papers, using tool calling to select appropriate sources based on the research domain.",
+      "use_case": "Comprehensive academic research across multiple sources",
+      "platform": "Multiple academic APIs with tool calling"
+    }
+  ],
+  "challenges_discussed": [
+    {
+      "challenge": "Open Source Model Reliability",
+      "description": "Open source models showing inconsistent behavior for tool calling even at temperature zero",
+      "solutions_proposed": [
+        "Few-shot prompting to guide the model",
+        "Careful function naming and documentation",
+        "Adjusting system prompts"
+      ]
+    },
+    {
+      "challenge": "Threading Issues with Multiple LLMs",
+      "description": "Unexpected threading behavior when combining multiple LLMs in the same application",
+      "solutions_proposed": [
+        "Better understanding of LangGraph's threading model",
+        "Isolating model functions and carefully managing state"
+      ]
+    },
+    {
+      "challenge": "TypeScript Learning Curve",
+      "description": "Several participants mentioned difficulty adapting to TypeScript when implementing AI projects",
+      "solutions_proposed": [
+        "Learning while building (vibe coding)",
+        "Focusing first on functionality then improving typing"
+      ]
+    },
+    {
+      "challenge": "Structured Output Generation",
+      "description": "Getting models to reliably produce structured outputs in specific formats",
+      "solutions_proposed": [
+        "Using AI Studio's JSON schema validation",
+        "Providing explicit templates in prompts"
+      ]
+    }
+  ],
+  "resource_links": [
+    {
+      "url": "https://serpapi.com/",
+      "description": "API that provides access to search results from multiple sources",
+      "recommended_by": "Autumn Hicks"
+    },
+    {
+      "url": "https://serpapi.com/bing-recipes-results",
+      "description": "Specific API endpoint for accessing recipe results from Bing",
+      "recommended_by": "Autumn Hicks"
+    },
+    {
+      "url": "https://python.langchain.com/docs/versions/migrating_memory/long_term_memory_agent/",
+      "description": "LangChain documentation for implementing long-term memory in agents",
+      "recommended_by": "Frederick Z"
+    },
+    {
+      "url": "https://learn.deeplearning.ai/courses/ai-agents-in-langgraph",
+      "description": "DeepLearning.ai course on AI agents in LangGraph",
+      "recommended_by": "Frederick Z"
+    },
+    {
+      "url": "https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph",
+      "description": "DeepLearning.ai course on long-term agentic memory with LangGraph",
+      "recommended_by": "Frederick Z"
+    },
+    {
+      "url": "https://www.linkedin.com/learning/agentic-ai-fundamentals-architectures-frameworks-and-applications",
+      "description": "LinkedIn Learning course on agentic AI fundamentals",
+      "recommended_by": "Frederick Z"
+    },
+    {
+      "url": "https://www.figma.com/board/Xoo19tDsQ8gbW0lAndhfoo/Untitled?node-id=0-1&t=Eiqe54rPlNYXOdrI-1",
+      "description": "FigJam board shared during the meeting",
+      "recommended_by": "Hai"
+    }
+  ]
+} 

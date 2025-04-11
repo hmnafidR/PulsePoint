@@ -59,7 +59,7 @@ Thumbs.db
 temp.*
 *.pdf
 *.log
-data/
+#data/
 transcripts/
 .cursor/
 
@@ -78,6 +78,8 @@ transcripts/
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+venv/
+
 
 # testing
 /coverage

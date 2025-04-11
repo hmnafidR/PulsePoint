@@ -1,0 +1,180 @@
+{
+  "meeting_id": "GMT20250325-000008",
+  "transcript_summary": {
+    "key_segments": [
+      {
+        "start_time": "00:00:02",
+        "end_time": "00:09:30",
+        "topic": "Introduction and Special Announcements",
+        "summary": "Hai and Meri Nova begin the session by highlighting 'builders of the week': Praveena and Kelsey, who demonstrated significant progress in their projects despite facing initial challenges. Praveena successfully implemented a login page and Kelsey completed her data set implementation.",
+        "key_speakers": ["Hai", "Meri Nova", "Praveena Suresh", "kelseydilullo"]
+      },
+      {
+        "start_time": "00:09:30",
+        "end_time": "00:25:00",
+        "topic": "FigJam Tool Demonstration and Agent Tools",
+        "summary": "Hai introduces FigJam as a collaborative diagramming and wireframing tool. Frederick Z shares his experience implementing tools for his AI agent using Langchain, discussing challenges with open-source models like Quinn for tool calling functionality.",
+        "key_speakers": ["Hai", "Frederick Z", "Gil", "Autumn Hicks"],
+        "key_insights": [
+          "Using FigJam for collaborative project planning",
+          "Challenges with open source LLMs for tool calling",
+          "Implementation of custom tools with Langchain"
+        ]
+      },
+      {
+        "start_time": "00:25:00",
+        "end_time": "00:45:00",
+        "topic": "Project Resources and AI API Integration",
+        "summary": "Participants share various resources including LinkedIn Learning courses, Langchain documentation, and DeepLearning.ai courses about AI agents. Frederick mentions that open source models aren't well-tuned for agentic tasks, and Meri reveals she was approached to create a LinkedIn Learning course on agentic AI.",
+        "key_speakers": ["Frederick Z", "Meri Nova", "Gil", "Hai"],
+        "key_insights": [
+          "Open source models require fine-tuning for agentic tasks",
+          "Educational resources available for learning about AI agents",
+          "Networking opportunities in the AI education space"
+        ]
+      },
+      {
+        "start_time": "00:45:00",
+        "end_time": "01:05:00",
+        "topic": "Tool Schemas and JSON Generation",
+        "summary": "Discussion about using structured output formats like JSON from AI models, with Hai demonstrating AI Studio's new JSON output format feature. Participants express excitement about this capability for creating reliable domain-specific languages and structured outputs.",
+        "key_speakers": ["Hai", "Gil", "Athira Praveen", "Oren"],
+        "key_insights": [
+          "JSON schema enforcement improves reliability of AI outputs",
+          "Google AI Studio offering new structured output capabilities",
+          "Importance of structured outputs for integration with other tools"
+        ]
+      },
+      {
+        "start_time": "01:05:00",
+        "end_time": "01:25:00",
+        "topic": "Project Suggestions and Resource Sharing",
+        "summary": "Autumn Hicks shares a helpful tool (SerpAPI) for using multiple search APIs without needing separate implementations. Several participants react positively and ask questions about implementation. Hai gives feedback on project monetization strategies.",
+        "key_speakers": ["Autumn Hicks", "Oren", "Gil", "Hai"],
+        "key_insights": [
+          "SerpAPI provides unified access to multiple search APIs",
+          "Free tier offering for API access (100 free searches)",
+          "Importance of considering monetization strategies early"
+        ],
+        "resources_shared": [
+          "https://serpapi.com/",
+          "https://serpapi.com/bing-recipes-results"
+        ]
+      },
+      {
+        "start_time": "01:25:00",
+        "end_time": "01:45:00",
+        "topic": "Project Demos and UI Design",
+        "summary": "Multiple participants share their screens to demonstrate their project progress, focusing on UI design and implementation challenges. Hai provides feedback and recommendations for improvement.",
+        "key_speakers": ["Hai", "Athira Praveen", "Frederick Z"],
+        "key_insights": [
+          "UI design principles for AI applications",
+          "Balancing functionality with user experience",
+          "Importance of clear visual feedback in AI interfaces"
+        ]
+      },
+      {
+        "start_time": "01:45:00",
+        "end_time": "02:05:00",
+        "topic": "Research Paper Analysis Project",
+        "summary": "Ekta discusses her project for analyzing research papers, explaining her approach to ranking paper relevance using embeddings and LLMs without using vector databases. She describes challenges with implementing the summary feature in TypeScript.",
+        "key_speakers": ["Ekta", "Hai"],
+        "key_insights": [
+          "Alternative approaches to relevancy ranking without vector databases",
+          "Model selection based on cost considerations (Claude vs GPT)",
+          "Cross-referencing multiple sources for comprehensive research"
+        ]
+      },
+      {
+        "start_time": "02:05:00",
+        "end_time": "02:14:19",
+        "topic": "Model Integration and Debugging Issues",
+        "summary": "Frederick Z discusses challenges with integrating multiple LLMs in his project, specifically issues with threading and stochastic behavior of open source models like Quinn even at temperature zero. Hai suggests using few-shot examples to improve performance.",
+        "key_speakers": ["Frederick Z", "Hai"],
+        "key_insights": [
+          "Threading issues when combining multiple models",
+          "Stochastic behavior of open source models",
+          "Few-shot prompting as a solution for smaller models"
+        ]
+      }
+    ],
+    "engagement_analysis": {
+      "most_active_speakers": [
+        {
+          "name": "Hai",
+          "speaking_time_percentage": 30,
+          "comment_count": 15
+        },
+        {
+          "name": "Frederick Z",
+          "speaking_time_percentage": 18,
+          "comment_count": 12
+        },
+        {
+          "name": "Ekta",
+          "speaking_time_percentage": 12,
+          "comment_count": 8
+        }
+      ],
+      "discussion_intensity": {
+        "introduction": "medium",
+        "project_tools": "high",
+        "debugging_discussion": "high",
+        "resource_sharing": "medium",
+        "project_demos": "high"
+      },
+      "sentiment_trends": {
+        "overall": "positive",
+        "challenges_discussion": "neutral",
+        "resource_sharing": "highly positive",
+        "tool_recommendations": "positive",
+        "debugging_frustrations": "mixed"
+      }
+    },
+    "key_takeaways": [
+      "Open source models require additional techniques like few-shot prompting to improve tool calling reliability",
+      "Using structured output formats (JSON schema) increases output reliability from AI models",
+      "SerpAPI provides a unified interface for multiple search sources, simplifying API integration",
+      "Attention to monetization and business models should be considered early in project development",
+      "FigJam is a useful tool for collaborative project planning and wireframing",
+      "Working with TypeScript for AI projects presents a learning curve but offers strong typing benefits"
+    ],
+    "shared_resources": [
+      {
+        "url": "https://serpapi.com/",
+        "description": "API that provides access to search results from multiple sources including Yelp and Bing",
+        "shared_by": "Autumn Hicks"
+      },
+      {
+        "url": "https://serpapi.com/bing-recipes-results",
+        "description": "Specific API endpoint for accessing recipe results from Bing",
+        "shared_by": "Autumn Hicks"
+      },
+      {
+        "url": "https://python.langchain.com/docs/versions/migrating_memory/long_term_memory_agent/",
+        "description": "Documentation for implementing long-term memory in Langchain agents",
+        "shared_by": "Frederick Z"
+      },
+      {
+        "url": "https://learn.deeplearning.ai/courses/ai-agents-in-langgraph",
+        "description": "DeepLearning.ai course on AI agents in Langgraph",
+        "shared_by": "Frederick Z"
+      },
+      {
+        "url": "https://learn.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph",
+        "description": "DeepLearning.ai course on long-term agentic memory with Langgraph",
+        "shared_by": "Frederick Z"
+      },
+      {
+        "url": "https://www.linkedin.com/learning/agentic-ai-fundamentals-architectures-frameworks-and-applications",
+        "description": "LinkedIn Learning course on agentic AI fundamentals",
+        "shared_by": "Frederick Z"
+      },
+      {
+        "url": "https://www.figma.com/board/Xoo19tDsQ8gbW0lAndhfoo/Untitled?node-id=0-1&t=Eiqe54rPlNYXOdrI-1",
+        "description": "FigJam board shared during the meeting",
+        "shared_by": "Hai"
+      }
+    ]
+  }
+} 

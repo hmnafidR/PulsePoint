@@ -1,0 +1,118 @@
+{
+  "id": "GMT20250325-000008",
+  "name": "W3ML Project Discussion",
+  "date": "2025-03-25T00:00:08",
+  "duration": "02:14:19",
+  "platform": "Zoom",
+  "participants": [
+    {
+      "id": "P1",
+      "name": "Hai",
+      "role": "Instructor/Host"
+    },
+    {
+      "id": "P2",
+      "name": "Meri Nova",
+      "role": "Instructor/Co-Host"
+    },
+    {
+      "id": "P3",
+      "name": "Matías Rebolledo",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P4",
+      "name": "Frederick Z",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P5",
+      "name": "Autumn Hicks",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P6",
+      "name": "Oren",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P7",
+      "name": "Gil",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P8",
+      "name": "Praveena Suresh",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P9",
+      "name": "kelseydilullo",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P10",
+      "name": "Kasia Swiech",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P11",
+      "name": "Dwayne Joseph",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P12",
+      "name": "Ekta",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P13",
+      "name": "Sagar",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P14",
+      "name": "Athira Praveen",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P15",
+      "name": "Nafid",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P16",
+      "name": "demetrios dolios",
+      "role": "Student/Participant"
+    },
+    {
+      "id": "P17",
+      "name": "Melissa",
+      "role": "Student/Participant"
+    }
+  ],
+  "topics": [
+    "Project Updates",
+    "Agentic Tools",
+    "Langchain Implementation",
+    "Figjam Tool Usage",
+    "Tool Calling Techniques",
+    "Research Paper Analysis",
+    "AI APIs Integration",
+    "Open Source Models",
+    "Debugging Challenges"
+  ],
+  "files": {
+    "audio": [
+      "GMT20250325-000008_Recording.cutfile.20250325053526279.m4a"
+    ],
+    "transcript": [
+      "GMT20250325-000008_Recording.cutfile.20250325053526279.transcript.vtt",
+      "GMT20250325-000008_Recording.cutfile.20250325053526279.cc.vtt"
+    ],
+    "chat": [
+      "GMT20250325-000008_RecordingnewChat.txt"
+    ]
+  },
+  "summary": "A W3ML project discussion session where participants shared updates on their AI projects, discussed tool implementation strategies, and troubleshooted challenges. There were discussions about AI APIs integration, using FigJam for wireframing, implementing Langchain for agentic capabilities, and optimizing tool calling with open source models. Several participants demonstrated their projects, shared helpful resources, and received feedback from instructors Hai and Meri Nova."
+} 

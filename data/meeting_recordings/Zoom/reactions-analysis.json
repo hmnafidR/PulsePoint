@@ -1,0 +1,167 @@
+{
+  "meeting_id": "GMT20250327-000123",
+  "total_reactions": 87,
+  "reaction_types": {
+    "👍 Thumbs Up": {
+      "count": 31,
+      "percentage": 35.6
+    },
+    "😂 Laugh": {
+      "count": 17,
+      "percentage": 19.5
+    },
+    "❤️ Heart": {
+      "count": 11,
+      "percentage": 12.6
+    },
+    "🤣 Laugh Hard": {
+      "count": 7,
+      "percentage": 8.0
+    },
+    "💡 Idea": {
+      "count": 3,
+      "percentage": 3.4
+    },
+    "🎩 Hat": {
+      "count": 2,
+      "percentage": 2.3
+    },
+    "😄 Smile": {
+      "count": 5,
+      "percentage": 5.7
+    },
+    "🥷 Ninja": {
+      "count": 2,
+      "percentage": 2.3
+    },
+    "🫡 Salute": {
+      "count": 2,
+      "percentage": 2.3
+    },
+    "🐍 Snake": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "🙏 Thank You": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "❗ Exclamation": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "😕 Confused": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "😅 Sweat Smile": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "🤔 Thinking": {
+      "count": 1,
+      "percentage": 1.1
+    },
+    "Other": {
+      "count": 1,
+      "percentage": 1.1
+    }
+  },
+  "reactions_by_participant": {
+    "Oren": {
+      "given": 12,
+      "received": 6
+    },
+    "Gil": {
+      "given": 10,
+      "received": 3
+    },
+    "Autumn Hicks": {
+      "given": 9,
+      "received": 1
+    },
+    "kelseydilullo": {
+      "given": 12,
+      "received": 2
+    },
+    "Frederick Z": {
+      "given": 9,
+      "received": 2
+    },
+    "Tamilarasee S": {
+      "given": 6,
+      "received": 0
+    },
+    "Meri Nova": {
+      "given": 8,
+      "received": 1
+    },
+    "Kasia Swiech": {
+      "given": 3,
+      "received": 0
+    },
+    "asiah maryam": {
+      "given": 4,
+      "received": 0
+    },
+    "Praveena Suresh": {
+      "given": 3,
+      "received": 0
+    },
+    "Melissa": {
+      "given": 2,
+      "received": 2
+    },
+    "Hai": {
+      "given": 3,
+      "received": 0
+    },
+    "Dwayne Joseph": {
+      "given": 2,
+      "received": 0
+    },
+    "Ekta": {
+      "given": 4,
+      "received": 0
+    }
+  },
+  "top_reacted_messages": [
+    {
+      "message": "One way to clean the project if necessary is to gitingest the entire thing to Gemini Pro 2.5 Experimental through AI Studio (with over 2 million tokens in context) and ask for help in avoiding clutter/redundancy with YAGNI/DRY. It's gonna find duplicate functions, tell you which files to remove and how to better organize it.",
+      "author": "Oren",
+      "reaction_count": 6,
+      "reactions": ["👍", "👍", "👍", "👍", "👍", "👍"]
+    },
+    {
+      "message": "Have you guys noticed that when things are going well, it's \"the code\" but when there is a bug, Cursor calls it \"your code\" 🤣 e.g. I'll help you fix your code! thanks!",
+      "author": "kelseydilullo",
+      "reaction_count": 10,
+      "reactions": ["😂", "😂", "🤣", "😂", "😂", "🤣", "😂", "🤣", "😂", "🤣"]
+    },
+    {
+      "message": "This is definitely therapeutic…. Weds Q&A and Vent Sesh.",
+      "author": "kelseydilullo",
+      "reaction_count": 5,
+      "reactions": ["😄", "❤️", "❤️", "❤️", "❤️"]
+    },
+    {
+      "message": "Suggestion for vibe coding.. I almost always add documentation for Cursor to reference. For example I would prompt Cursor to \"Implement this feature __ using this documentation: <url>\"",
+      "author": "Autumn Hicks",
+      "reaction_count": 9,
+      "reactions": ["👍", "👍", "❗", "👍", "👍", "❤️", "👍", "👍", "👍"]
+    }
+  ],
+  "reaction_trends": {
+    "most_used_reaction": "👍 Thumbs Up",
+    "most_reacted_topics": [
+      "AI Tools for Development",
+      "Debugging Tips",
+      "Vibe Coding"
+    ],
+    "reaction_density": {
+      "first_third": 28,
+      "middle_third": 31,
+      "last_third": 28
+    }
+  }
+} 
