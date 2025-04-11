@@ -1,68 +1,349 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PulsePoint - Meeting Sentiment Analysis Platform
 
-## Getting Started
+PulsePoint is an AI-powered platform designed to analyze meeting recordings from platforms like Zoom and Microsoft Teams, providing valuable insights into sentiment, engagement, topics, and more.
 
-First, run the development server:
+![PulsePoint Dashboard]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## What PulsePoint Does
+
+PulsePoint transforms your meeting recordings into actionable insights by:
+
+- Analyzing the sentiment of participants throughout the meeting
+- Tracking speaker participation and engagement levels
+- Identifying key topics discussed
+- Generating AI-powered summaries and action items
+- Visualizing meeting dynamics through interactive charts
+- Creating comprehensive PDF reports for sharing and review
+
+## Why PulsePoint Exists
+
+Meetings are essential for collaboration, but often lack proper documentation and follow-up. PulsePoint solves this by:
+
+- **Capturing valuable meeting content** that might otherwise be lost
+- **Identifying sentiment trends** to improve team dynamics
+- **Highlighting participation patterns** to ensure all voices are heard
+- **Extracting key topics and action items** for better accountability
+- **Providing objective metrics** for meeting effectiveness
+
+## Who PulsePoint Is For
+
+- **Team Leaders** who want to improve meeting effectiveness
+- **Project Managers** tracking action items and follow-ups
+- **HR Professionals** analyzing team dynamics and engagement
+- **Executives** seeking insights into organizational communication
+- **Individual Contributors** who want better meeting documentation
+
+## How PulsePoint Works
+
+1. **Upload Meeting Data**: Provide a transcript file (.vtt, .txt) or audio recording (.m4a)
+2. **AI Analysis Pipeline**: The system processes the input through multiple AI models
+3. **Dashboard Visualization**: View comprehensive insights in an intuitive dashboard
+4. **PDF Export**: Generate shareable, professional reports with all key insights
+
+### Data Flow
+
+```
+Input (Transcript/Audio) → FastAPI Backend → AI Models → Analysis Results → Next.js Frontend → Interactive Dashboard/PDF
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Transcription**: Converts audio to text if not already provided (using Whisper)
+- **Sentiment Analysis**: Analyzes emotional tone throughout the meeting
+- **Topic Modeling**: Identifies key discussion topics
+- **Speaker Recognition**: Tracks who spoke and for how long
+- **Engagement Metrics**: Measures overall participation and interaction
+- **AI Insights**: Generates summaries and action items using advanced language models
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+### Frontend
+- **Framework**: Next.js 14 (React)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI, Geist UI
+- **Charting**: Chart.js, React-ChartJS-2, Recharts
+- **PDF Generation**: @react-pdf/renderer
+- **Authentication**: NextAuth.js, Supabase Auth
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
+- **Framework**: FastAPI (Python)
+- **Database**: Supabase (PostgreSQL)
+- **Storage**: Supabase Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### AI Models
+- **Transcription**: OpenAI Whisper (self-hosted)
+- **Sentiment Analysis**: DistilBERT (HuggingFace Transformers)
+- **Topic Modeling**: Mistral 7B (via Ollama)
+- **Speaker Diarization**: Pyannote.audio
+- **Insights Generation**: Mistral 7B (via Ollama)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Other Tools
+- **File Processing**: webvtt-py, mutagen, ffmpeg-python
+- **PDF Generation**: ReportLab (server-side fallback)
+- **Versioning**: Custom implementation with Supabase
 
-## Deploy on Vercel
+## Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
+- Node.js (v16+)
+- Python (v3.9+)
+- FFmpeg (for audio processing)
+- Supabase account
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Frontend Setup
 
-## Client-side PDF Generation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd sentiment-analysis
+   ```
 
-The application now supports client-side PDF generation using the `@react-pdf/renderer` library. This feature provides:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- Perfectly matched styling with the UI dashboard
-- Accurate visualizations in the PDF output
-- Consistent rendering across different devices
-- Better control over the PDF content and layout
+3. Create a `.env.local` file with:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   NEXTAUTH_SECRET=your_nextauth_secret
+   NEXTAUTH_URL=http://localhost:3000
+   ```
 
-### How it works
+### Backend Setup
 
-1. When a user clicks "Download PDF" in the dashboard, the app sends a request to the `/api/pdf` endpoint
-2. The endpoint fetches the meeting analysis data from the backend
-3. It then uses `@react-pdf/renderer` to generate a PDF that matches the dashboard UI
-4. The PDF is streamed back to the browser for download
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
 
-### Implementation Details
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-- `src/components/pdf/MeetingPDF.tsx` - React component that defines the PDF layout and styling
-- `src/app/api/pdf/route.ts` - API route that handles the PDF generation request
-- Updated `handleDownloadPdf` function in `src/app/dashboard/page.tsx` to use the new endpoint
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   # Install Whisper separately
+   pip install git+https://github.com/openai/whisper.git
+   ```
 
-### Features
+4. Install and set up Ollama (for Mistral 7B):
+   ```bash
+   # On macOS/Linux
+   curl -fsSL https://ollama.com/install.sh | sh
+   # On Windows: Download from https://ollama.com
+   
+   # Pull the Mistral model
+   ollama pull mistral:7b-instruct
+   ```
 
-- Consistent styling with the dashboard UI
-- All metrics sections included (Sentiment, Participation, Speakers, Topics, etc.)
-- Progress bars and visualizations for key metrics
-- Proper handling of all data types including emojis for reactions
-- Automatic page breaks for lengthy reports
+5. Create a `.env` file in the backend directory:
+   ```
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_KEY=your_supabase_service_key
+   OLLAMA_URL=http://localhost:11434
+   ```
 
-This approach replaces the previous backend-based PDF generation to ensure visual consistency.
+### Database Setup
+
+1. Create the necessary tables in Supabase:
+   ```sql
+   -- Run the SQL from create_schema.sql in your Supabase SQL editor
+   ```
+
+### Running the Application
+
+1. Start the frontend development server:
+   ```bash
+   # From the root directory
+   npm run dev
+   ```
+
+2. Start the backend server:
+   ```bash
+   # From the backend directory
+   uvicorn main:app --reload --port 8000
+   ```
+
+3. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+## How to Use PulsePoint
+
+### 1. Analyzing a Meeting
+
+1. **Log in** to the application
+2. Navigate to the **Dashboard**
+3. Click **Analyze Meeting**
+4. **Upload** a meeting transcript (.vtt, .txt) or audio recording (.m4a)
+5. Wait for the analysis to complete (processing time depends on file size)
+6. View your analysis results in the interactive dashboard
+
+### 2. Exploring Insights
+
+The dashboard provides several sections:
+
+- **Metric Cards**: Quick overview of key metrics
+  - Overall Sentiment (positive/negative)
+  - Average Engagement
+  - Active Speaker
+  - Meeting Duration
+
+- **Sentiment Timeline**: How sentiment changed throughout the meeting
+
+- **Participation Statistics**: Who participated and how much
+
+- **Speaker Analysis**: Detailed breakdown of each speaker's time and sentiment
+
+- **Topic Analysis**: Key topics discussed with relevance percentages
+
+- **Action Items**: AI-generated list of tasks to follow up on
+
+### 3. Generating Reports
+
+1. From the dashboard, click **Download PDF**
+2. The system will generate a comprehensive report matching the dashboard layout
+3. Save the PDF to your device for sharing or archiving
+
+## Project Structure
+
+```
+/
+├── backend/                  # FastAPI backend code
+│   ├── api/                  # API routes
+│   ├── models/               # Pydantic models
+│   ├── services/             # Business logic, AI models
+│   │   ├── pdf_generator.py  # PDF generation
+│   │   ├── sentiment.py      # Sentiment analysis
+│   │   ├── transcription.py  # Whisper integration
+│   │   └── ...
+│   └── main.py               # FastAPI app entry point
+├── src/                      # Next.js frontend
+│   ├── app/                  # Pages and routes
+│   │   ├── dashboard/        # Analysis dashboard
+│   │   ├── api/              # API routes
+│   │   └── ...
+│   ├── components/           # Reusable UI components
+│   ├── utils/                # Helper functions
+│   └── types/                # TypeScript type definitions
+├── public/                   # Static assets
+│   └── analysis-data/        # Generated analysis files
+├── data/                     # Sample datasets
+└── scripts/                  # Utility scripts
+```
+
+## Deployment
+
+### Frontend Deployment
+
+The Next.js application can be deployed to Vercel:
+
+1. Connect your GitHub repository to Vercel
+2. Set the environment variables in the Vercel dashboard
+3. Deploy the application
+
+### Backend Deployment
+
+The FastAPI backend can be deployed to a service like Render, Railway, or a custom server:
+
+1. Build a Docker container:
+   ```dockerfile
+   FROM python:3.9-slim
+   WORKDIR /app
+   COPY requirements.txt .
+   RUN pip install -r requirements.txt
+   RUN pip install git+https://github.com/openai/whisper.git
+   COPY . .
+   CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+   ```
+
+2. Deploy to your preferred hosting provider with the necessary environment variables
+
+### Considerations
+- Ensure your server has sufficient CPU/RAM for running AI models
+- Configure appropriate storage for meeting recordings
+- Set up proper authentication and secure API access
+
+## Limitations & Considerations
+
+### Model Limitations
+- **Processing Time**: Large audio files may take longer to process
+- **Language Support**: Best results with English, but supports multiple languages
+- **Speaker Recognition**: May struggle with similar voices or overlapping speech
+- **Context Understanding**: May miss subtle context in technical discussions
+
+### Technical Considerations
+- **Storage Requirements**: Analysis files and transcripts can grow large over time
+- **Memory Usage**: AI models require significant RAM (8GB+ recommended)
+- **API Rate Limits**: Supabase has query limits on the free tier
+- **Zoom API Integration Costs**: Connecting to Zoom APIs for live meeting data may involve additional costs based on usage volume
+- **Recording Limitations**: Meeting recordings often don't capture complete data such as total participants, activity levels, and other meeting metadata
+
+## Future Enhancements
+
+- **Real-time Analysis**: Process meetings as they happen
+- **Integration with Meeting Platforms**: Direct Zoom/Teams integration
+- **Comparative Analysis**: Compare meeting metrics over time
+- **Custom AI Models**: Fine-tuned models for specific industries
+- **Team Insights**: Aggregate analytics across multiple meetings
+- **Multi-language Support**: Enhanced support for non-English meetings
+- **Meeting Archive System**: Create a centralized archive page where all analyzed meetings can be stored and easily accessed
+- **Question Analysis**: Analyze the sentiment behind questions asked during meetings to gauge participant concerns
+- **Question Categorization**: Use AI to categorize questions by topic, urgency, and relevance
+- **Speaker Coaching**: Provide feedback to presenters based on audience sentiment and engagement, with specific suggestions for improvement
+- **Model Fine-tuning**: Customize AI models to better capture nuanced sentiment and engagement levels specific to your organization
+- **Enhanced PDF Reports**: Improve PDF generation to perfectly mirror the web interface format, ensuring consistent reporting across all mediums
+
+## Versioning System
+
+The application uses a sophisticated versioning system for meeting analysis data:
+
+- Each meeting analysis has a version number starting at 1
+- When a meeting is re-analyzed, a new version is created
+- Previous versions are stored in a compact format for historical reference
+- The system allows generating PDF reports for any version of the analysis
+- Logical IDs (e.g., "zoom-dataset-1") provide human-readable references to meetings
+
+## PDF Generation System
+
+PulsePoint offers two methods for generating comprehensive PDF reports:
+
+1. **Client-side Generation** (Primary method):
+   - Uses `@react-pdf/renderer` in the browser
+   - Perfectly matches the dashboard UI styling
+   - Handles all data types including charts and emojis
+   - Automatically handles page breaks for long reports
+
+2. **Server-side Generation** (Fallback method):
+   - Uses ReportLab in the Python backend
+   - More reliable for complex datasets
+   - Optimized for server resources
+
+The PDF reports include:
+- Metric cards showing key statistics
+- Meeting summary
+- Sentiment timeline
+- Participation breakdown
+- Speaker analysis with speaking time and sentiment
+- Topic analysis with keywords
+- Action items for follow-up
+- AI-generated insights
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[License Information]
+
+---
+
+Built with 💖 by [Your Team/Name] 
