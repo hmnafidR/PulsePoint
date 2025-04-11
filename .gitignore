@@ -12,7 +12,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -109,3 +109,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#.md files
+DNU_Readme.txt
+OLD_README.md
+
+DNU_postcss.config.mjs
