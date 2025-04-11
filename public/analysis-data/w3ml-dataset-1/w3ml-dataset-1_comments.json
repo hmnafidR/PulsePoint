@@ -1,0 +1,228 @@
+[
+  {
+    "timestamp": "00:00:57",
+    "author": "Mat\u00edas Rebolledo",
+    "message": "Hi there!!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:03:25",
+    "author": "Mat\u00edas Rebolledo",
+    "message": "That great!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:07:03",
+    "author": "Autumn Hicks",
+    "message": "Yay Praveena!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:07:12",
+    "author": "Ekta",
+    "message": "Praveena so proud of you",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:07:25",
+    "author": "Autumn Hicks",
+    "message": "And Kelsey!!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:07:42",
+    "author": "Oren",
+    "message": "",
+    "reactions": [
+      "\ud83e\udee1"
+    ]
+  },
+  {
+    "timestamp": "00:07:56",
+    "author": "Praveena Suresh",
+    "message": "Thank you Meri! That\u2019s very kind of you! Thanks everyone.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:08:07",
+    "author": "Dwayne Joseph",
+    "message": "Congrats yall!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:08:54",
+    "author": "Praveena Suresh",
+    "message": "Congrats Kelsey!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:09:30",
+    "author": "Hai",
+    "message": "https://www.figma.com/board/Xoo19tDsQ8gbW0lAndhfoo/Untitled?node-id=0-1&t=Eiqe54rPlNYXOdrI-1",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:13:43",
+    "author": "Frederick Z",
+    "message": "I am using an open source LLM for my agent... and it is not fun!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:17:30",
+    "author": "Frederick Z",
+    "message": "Here are a few of my tools. I wrote them myself (doesn't have to be an external API).",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:49:58",
+    "author": "Gil",
+    "message": "This is exactly what I need for the model to spit out the DSL content in a standardized and reliable way for future integrations with other tools.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:50:36",
+    "author": "Athira Praveen",
+    "message": "This is what I was looking for ! Haha dint even know this existed.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:51:05",
+    "author": "Oren",
+    "message": "I was literally working with AI Studio without realizing it\u2019s right there.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:51:06",
+    "author": "Gil",
+    "message": "I\u2019m giving the model the JSON spec within a prompt template. Probably not a reliable approach.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:51:17",
+    "author": "Praveena Suresh",
+    "message": "Yes I tried Hai!",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:51:20",
+    "author": "Gil",
+    "message": "I did, pretty cool tool.",
+    "reactions": []
+  },
+  {
+    "timestamp": "00:55:16",
+    "author": "Sagar",
+    "message": "@Hai",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:03:14",
+    "author": "Ekta",
+    "message": "Thanks for asking",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:03:16",
+    "author": "Ekta",
+    "message": "Sagar",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:04:13",
+    "author": "Athira Praveen",
+    "message": "YES!!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:04:22",
+    "author": "Praveena Suresh",
+    "message": "Yes please",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:04:22",
+    "author": "Gil",
+    "message": "Let\u2019s go!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:05:49",
+    "author": "Gil",
+    "message": "There are also alternatives like Miro and Mural.",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:06:20",
+    "author": "Gil",
+    "message": "Make money!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:07:30",
+    "author": "Frederick Z",
+    "message": "Get that",
+    "reactions": [
+      "\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0"
+    ]
+  },
+  {
+    "timestamp": "01:17:38",
+    "author": "Autumn Hicks",
+    "message": "I found this tool for using multiple APIs for search functions: https://serpapi.com/                       Might be helpful in someone else's project! I'm using it to search Yelp and Bing without needing separate APIs",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:41:14",
+    "author": "Autumn Hicks",
+    "message": "I have to drop, thanks Hai!!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:41:18",
+    "author": "Athira Praveen",
+    "message": "YAYYY",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:41:40",
+    "author": "Athira Praveen",
+    "message": "Thanks again Hai!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:42:47",
+    "author": "Gil",
+    "message": "Agreed!",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:43:17",
+    "author": "Frederick Z",
+    "message": "I'll wait for Wednesday's office hours to ask my questions. Hai needs rest.",
+    "reactions": []
+  },
+  {
+    "timestamp": "01:43:46",
+    "author": "Gil",
+    "message": "Thanks, always fun!",
+    "reactions": []
+  },
+  {
+    "timestamp": "02:04:45",
+    "author": "Frederick Z",
+    "message": "If latency is greater than 30s, it's considered unacceptable for prod.",
+    "reactions": []
+  },
+  {
+    "timestamp": "02:11:32",
+    "author": "Ekta",
+    "message": "ok gott hop off",
+    "reactions": []
+  },
+  {
+    "timestamp": "02:14:19",
+    "author": "Gil",
+    "message": "Wow, that\u2019s a cool tip!",
+    "reactions": []
+  }
+]

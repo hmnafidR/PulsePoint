@@ -1,0 +1,29 @@
+{
+  "overall": 0.5625554569653949,
+  "timeline": [
+    {
+      "timestamp": 0.0,
+      "sentiment": 0.5781990521327014
+    },
+    {
+      "timestamp": 900.0,
+      "sentiment": 0.5827814569536424
+    },
+    {
+      "timestamp": 1800.0,
+      "sentiment": 0.4852941176470588
+    },
+    {
+      "timestamp": 2700.0,
+      "sentiment": 0.6174863387978142
+    },
+    {
+      "timestamp": 3600.0,
+      "sentiment": 0.5649717514124294
+    },
+    {
+      "timestamp": 4500.0,
+      "sentiment": 0.8780487804878049
+    }
+  ]
+}

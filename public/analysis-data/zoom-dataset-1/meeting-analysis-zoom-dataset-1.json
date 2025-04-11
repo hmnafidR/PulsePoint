@@ -1,0 +1,413 @@
+{
+  "meeting_id": "zoom-dataset-1",
+  "meeting_title": "Recording",
+  "date": "2025-03-27T00:01:23+00:00",
+  "platform": "Zoom",
+  "metadata": {
+    "source_file": "GMT20250327-000123_Recording.transcript.vtt",
+    "file_type": "vtt",
+    "engagement_score": 77.33333333333333
+  },
+  "transcript": "Meri Nova: Hello, guys. Meri Nova: I I love how I just actually talked with you earlier today, with both, with both of you, too. Meri Nova: What's up? Hi, Noor, I see. Yeah, I mean. Meri Nova: Hi, autumn Autumn Hicks: Thank you. Meri Nova: You know, the other day I was thinking, I'm gonna freaking, miss. You guys, we only have less than 3 weeks. But we already attached. I'm attached. Meri Nova: Hi, Hi, Tamil! Hi, Fred! Frederick Z: Hey! Hey! Meri Nova: Let me remind everyone in the chat that we started. Meri Nova: So Orin told me today that you guys cannot message each other. Meri Nova: Is that right? Autumn Hicks: Like in circle. Meri Nova: Yeah. Like, DM, each other. Autumn Hicks: Yeah, I've I've been able to. Yeah. Meri Nova: Oh, really Oren: I guess it depends on the initial, preferences, or whatever Meri Nova: Oh, my goodness! Oren: And then Kelsey couldn't. I think Meri Nova: Huh! That's it. But I do. You have like a way to change that Oren: Yeah, I, I was able to Meri Nova: Okay. Okay. Okay. Oren: I think not a lot of people know about this Meri Nova: Yeah, I was like, Oh, my, gosh, that's like complete opposite of what I wanted. Meri Nova: Great Meri Nova: alright, Hi says he's gonna be a few minutes late. But meanwhile share with each other and with me how? How it's been since the start of the week. How's it going with the tool use. Did you guys get to incorporate it, or maybe try out some sdks Frederick Z: Yeah, I think I got my tool used down. Heist advice about like like his advice about changing the system. Prompt. Where? Like you asked multiple times to to like use the tools. That really, that made a huge difference like I didn't even need to do anything. Fancy like a tinker with a tool function descriptions, or with a few shot prompting all I did was like repeat the request to use the tools at certain times, and that made a significant difference Meri Nova: So it actually worked for you this time. I remember you were saying Meri Nova: that it wasn't following the prompt. So you included in the system prompt in the tool, and where else in the main function, I guess Frederick Z: No, no, I think it was just the agent agent system prompt. I just repeated the the request. I didn't even know that that was the thing. But now I'm like I'm thinking about changing all my system prompts to to get it, to behave because you like like, you know, you know, when you when you put in the system prompt for for the agent or for the Llm. To either do something or not do something, and it doesn't Frederick Z: anyway. Because it has a mind of its own. Now, I'm thinking I'm rethinking about the like, Re repeated. Asks why I didn't even know that was the thing. So until I talked about it. So Frederick Z: yeah. Meri Nova: That's so cool. That's so cool. You should tell him now, when he joins that he'll be happy to hear that. Meri Nova: Yeah, but I was. Also, you know what guys, since everyone is making so much progress. And the only way to share what you guys are building, it's usually through the Demos. But I've been thinking, why don't we? Now that everyone is learning on their own? Meri Nova: And why don't we? 10 x our learning, and actually let you guys show what you built? What kind of like challenges that you face? And how did you overcome it? Because that's how we ultimately learn from each other, and I know, like the format on General Chat does not allow you that much. So I was hoping to use this time as well to just like, if you guys, if some of you guys are up for it just to show like, what is your project right now? Meri Nova: What? How's it going? What are you guys building what maybe wins you already got? That would be that would be really cool. Meri Nova: I think I texted you that autumn, because I know you're building a lot of cool things with web search. And I would like to hear from you guys, what are you learning from your experiments so far? Meri Nova: Who let me know. Whoever wants to start maybe share their screen and walk us through Meri Nova: anybody Autumn Hicks: Sure I I can go ahead and and show you guys if I can figure it out, hang on gonna share. Autumn Hicks: Okay, you can't judge me for my! How many tabs I have open Meri Nova: Owen. Autumn Hicks: Okay. Can you see my browser Meri Nova: I think we're waiting to. Okay. Cool now. Oh, my goodness. Autumn Hicks: Okay, I usually don't use this browser. It's just for like testing. So Autumn Hicks: actually. So I wanted to show you. Let's see, of course, when I show you guys, it's not gonna work this time. Okay, so here is the, this is what I was working on. The 1st 2 weeks is the lead search Autumn Hicks: so essentially when you add in the business name. And you know, business types of search, for it's using an AI agent with AI SDK, and it's going through like 3 different processes. So the web search function. And then I'm using a yelp, Api, and then Bing Api. So it's a lot, and I'm kind of tweaking it to see what the best solution is. But what I've been working on this week is going into these. Once the leads are found, you can actually, the user can save them. Autumn Hicks: And this is actually from the. And of course, it's kind of jumbled because I have a bunch of test leads in here. But this is from the super base database. Autumn Hicks: So these right here like, for just as an example. So these are actual like businesses. So then you can go up here and then start like the Aid research. And this is the second agent that I'm building right now. That's gonna actually use fire. Crawl to like, crawl the Urls for each of the leads. So it doesn't do anything right this second. But that's what I'm working on. And it's just setting up that Autumn Hicks: basically like crawling and then scraping for more information. So the next step in the process Meri Nova: Hmm! That is so cool Autumn Hicks: Yeah. Thanks. Meri Nova: Oh, my goodness! Autumn Hicks: How do I stop sharing? Hang on? Autumn Hicks: Sorry. Meri Nova: Oh, here we go. Stop! Share. Okay, alright. We're good now. Meri Nova: Thank you for sharing. That was so cool. Autumn. Hi! We were just like sharing each other's projects and the progress and learnings from the experimentation. So autumn was the 1st one to show. But I was also hoping autumn, like, what is your implementation like if you're comfortable sharing with your code, just walk Autumn Hicks: Yeah. Meri Nova: True. Yeah. Autumn Hicks: Sure. Hang on, let me Autumn Hicks: sorry I'm not super used to this. I'm in cursor right now, so give me a second share. Autumn Hicks: I am I able to share this? Okay, yeah, okay, sorry. Here we go. Autumn Hicks: Can you guys see this Meri Nova: Yeah. Autumn Hicks: Okay, cool. So, this is my project structure here. So I'm trying to pull up my. Autumn Hicks: the 1st agent that I have. Let's see, where are you at? Autumn Hicks: Of course I'm not gonna be able to find it this second. Autumn Hicks: Hmm, hmm! Autumn Hicks: This is kind of my my general overview here. I'm looking for my search agent. It's in here somewhere. Autumn Hicks: No, no, no! Autumn Hicks: Sorry now that I now that I have. Autumn Hicks: no, no, no! Now that I have it pulled up. I'm like trying to find Meri Nova: Web search. Maybe it's under there. Autumn Hicks: Yeah, yeah, yeah, let me, yeah, this is my test page. Autumn Hicks: No. Autumn Hicks: yeah. I'll have to. I'll have to pull some stuff up to show you guys later. But this is the general. This is the general overview of what I'm working on here. Autumn Hicks: So and I have some of the I need to clean up this Autumn Hicks: really bad. But let's see Hai: And search for like specific that usually Autumn Hicks: That usually pulls it up. Okay, let's find it. Autumn Hicks: It is search business business agent. Autumn Hicks: No, hang on. Autumn Hicks: Sorry guys. Meri Nova: All right. Autumn Hicks: Where are you? Autumn Hicks: Business agents? How do I open this? Autumn Hicks: Okay. Hai: Search, go back to search, and then just delete where you says, enhance Autumn Hicks: Oh, yeah, yeah, hang on. Autumn Hicks: I was trying to replace digit business agents. This is the Hai: Yeah, right? Click on that Autumn Hicks: Yeah. Hai: And then reveal in explore view Autumn Hicks: There we go. Fantastic. Okay, perfect. So now, I can actually show you guys what it does. Okay? Autumn Hicks: Sorry. Autumn Hicks: Okay, can you guys see this now. Finally I found what I'm looking for Meri Nova: Amazing. Yes. Autumn Hicks: Yeah, so this is the business agent for the web search. So I have it going through 3 processes. So it's using a yelp Api bing! And then openai for web search. So Autumn Hicks: up here. Autumn Hicks: And then this Serp Api is actually really cool. So it's like one and I only have. It's like it's paid. There's like a free version, but you can only do like a hundred searches a month. So, but instead of signing up for all these Apis, and you know you can just use one login, which is kind of cool. So Autumn Hicks: this is the business. Search parameters. So this is where. Autumn Hicks: let's see. You know, we're searching for city state address, zip code. All that stuff. Autumn Hicks: I'm not as good as explaining the code as you are. I was about to say, there we go. So we're gonna find business, save it. Autumn Hicks: Oh, this is another thing I had to add in there. I have it like batch Autumn Hicks: batching because of the rate limits I was having issues when I 1st did this. It would just there would be a rate limit like every time I try to search for something. And so now it it does like, you know it like batches it, which is kind of cool. That took some troubleshooting. Autumn Hicks: Yeah, it's like, just queuing. Let's see. Autumn Hicks: trying to get down to like where it's actually doing stuff. Autumn Hicks: Okay? So here's the steps. So this is where I was trying to get down to. So it goes through multiple steps. So it's gonna go to the yelp. Search 1st and then Autumn Hicks: business types, location, and then I have a radius, for you know, if I search a location and then it's like a 50 mile radius, for example. Autumn Hicks: And then it will search process and then save the results. Autumn Hicks: And then step 2. Is the Bing search Autumn Hicks: same thing with the rate limits. That was an issue that I had to Autumn Hicks: do, and then and then the 3rd step is directly do the web search for each business type. So at the end of the search Autumn Hicks: which I can actually show you Autumn Hicks: hang on. Let me switch my screen really quick, and then I can show you how it works, and Autumn Hicks: oh, never mind! Autumn Hicks: Oh, hang on Meri Nova: Sorry guys. Impromptu demo today. Meri Nova: No, I just wanna give you kudos for stepping outside of your comfort zone. Autumn Hicks: Sure. Yeah, yeah. The agents is, it's been really cool to play around with, and you know it. It wasn't working at all at 1st for me, and then I had to troubleshoot a lot, so Meri Nova: Hmm, yeah. Autumn Hicks: Yeah. Meri Nova: Are you using Openai SDK, or Resell's SDK, for these Autumn Hicks: Purcell Meri Nova: Hmm. Autumn Hicks: Yep. Meri Nova: Pass. Autumn Hicks: Yeah. Meri Nova: For sharing. What's auto? What's your biggest learning this week? So far Autumn Hicks: Oh, Autumn Hicks: biggest learning this week. Honestly, it's been databases. So working with super base. I was having some issues with Autumn Hicks: like fetching. And then I'm not. I don't work in data so props to you guys who work with this stuff all day long, cause you know. Getting it to work was a little a little complicated, but I finally got it to work. It's finally fetching the database now, and it's you know, saving things correctly. So Autumn Hicks: yeah. So databases this week Meri Nova: Great everyone. Let's Autumn Hicks: Thanks guys Meri Nova: Great job autumn. That's so cool. Yeah, no, this is great. How about anybody else wants to share what they built so far, and what they learned. So everybody else can learn Frederick Z: I I actually had a question over that's somewhat related to autumn's project, and like, I guess I can ask autumn or Hi either either one. Also, I was just wondering like, how do you decide whether you wanna build you wanna use multiple agents or one agent that just calls multiple tools. Frederick Z: either one like, you know. Either one can can tackle that. I know how how you describe that because I right now, I'm only using one like a 1 agent. But it calls like a multiple tools, like one of the tools is for web search and another tools for saving and retrieving memories from the vector database. So yeah, I don't use like separate agents for these. So I just use one. But Frederick Z: but like, is there a yeah. I was, I was interested in your input. If you have like experience, we're doing both Hai: Are you ask asking about? Multi agent versus one agent, many tools Frederick Z: Yes. Hai: Okay. Autumn. You go first.st Autumn Hicks: Sure. My project personally. I'm gonna use 3 separate agents. One for the search, one for enhancing, enhancing the data with the web crawling with fire crawl, and then the 3rd for the email Autumn Hicks: integration. So I was trying to just kind of stick with one main tool for each agent, but I don't know if that's the right answer. I just didn't want it to get too complicated. And so if something breaks, I know exactly what to fix personally. Hai: Traditionally, traditionally, is around 10.3. Like, if you give an agent more than 3 tools, it'll just pass out and not do a good job. Hai: That's why people start doing multi agents. Hai: But nowadays, you have all sorts of things. You can do. Give many tools to an agent. Hai: You can do, vector retrieval to pick tool on the spot. If you have like 5,000 tools to give to an agent. Hai: to do. Multi agent, it all comes down to Hai: having something to test easier. So it's easier to test an agent that can do like 3 different tools or 5 different tools compared to an agent that can do 1020 tools. It's really hard to test an agent that can do so many things like that. Hai: so yeah, usually comes down to the preferences. And if you think the performance is not great, for, like a lot of tools, break it down to smaller agents. That's why the supervisor agent kind of pattern is always has always been like hot Hai: I, personally would do Hai: multi agent just because I can. At least I can test out, like an agent with 3, a set of 3 tools, 4 tools to compare as opposed to like a set of like 12 tools. It's much easier to test it that way. Frederick Z: Okay. Cool. Thanks. Hai: The cat is just waiting for you to unmute yourself. That's so funny. Hai: Cool! What what else are we doing today? Mary? Meri Nova: No, I just. I wanted to give a chance to people to share, you know, to share their learnings. And and of course, the questions as they come. But yeah. Hai: Cool. Alright! That was a very impressive demo, I think. Hai: I think you have a lot of stuff that I haven't talked about which which always impressed me. When people like go above and beyond. They're like, Oh, I built this and that, and I went, you know, and I had this idea that there's always this moment. So I've been teaching Hai: people full stack development for the past 5 years, and Hai: there are people from like all kinds of backgrounds. So they were like, ex military ex, you know, medical workers and carpentry and like trade Hai: trade workers and stuff like that. And it's incredibly difficult to Hai: kind of predict who's gonna go above, beyond it? In what way? Hai: And it it works the same way. It's almost like for me. It's so unpredict. It's so predictable for me now that that I'm like, I I can't tell you guys from this bootcam cohort who's gonna go above, beyond. But you. What you saw is an example of going above, beyond which is, you know, she she went to build all this stuff, and it's it's it's working. And Hai: you know all of you had an idea about Mcp, right? You were like, you're not sure if you wanted to do it. But then I'm like, given your track record, you could probably figure it out, and then you will figure it out. So I think I think that's everyone should should follow. Hai: Almost like, if if you feel like you want to build something within this day and age like it's just, it's not much, is holding you back from like Hai: putting at least like a component or something out there Hai: that that is working out right off the bat. So Hai: I think that was a good example. Anyways. It's it's Q&A day. So Hai: give me some cues Meri Nova: It can also be like something that you like. I like how orange is shared in the chat like the new tools that you're using. I know there's so many new models that are coming out, and people are very impressed with the Gemini pro 2.5. Also, too. Let us know if you're like trying out these tools because this is a dynamic field and we're all learning from each other as well Hai: Who is using Gemini 2.0 pro right now. Oren: I'm using the 2.5 right now, but I'm doing the experimental for free now. It's like 50 requests a day Oren: that should do it Hai: Do you find it to be super smart? Oren: Extremely smart. I mean, the context is obscene. That's just dirty, like over 2 million tokens. Hai: How many. Oren: Over 2 million tokens. That's like too much Hai: That's great. That's great, because, Hai: you can fit like whole book in it, or in my case, I can fit like a whole like code base in it. Oren: Yeah, that that's exactly what I told the autumn, like in the chat like, just drop it in and ask ask it to like reorder it. It's gonna tell you what files you should remove, what files, what functions you should move to the other files. Oren: It's like so useful. And with AI studio. It just makes sense Hai: Yeah. Hai: there's a youtuber that I don't know if they told you guys his name is. Hai: And with convenience he's kind of like a Hai: mentor to me in some ways. Hai: But he's on like the he works with the Gemini team on a couple of different things, and he makes he always makes videos right right when they launch something. So Hai: his his opinion is usually high quality. And I I do. Hai: I do follow this guy. So Hai: just drop the link to the chat. Hai: cool kelseydilullo: Okay, I have a question if nobody else is okay. So this week I'm trying to think about the sort of like mind, map aspect of Scienceaurus. And I'm wondering, what tools can I use to like dynamically create kind of like a word rep or a dynamic diagram? As part of my app. You have any ideas for that Hai: When you say my map, my wind goes to like a chart almost like a flow chart. kelseydilullo: Yeah, even similar to what you've been drawing like. kelseydilullo: Excali draw just like. So let's say, I have the the keywords from an article, and there's like 6 keywords, and then I wanna I'll have similar articles right? So now I have, like some articles, share a keyword, and so I can link them through a keyword. kelseydilullo: So I haven't really figured out what are going to be like the nodes of the diagram. But kelseydilullo: I guess I'm wondering if you know of any tools that it's almost like, I guess, a graph kind of like a graph display Hai: Yeah. So I have an answer for you. It's not perfect. So on cats and bats. I have this thing where I can Hai: look at like a diagram from a video frame and then replicate that in this thing called mermaid chart. So a mermaid chart is basically what you would see an Excali draw. It's like you got like notes, and you got like links between notes, and you can do like arrows and stuff. Hai: large language models is not great at right at drawing Mermaid Chart perfectly. I always get broken charts, even though I, even when I give it like almost like a grammar or syntax that it can go off of. It's really hard for even Hai: it's really hard for, like Gpt models and gemini models to do that, I think Claude also does a little bit better, but not perfect. Hai: So if you want to generate like a chart from Lm, it might not be perfect all the time. But if you already have the words, and you can like programmatically, create a chart, I think that's much easier. Hai: So what I use is what I use was, I think it's called mermaid. Js, yeah. So Hai: if you if you make the An Lm. Draw the chart, it's Hai: very hard to get it right. But if you already have the words, and then you can be like, Okay, so these are the words. And then I can just programmatically draw the lines. Hai: and that's 100% doable. Hai: So I use mermaid chart. And I, I can like draw like stuff on the screen. I don't know if it's what you're looking for, but I can show you what it looks like real quick kelseydilullo: Sure. Yeah. Hai: Yes, let me share my screen. Here. Hai: Are you using Nextjs kelseydilullo: Yeah. Hai: Okay, let me go to my app. Hai: And then, huh! Hai: Who have a look at this. That's fun. Hai: That's the go to authorize. Hai: And I built this. Hai: for example, this frame right here. It has, like a somewhat of a flow shot right here kelseydilullo: So. Hai: I think I have a flow chart that can display here. No, it's broken. Hai: Yeah, this is why it's not perfect. kelseydilullo: Is that X-ray, like part of a feature of cats with bats Hai: Yeah. So see? So I was able to like draw this using mermaid. Js, and Hai: if I can show you what the syntax for this looks like notes. Hai: Maybe text name. Hai: and then copy this over here to here. This is what is represented in the diagram like this is literally it. Hai: Oh, it has graphs left to right. And then did they Hai: let me get this this guy right here kelseydilullo: Very cool. Hai: Yeah, there's I don't know if that's what you're looking for. kelseydilullo: Yeah, yeah, thank you. That gives me something to start with. Meri Nova: It actually kelseydilullo: That looks like super useful cats with bats Meri Nova: No. Meri Nova: that's for sure. It just reminded me of the of another open source project that helps you visualize the Github Repos. They also use mermaid chart, but this is cool. I think this might be also useful for you, Kelsey. A friend of mine just shared yesterday. His. Meri Nova: I can show you real quick. Maybe it's like Meri Nova: maybe this will be relevant for your project, too. Meri Nova: Desktop. Meri Nova: So so he's also an educator. He also creates things on Linkedin, and he just showed me yesterday, like Meri Nova: he wants to organize, for instance, your the material that you want to learn and let's say Meri Nova: I don't know. I like this example, decorators, decorators, and what it does. So this tool might be useful for you. It generates, like like the chapters that are relevant to the main topic, and once you, for instance, press on one of them, it creates a branch in your tree Meri Nova: so that you can see the the flow of just like your ui here. So it creates a new one. Meri Nova: So he said that he's using react, flow. And you can integrate that with just whatever you're trying to generate here as well and Meri Nova: see it here. So I guess this is more deterministic. In a way. Meri Nova: this is called react flow. I have not personally used that, but this sounds this looks interesting. Meri Nova: Check it out kelseydilullo: Yeah, looks, similar. Meri Nova: But yeah. kelseydilullo: Cool. kelseydilullo: Thank you. Thank you both Meri Nova: Anyone else. Hai: I was just waiting to see how long this silence would go on for Oren: And I Oren: about to ask, I was basically about to ask what Kelsey was asking like just regarding recipes. But that was perfect. And I'm gonna try it Oren: and thank you Autumn Hicks: I was gonna ask what Llm's models everyone is using for their projects and kind of why? Yeah, that was my question. Oren: I think Gemini provides the best value in most cases. Oren: I mean, the context is massive, and you have the best value for money Oren: unless you need a specific use case, which case I can, I can tell you Hai: Oh, you gotta say one more time because I was not listening. Say, one more time Oren: I think that in most cases we should just like most of us, will probably use Gemini for the best. Oren: A value value for money. Oren: but unless there's some specific use case that we should refer to, maybe Claude is better at some stuff. Oren: but most cases it just means gemini Hai: I agree. Frederick Z: Beautiful. Frederick Z: I'm I'm sticking with open source for as long as I can, you know until I until I can no longer do so, and I'm sure if they're nowhere near as performant as gemini. But like until I actually deploy, everything is served on a llama Hai: Nice Oren: You. You can also use Gemma with an Api. It's all free, and you can use it for AI studio. Oren: Also open source, by the way. Oren: But I'm not a Google Ambassador, or anything Frederick Z: Okay? No. Oh, okay. Did did you say Gemma or Gemma Nye? Oren: No, Gemma. There's also Gemma that's open source and hosted by Google and Free Frederick Z: Okay, all right, I will. I will definitely check Oren: Yeah, it's available at AI studio Hai: Dwayne speak now Dwayne Joseph: I am using gem Gemini 2 point. Oh, flash for Dwayne Joseph: converting my design files into HTML and Css. When it comes to the code assistant. I was going to use Gemini. I'm building it currently now. I have the Ui set up working on the back end stuff, but Dwayne Joseph: I'm pretty sure I'm going to use Gemini as well. Think about Claude, but Dwayne Joseph: I don't know if there's 1 over the other that I should. Dwayne Joseph: I should use it Hai: Think you should try them all. I think that will give. Hai: Think about your learning stuff right? So like, don't think about it from a perspective of. Hai: I try to squeeze the most amount of performance whatever you're learning stuff. So just just try them all. And then, if you don't like something about it that's actually really good, because then you have an opinion over it. Which is better than not having an opinion over these tools, because then, on your next project, you can just Hai: dive right in and use the stack that you want and have a good reason for doing so. Hai: Yeah, so even though here we're saying that you know Gemini is great, or whatever. Hai: If you want to use grok, just go and use it like Dwayne Joseph: Yeah. Dwayne Joseph: actually had a huge issue that I never really shared. But so my original idea was to be able to convert Photoshop files, figma files and Xd files into code, because that's what we get at my job. However, no AI actually takes those files. I had to Dwayne Joseph: either convert them in my app like, convert those files into like a photo, like a like a jpeg, or like a Png file, or I had to just give give the AI, an image file. So that was a huge kind of Dwayne Joseph: hurdle that I kind of had to go over. And the problem with that is that in Photoshop files and fig files and Xd files, you actually get things like font sizes, fonts, things like that. And these vision models can't really. Dwayne Joseph: most of them can't really tell what font you're using or what you know. And and so it was kind. It's kind of tricky. I didn't know how to Dwayne Joseph: really go like, fix that issue. If that makes sense. Yeah. Hai: So were you able to find like a library somewhere that can read Photoshop files and get you the metadata Dwayne Joseph: No, no. Dwayne Joseph: no! I well, what I what I looked for was, I think it's called a Ocr. Like optical Ocr models that Dwayne Joseph: could read font sizes, and some of them can, but they're not that good at. Dwayne Joseph: Yeah, I wouldn't. I wouldn't. Dwayne Joseph: Goes Hai: My money on that Dwayne Joseph: Yeah. Hai: If you can extract that. If you could extract that, what does a Psd file look like? Let me see, I'm I'm actually curious. Now, what does a Psd file look like Dwayne Joseph: I can. Sh! I can. Dwayne Joseph: It's it's basically very similar to like even a figma file. The thing is, you can click the font. Let's say you have a design, right? You have an email. And I want, like as a designer or a developer. I have to. You know. Dwayne Joseph: figure out what font it is. All I have to do. All I can do is click on it. Kind of like a word document, right? If you want to know what the font is. You could just click the font or the word, and it'll tell you the font in the corner. Tell you the font size, the color, everything like that. A image won't do that. You see what I'm saying. The image is just an image. You can't really click the Dwayne Joseph: the contents of it. So Dwayne Joseph: I was. Kinda I didn't know how to get around that Hai: Alright! Alright! I pop my screen here, let's do this together. Dwayne Joseph: Okay. Hai: Mpm package to read. Esd. Hai: there's a parser right here. Psdrjs. Hai: it gives you document structure document size on data. I'm sure that you need this right Dwayne Joseph: That's what I need Hai: So what you can do is you can use like a gemini model like 2 point. Oh, Flash! To do like to understand the layout right? And then you can extract the font size and other stuff. You can stuff that in the prompt and be like, hey, this is what the layout looks like. And then here are the precise like a description of like what the font should be, and what font family should be, which you don't honestly, you don't need to put this. Hai: I'm I'm trying to think if you should even need to put this into the Lm. To generate it, or you can insert these in after the Lm has has generated all the stuff. Hai: And then you can just kind of like programmatically insert these these details in, because these are hard coded numbers right? Hai: But to make it super easy. Hai: get the information out of the Psd file and then stuff that into the prompt after the Ocr part and be like, okay. You know, the Hai: the layout should look like this, but then the numbers are like this, and then hopefully, that will help Dwayne Joseph: Helps a lot, should I? Would you recommend sticking to one type of file? Then? Maybe like a Psd, because different clients send the creative in different ways. Some might prefer Psd. Some might prefer figma files, should I? But for my project, should I just stick to one Dwayne Joseph: type of file Hai: Hmm! Hai: I think this is to call the click my Api or something. Yeah, this is not what you're looking for. Hai: So when you say, Figma File, do you mean like a file that is shared over like a link Dwayne Joseph: It's it's a downloadable file, just like a image. It's literally I think it's a dot fig file. So it's literally a file Hai: Oh, wow! Hai: I've never seen anyone download a figma file before. Dwayne Joseph: Yeah, it's like a figma file that you can download Dwayne Joseph: But I do think it's all I do think that there's also a link for it. I don't use figma like that. I just know that there, this is a type of file that creative Dwayne Joseph: or clients make for their creative Hai: Okay? Let's see uploading assets. Hai: Let's see. Hai: let's the pn. Hai: pick my files, everything. But every file thing that consists of true notes. Okay, global properties. Hai: Okay, no types. Okay? Hai: I guess if the file has some sort of like identifiable Hai: information about it, you could probably hit up the Api and Dwayne Joseph: Okay, info or something Hai: Font Dwayne Joseph: I think what I'll do is I'll focus because my client we use Dwayne Joseph: Xd adobe Xd, I don't know if you heard of it very similar, Photoshop. Dwayne Joseph: I think I'll stick to just that or Photoshop either, or but I think cause my client right now Dwayne Joseph: uses these type of files Hai: Yeah, 10. Hai: Hmm, that's cool. Hai: So yeah, I think Psd is probably the easiest Dwayne Joseph: Okay, I'll I'll do. Psd. Then sounds good Hai: payment. Hai: The Hai: is this like a universal file metadata thing. Hai: I wonder if you can even get that straight out of like any file. Hai: Anyways, yeah. Dwayne Joseph: Can you send me the that you went that you said Hai: Yeah, yeah, yeah, let me double check. This is, is this like a popular one? Hai: Yeah, it's pretty popular. Hai: But it hasn't been updated for a long time. So 4 years Dwayne Joseph: Wow! Hai: So let's see, history that Rb has from B. Hai: This one also hasn't been updated since 10 years ago. Hai: So not necessarily like a super popular use case. I imagine Hai: But let's see, you are still using it. Hai: But you can have it. I Hai: I think what teams usually do is if this is super useful for them. They'll probably fork it, and then they'll develop this further in house. Hai: But here, let me send it to you. Hai: Boom Dwayne Joseph: Thank you. Huh! Sarthak 13: Okay, Hi, I have a like a question in general. The question is like, are there any good resources for? You know. Llm system design, like, you know, like building applications and end to end system designs or something Hai: Resources for building end-to-end. Llm. Application. Hai: Do you have a particular problem in mind that you're trying to solve Sarthak 13: It would be. Let's say text to SQL. Use case Hai: Okay, Hai: do you have any opinions about what tech stack you want to use to solve that or Hai: any more context around what you're trying to solve Sarthak 13: So basically, if someone has, let's say, like their own data warehouse, like schemas where there are Sarthak 13: 20 tables, and they want to write the Sarthak 13: like, write in English, and then the application would convert it to SQL. And write a query. So something like that, for, like a small data set, maybe 1015 tables. Hai: Okay, some quick examples. Langchain has a tech to SQL agent Hai: example that you can look up on Google. Hai: If you if you want to see something in production. I know Hai: neon has one neon neon the database company Hai: and super base also has one. I know Hai: data bricks, and you go to databricks. There's 1 that you can use to query stuff it's Hai: and yeah, that's like a Hai: crazy ton of text to SQL. Hai: Resources. I, I can blocks and stuff online if you just Google it. Hai: I don't personally have a opinion on it, because I personally feel like Hai: Texas sequel only gets complicated when you talk about the Hai: like when when you have like a lot of tables and Hai: your query gets complicated, then you might have issues. But Hai: from my personal experience, if you just throw the tails definition into your your prompt. Hai: it usually can do a pretty good job, especially with like a frontier model like Claude. Hai: So from my perspective for small projects, it's a solved problem for enterprise level. Probably not. Hai: But then enterprise enterprise needs are very unique right. Every every enterprise is kind of like a snowflake. Hai: you know. So unless we have details here, I can't speak more on on that Sarthak 13: Okay. Hai: Yeah. Meri Nova: By the way, I think it's the 1st time I probably see you at the Live Sessions. Is that true? And if so, welcome Sarthak 13: Thank you. Thank you. Yeah. Meri Nova: Cool, cool. Good. Is it good to see you here Sarthak 13: Yeah, Sarthak 13: Next time I'll switch on the video. So you can like, actually see me. But yeah, okay. Meri Nova: Hey? How? How? How's should we start calling names, or what? Hecta, you're you're trying to speak Ekta: Yeah, yeah. Ekta: So yeah, coming from, I, I just have a Mlm competition background, particularly working with models and modeling Ekta: like designing model and stuff like that. So software design is not my strongest suit. And I am like stuck like, there's a lot of processes going on like starting from searching the papers assembling them, querying them, and putting them database, and again summarizing them. So all this 1st part is still easy to, you know, capture, and I'm understanding, how do I Ekta: save it and use it for further use? Because I want to attach this with per user, like, how is a user. Ekta: actually querying and saving the required resource. Articles stuff like that. But the the last part that's writing with the help of the summary that the writing tool Ekta: like I'm I'm kind of wrapping my head around it like what would actually happen? Because, I'm I'm right now stuck like I'm not use any agent development on this project yet. So how should I? Am I not seeing something? How should I interpret this going forward? And Ekta: like? What exactly would happen with writing like. I understand that Ekta: Llm. Would help me write the research summary of the articles and Ekta: take me forward. But, like with all of these processes going on like it's it's just being confusing for me. So Hai: Yeah. Ekta: Yeah, that's the situation of the question. Yeah. Hai: Cool. Yeah. Can you? Can you ask it one more time? Because I got a little bit confused Ekta: Yeah, yeah, it's Hai: I have like, I have like 2 brain cells left. It's like 8, 47 pm. But please ask again. Ekta: Yeah, yeah, it's kind of situation more than a question, I guess. So. Since I don't have an Hai: It's an event. Okay, let me let me turn on that part of my brain. Okay, go ahead. Ekta: Yeah. Hai: I'm listening. Ekta: So yeah, so more of because the project has a lot of processes like I can tackle one by one. And I have pretty much figured out what happens in the 1st part like searching and then analyzing them. Ekta: Summarizing the articles, etc. But the the main part that's writing a report based on that, so that Ekta: the user can have access to the articles. Write the report immediately so that they don't have. You know, there's some contact between summarizing and writing the research direction. So I'm just just lost, like, how do I like, put this process together and like the pieces together, and Ekta: think of some solid design like, because design is not my strongest suit, like Hai: Oh, yeah. Ekta: Bye. Hai: A failure. Hai: Yeah. But have you tried so far Ekta: What was that? Hai: What have you tried so far? Ekta: So I am trying like there's today. I was just trying to keep one unified agent, because I never like. I was just trying a very simple workflow way, just to understand, like my blog diagram Ekta: and trying to call process one by one. I have not included a lot of asynchronous design, or like a lot of tool calling because I need to 1st understand what exactly. I'm me as a person I can't just, you know, wipe code and keep it aside. I have to keep on understanding one by one, because I'm learning it right? I'm I'm new to software engineering and design. So Ekta: so by learning this, I I just get lost in one process and just lose the context of what I want to do next. So this learning part engaging with that learning part, and then also thinking, How do I exercise this agent? So right now, I just thought a very simple way like kept a unified agent. That's just Ekta: helping us search and maybe rewriting the query in order to search a better publication or article, and then saving it into a database per user wise. So I was also stuck in that way like, should I save as a Json? Or should I just keep the abstract your publication safe. But I figured out Ekta: some of that. Ekta: The next process that's haunting me like, would I be able to complete the writing tool part? Ekta: Or should I just stick to the 1st process from searching to analyzing, filtering, and summarizing. Ekta: and just complete this for the boot camp? Like. Ekta: So Hai: Okay, if if you were to, if either way works out perfectly, which one would you go with Hai: either way Ekta: You can accomplish it, because that is the foundation of the project. Like, to begin with, Ekta: searching, summarizing, and accumulating the very important stuff, the relevant stuff I exactly need. And so that the the user at least has a direction of the research like, what's the research gap? Because that's the main focus of my project. Like. Ekta: exactly, was the research gap. Like, of course, there's a lot of materials available. But what I'm trying to do. So I want to figure out the direction like, because as a user like I have seen in the research space, like, what happens is the researcher would get lost and would not get to the ultimate goal. And the direction is not as straightforward. So that is what I wanted to solve this problem Ekta: like having the right summary together. And you know, quickly analyzing what's going on and then moving forward to the research direction. Ekta: So I would like to establish the foundation part. That's summarizing exactly what I need Ekta: and like. If I wanted to do, I would rather focus on that. So Hai: Yeah. Next step, what? What we like, the next small step that you can take to get there Ekta: Like, I want to store the relevant information Ekta: into a database that is easily accessible. Ekta: And so, yeah. Hai: Let's do that. Then you gotta do that, and then let me know when you're done. Ekta: I'm still thinking like it's it's very I don't know. It just gets a lot but Hai: I know. I know this is why this is why some of us are sipping extremely fast and others are not, and if you want to break into. Hai: Here's the thing. So some people have stronger tendencies to overthink than others. Hai: Either way, like a month from now. I wouldn't say a month from now, 2 weeks from now. Hai: Do you want to see something Hai: that you've built? Or do you want to see a diagram? That's what I'm trying to say so. Either way, it's it's it's still. Gonna you're still gonna be left with the the Hai: the problem that you know. You gotta think through like the the best possible architecture for what you're building. Hai: but Ekta: And Hai: And again, like nobody's gonna hold you accountable for this like, we're all just strangers on the Internet. Right? So Hai: I'm I'm telling you like Oren: Not any problem. Hai: If you're relying on me, if you're rely on me to tell you what to do. Hai: I can't. I want you to understand that Hai: after this boot camp. If you can get over this hurdle of like. Hai: get over yourself, you would do so well when you're shipping stuff really fast and like make decisions faster. So, Hecta, this is like. Hai: and in time, when you, when you become a developer. Ekta: One second. Ekta: No, I think I Hai: Vancoder. Ekta: Good Ekta: like I I according to my because I'm very new to, of course, like I said, like system development. But according to that like I was able to quickly web scrape, and, you know, call the Apis asynchronously. And I'm not using 3 different like I'm using different Apis. But right now I'm able to call like what whatever I need, the most frequent needed and stuff like that. So so Ekta: I think I'm able to grasp quickly. It's just that. I also took a difficult route, like maybe the typescript route and understanding the code and like Hai: Take that. Listen. We're all watching. We're all watching. I know exactly what you're doing, and I remember what you said in the beginning. So Hai: that's why I'm trying to like. I'm trying to push you a little bit, because I know you can do it. So Hai: you you overthink stuff right? But you gotta. You gotta. You gotta get over that. And I know you can and I know you're thinking because you're putting in work. It's just that it's working your head. Hai: What I should I want you to do is put an initiative into like, just just build something concrete like a slice. We talked about a slice in the beginning. Right? So Hai: you all the stuff that you're thinking about right now that count as work that's not wasted time. By the way Hai: like you're not wasting time you're you're Hai: you're getting over yourself, and that's that's great. So don't think about like all the time that you like overthinking. These make them the best stories when you go on into interviews, when you go and talk to like a team somewhere else, because then they can relate to that. And they're like, Oh, we had the same issue here, and well, how did you do it? And then you can tell the story like, oh, I did this, and then kind of kind of done happens so many times in my career and other people's career as well. I think Hai: there's a shortcut to this. So Hai: the fact that you're struggling through it, it's it's supposed to be hard like for people who overthink it's supposed to be hard and people who are new, and you decide to do typescript, even though you don't know if typescript so kudos to you. Hai: What I need you to understand is that it's not gonna be hard forever. Hai: One day you're gonna get over this and you're gonna ship something, and then Hai: you won't even remember it today. Hai: And I know you can do it. kelseydilullo: So I want to share something. I feel like this will help. kelseydilullo: Okay. So there is this scientific thing. Where, when you're if you go for a walk kelseydilullo: or running, or something that activates both sides of your brain. And you're thinking about something you're processing while you're activating both sides of your brain. So you have your logical and your creative side so literally what I do. It sounds crazy, but I don't care. I will go for a walk. I'll put in headphones, and I will talk to myself, and I will describe the issue, and then I will like brainstorm, and by the time I'm done with my walk. I'm like, all right, I know what to do next. So I feel like if you get stuck, which I currently am. kelseydilullo: try that. kelseydilullo: Go for a walk, talk to yourself, and it will activate both sides of your brain in order to like problem, solve better Meri Nova: That's awesome. Meri Nova: Yeah. And also kelseydilullo: Also, I feel like Week 3 is really hard. I want to say that like I feel like this is like a kelseydilullo: I don't know, like I'm having the hardest week. So I don't know if anybody else is having a really hard time with Week 3. But I feel like we're you're like over the initial like, this is so cool. And now you're like, you still have to like push through the hard part. I guess this is why you guys said, choose something that you really like, because we get stuff. kelseydilullo: Okay. Now, I'm done and rant Meri Nova: No, this is great. This is perfect. Ecta. I just wanted to share with everybody that the project that you submitted on the 1st Demo. It's mind blowing, and congrats again for choosing the hard path. And if you are okay with this, I can share and remind people how much progress you made in the 1st week, just to show you that sometimes you think you're not doing the progress, but you are. Meri Nova: and also when you do keep like overthinking. I think it's important to get back to the user problem. If, especially like, when you're trying to decide what to do next. I think it's important to get back to like, okay, what's the problem we're trying to solve with your app. Meri Nova: And it seems like, maybe it's time to talk to the users. Maybe it's time to like share it with somebody else. Of what? What? Maybe what you think is valuable. Other thing is not. Maybe there's something else for you to discover. But either way, this whole process is all about just trying and trying, and failing, and learning Meri Nova: and sharing with everybody else. So. Meri Nova: and Kelsey said it wonderfully like if you, if you get stuck, there are so many ways to like, get unstuck, and we're here for it, like, thank you for sharing also. This is this is very valuable, what you're sharing, and it looks like on the chat. Many people are sharing this similar sentiment as well, it's it's not easy. Guys like, imagine this, you're learning typescript. In 2 weeks it's crazy. People were dedicating months and years. I mean, Hai was teaching that Meri Nova: for people in like 6 months to cover what you're covering now. So it's totally okay to feel overwhelmed. And I talked earlier Hai: That's true. That's true. Meri Nova: Dwayne with Oren as well earlier today, and Orin's been saying like he's not sleeping. He's like 24, 7, trying to debug stuff. So same with Dwayne, like they show up on the vibe, coding sessions and asking lots of questions. So this is part of the learning journey, and you're doing great Ecta. Hai: So that's such a good point, because for the full stack boot camp that I've been teaching for the past 5 years. It used to take somebody 6 months to a whole year to like build something Hai: in like react and no js, express and all that stuff. And this is pre AI Hai: since, you know, Chat Gpt got popular, we have to change our strategy so that our students are using AI tools more, which also expedites the Hai: the time that they they would take to build and complete a project. Hai: So when you're stuck into details, just zoom out. Hai: you're in the perfect. You end up the best time in our lifetime so far to create something and to be able to build the stuff in like Hai: 5 weeks has. It's impossible before. It's literally impossible. Hai: But you're doing it. And it's supposed to be hard. And this is what hard feels like. Hai: Yeah. Ekta: I mean, I am very proud because for my 1st time in life I am doing whatever I'm doing Ekta: like like scrolling so many apis together thinking of the database thinking of authorization. And also Ekta: I mean, I'm happy. But yeah, things are a little slow on my end. I feel Hai: Yeah, Hector, I need you to push a little bit more. I need you to push a little bit more. You can do this. Hai: It's where I got like, 3 weeks from now. Hai: you're gonna pull this off. And then we're gonna we're gonna Hai: blow up your project everywhere, basically because we're we're gonna be very proud of you. Everybody on this call is, gonna be very proud of you. Hai: because now you've been yapping for the past 2 min, I don't care, but Hai: and not everybody knows what the problem is, and not everyone's gonna be watching you right? This girl who didn't know typescript Hai: but didn't choose didn't choose python. Hai: That's courty in itself. So Hai: whatever you do from this point on, you gotta look back and be like I I was that girl who chose touch gear over python. So whatever it comes in my way, I can tackle it. Gotta remember that. Hai: Okay, don't start crying on my zoom. Okay, just kidding. Hai: Buy all you want. Meri Nova: Kelsey is saying, it's a QA. And event session. Love it Meri Nova: cool. Yeah. And I feel like, feel free guys like who are like spending a lot of time or an autumn. Dwayne. I literally see you on every vibe session like, Please speak up. You guys are like now responsible because you are showing up. And there are many people that want to get inspired and see the progress that you guys are making. And I think it's on your responsibility to to share and share what worked and what hasn't. Meri Nova: And I'm not saying it's only you guys, I know there are people that are working different time zones. But whoever is getting ahead please share with others as well. It's time to support each other Oren: I'm gonna do it the 1st time. The code isn't broken. Once I'm on the call Oren: the 1st time it's not broken, I'm gonna do it Hai: Very nice. Hai: and I just wanna add one more thing. So I'm not sure I'm not doing lip service here like Ector. If you just start messaging me on on circle like DM. Me as you could progress, and then I will Hai: personally see if, wherever you need help with, I'll I'll make sure that I'll look at into it like thoroughly. Hai: just for you. Ekta: Yeah, I just want your help, where I could see something which I'm not seeing. So I'll start sharing on the demo day, maybe if I so I just need some direction in that, because sometime like like, Mary said, you can't see things and people can. So Ekta: I want to take advantage. Yeah. Meri Nova: That's actually a good idea on the Demo Day guys, it's not only about showing off what you build, but also time like for you to share what you're struggling with big time, and it's another opportunity to get unblocked. So keep that in mind. Meri Nova: Awesome. Anything else. Yeah, Melissa, go ahead Melissa: Yeah, I'll share something. I had a revelation earlier. Melissa: I've been doing get commits like crazy. And this is my 1st time using get, for, like the active project. I was just committing stuff like here and there over the months and years. So I realized I'm like, Oh, I started reading, like all of the text. And I was, it's a private repost, or whatever. But I was committing like my computer username. And I'm like, oh, no, this is a cyber security risk. So I went and updated that and fixed it Melissa: but it just made me like come back to the fact that I'm like, okay, once I get to a certain point, I'm gonna slow down and do like a security Melissa: like Sweep, because I've seen like I see horror stories and everything else nowadays about different security vulner vulnerabilities. And being that I don't know. Melissa: you know the explicit details of them. I'm like, okay, let me create like a little checklist and make sure my dB is good, and it's not susceptible to certain type of vulnerabilities and and things like that. So you know, that's that's like. Melissa: that's like something that I want to take. Seriously, as I'm trying to build things out. I think like the 1st app I tried to build like my teacher was showing me how to do it. He was like, Yeah, I'm showing you how to do it. But this year it could. You know that someone can do like sequel injection and do some bad things? So I'm like, Oh, shit! I need to try to get up on it so I can know what I'm I'm I'm dealing with here. So Melissa: yeah, that's in between fighting my project and trying just to get certain support types to work correctly. The security layer draped over my head today. So I'm gonna have to keep that in mind as I go Meri Nova: No, this is great thanks for sharing Melissa. I think you're like already thinking in the production environment. You know, there's it's so cool that you're like 3 steps ahead already. But it's a good practice to keep that in mind. But we're still in the week 3, and I love that you're already thinking about it. We're trying to ship the Mvp. Meri Nova: Or what was the other name? Remember? The guest speaker mentioned Don. Not the Mvp. But maybe Hi, you know this, too. Meri Nova: and Hai: Like minimum, lovable, something Meri Nova: Yeah, something else. So let's see. Ekta: Something sec or something Meri Nova: Yeah. Ekta: Alright. We'll give something, you know. Meri Nova: Yeah, that was, yeah, we should. Meri Nova: Yeah. But Meri Nova: Melissa, you're doing great if nobody else has any other questions. So we can wrap this office hours. Meri Nova: And Meri Nova: yeah, and we can. We'll see on demo day. I'm gonna put up the form for the progress or the homework, whatever you like to call it on Circle, and can't wait to see what you guys are building this week. Praveena Suresh: Hey, hey, Mary? I just had a quick question for Hi, and like, maybe it's like more rudimentary. Possibly I don't know, because I've not watched all the videos and like slowly watching them and then trying to build on the side. So I'm still like catching up. Maybe this is something which is already discussed. I don't know, but I just still just wanted to bring it up in case you know what different people are building different things right? I know. Hi gives them Praveena Suresh: some kind of a guidance about. Oh, if you have to do this, do such and such Api, or whatever it may be the case. For example, I asked him a question. Oh, how do I extract text from Pdf. Then he told me to do Gemini Flash Api, and also ask it to give Markdown. So how do you develop that intuition? Maybe it's like a big question I was like, oh, how does he? How do you do that Hai: Yeah, I had the same question for my boss at my 1st job. And I think the context was that Hai: I had this really easy task to do, which was adding, like email to salesforce. Hai: And I would spend like 2 days on it, not knowing what to do. Hai: And then I I asked my boss, and he, like took like 2 seconds to go on salesforce documentation and find the exact doc to do it. And I was like, how did you do that? And he's like, well, I just had like 17 years of development experience. Hai: And I'm like, Okay, but then I think over time, my real. What I realized was that Hai: you just start to solve like similar problems. And then you kind of like develop a mental model of like how to find answers. Hai: So, for example, whatever problems you throw at me now, I have like a problem solving framework where I'm like, okay, do I know everything that you're talking about. Hai: Maybe there's a part that I understand. I try to like preliminary Google that just to understand what's going on. And then Hai: I have a mental model of like, is this like an SDK? Is this like code, or is this like a concept or like? What is this? And then I'll try to look for sources that way. I think if you just expose yourself to a lot of different Hai: types of technical challenges, you will Hai: develop the like an intuition to solve certain problems. Because everything that you guys asked me in this call. I I've I've worked on like at least maybe like 70% of the all those things. So I can kind of pull from my personal experience. Hai: that's why you guys sucked out because you got this guy who has been working for real and not like, you know this, that saying like those who can't do, teach, do those who teach? I wouldn't say that. But like Hai: it's I don't know like Hai: it's I. We want this to be kind of like how you would sit next to your coworker at work and like ask whatever. So. Hai: of course, the coworker has to be doing work to know how to answer these questions, and I would hopefully answer those questions the way Hai: a coworker would do to you when you know we're sitting next together next to each other at at a cubicle. Hai: instead of having giving you a lecture about how to do so. Hai: Sure, yeah. So I guess it just comes to time Praveena Suresh: Okay, yeah, thank you. That answers my question. I mean, that's what I thought it is. But then I just wanted to know if there is anything you wanted to say. Also, I'm I'm hoping that, as I said, I didn't watch all the videos once you watch all those videos and try it. Maybe you start to develop, at least begin to develop is what I'm I'm thinking. Maybe the Hai: Yeah, I think. Hai: I think there were a few people who show up consistently to all of the coding streams. Hai: and they just sub subconsciously picked up on how I go about solving problems because we run into problems all the time on the on the stream Praveena Suresh: All the time Oren: That's the best thing Praveena Suresh: I. The reason I'm not able to like I have to. I mean, I have a long like work day, plus I'm trying to watch it not just once, a few times, because I know what you did. And I also try to do it by myself, not just watching like a movie, you know. So that I think time. Okay, that answers my question. Thank you. Hai: Yeah, I think I think for me it was looking at my boss problem solved. And I hope that for you guys, it would like, look at me going into issues and then trying to solve my own issues. Hai: I think, I hope, that you guys pick up on stuff like you know me going. I don't think I would pull up, stack, overflow even once, not even once. Always go directly to the to docs, always trying to read stuff, or if if I'm too tired, I'll be like, Okay, cursor. Solve this for me, or if there's already a pattern before then I'm like, Okay, cursor follow the same pattern and do the same here. So Hai: yeah, I think seeing somebody going through problem solving in real time is has been in my life has been tremendously useful, whether that's a coworker or a boss Hai: or somebody. Hai: Because when you go on Youtube, you watch a tutorial, it's always almost perfectly like from end to end, and real life is never like that. Hai: But, you know, seeing somebody struggle a little bit, I think, gives you permission to struggle and Hai: work through things so Praveena Suresh: You know. Hai: Yeah. Somebody else can say how they problem solve. That'll be useful for other people. Hai: I'm like curious how autumn knows all her know her all her stuff, because, like a lot of stuff that she mentions, that's the stuff that I know that I never told the class I'm like, how do you know all this stuff that you gotta tell everybody Autumn Hicks: Like what I read a lot of documentation just cause I I feel like I don't. I don't know. I've never used for cell or anything before a few weeks ago. So I would say at least like an hour a day. That sounds weird. But I just I'm just looking at the docs. So that's how I saw that. There was an update for the AI SDK, and I was like, Oh, I have to check that out. But but yeah, I'm I'm not a software developer. So Autumn Hicks: I just Google, a lot Hai: Yeah. So, stuff like that big nerd alert, right? Like, who like reads documentation Hai: and then just like geeked out about oh, like a 4.2 update just came out. Holy shit, you know, all like Orin, or in like post updates about like what's happening in AI like all the time Hai: that, and like these people don't feel like they're wasting their time doing that because they like it. So if you have something that you're really into you do more of it. Then you kind of almost like, have an intuition of like Hai: you have. You have a better mental model of like how things, work and stuff like that. Hai: Thank you. Hai: Yeah. Praveena Suresh: Yeah, thank you. That's very helpful. Hai: cool. So before we wrap up. I have a question for you guys, so me and Mary, we're thinking about like getting Tas, because I know some of you guys are doing pretty well, and you know, we're like, Oh, maybe they can essentially teach to or like help out the class and whatever not just this class. By the way, like, we're thinking, some like potentially Hai: process after this. So if you're interested in like doing ta stuff. Hai: What today means is basically like, be like me. Hai: helping out the class. Be like Frederick, like just jumping in like helping people in chat and stuff like that, because obviously you have knowledge, and the best way to learn is to teach it. That's how I did my my most like food camp. I didn't know shit when I joined them. I'm like, yeah, I know, react. That was literally learning react as I'm teaching it. And then by the end, I know react. So Hai: so teaching is a great way to like reinforce what you're learning. So if you're interested in this shoot me a marry a DM, there's there's no concrete plan yet, but we're Hai: we're really really excited about the idea of, like. Hai: you know, having our students from the 1st boot camp be like teaching, or something like that? I feel like that'd be cool idea. Hai: So Meri Nova: Yes, guys message us, because I can see that you'll benefit a lot from this as well. And this is again a community that we're building. And I would love to see you guys in the future cohorts, maybe. And that's how that's what happens. You know, the superstars are the most active people. Consistent people end up doing something together, you know. And again, I think all of you guys have great potential Hai: Yeah, so the path goes like this, Hai: owning running airbnbs, or like, be a data scientist or data analyst somewhere. Hai: and then join this bootcamp. Learn how to ship stuff, build AI product engineering, and then be a ta Hai: and then be a correct engineer at the end. Hai: so you can't skip the ta part. You have to be a ta before we become a crack engineer. Hai: and then you go work for a startup or something. Everyone else Meri Nova: Either startup or ta. I don't know, because you could be building internal tools, too. You know, we have so many like Meri Nova: things inside that we need to automate like even this. Meri Nova: And they're recording things. But but yeah, yeah, let us let us know. And we're we're thinking of. It's not 100% sure. Yet we're thinking of organizing a hackathon, probably in a month or so, probably both online or San Francisco, but definitely online. And we would love any volunteers or anyone who would like to participate as like a leader? Or how do you say someone who helps manages things because it's going to be a lot. Meri Nova: But yeah. Hai: People are going to be asking questions about the stuff that you guys have learned already. So Hai: it'd be great to have some help Meri Nova: Yeah. Hai: Okay, sick. I gotta. I gotta do some other stuff now. But autumn autumn says I'm in. And then Keisha said, Okay, 5. Coding be documentation cool. Hai: I don't. Which one are you in? You gotta you gotta DM. Mary or me about Meri Nova: Which one Autumn Hicks: For sure. The hackathon sounds cool. Autumn Hicks: I don't know if I could teach anyone anything, but Autumn Hicks: take it till you make it. I could see Hai: Yeah, once, several times. Meri Nova: Love it. Lauren's 90% in in what Oren: In a month, but we'll see. I mean we'll get to it Meri Nova: Right, awesome. Hai: Alright gang. Hai: I'll see y'all tomorrow. Meri Nova: I love this thing Oren: It is a boot camp Meri Nova: Oh, guys, let me take a screenshot that is so cool. Wait. Wait. Meri Nova: Okay. How can I do both? Meri Nova: Alright. Alright! 1, 2 I can do with one hand. Right, 1, 2, 3 awesome Hai: Wait! Take it one more time. One more time. Meri Nova: Oh! Oh! Hai: Just pop on. Let's Meri Nova: Oh, yeah, that's true. That's true. That's true. That's true. Anybody else who wants to show their face. This is the time to do it. Okay? Oh, nice. I see it. Let's go. I see. Just one hand awesome. Awesome. 1, 2, 3. Meri Nova: Oh, my God! I love it! Melissa: Nice posture. Hai: At all. Melissa: Right. You had perfect posture to do this Meri Nova: Cool. Melissa: Me! Meri Nova: Alright. Thanks. Guys. Dwayne Joseph: Good night, everyone. Melissa: All right. Hai: Good night, everybody! Melissa: And Dwayne Joseph: Alright. Thank you.",
+  "duration": 4593.329,
+  "sentiment": {
+    "overall": 0.5625554569653949,
+    "timeline": [
+      {
+        "timestamp": 0.0,
+        "sentiment": 0.5781990521327014
+      },
+      {
+        "timestamp": 900.0,
+        "sentiment": 0.5827814569536424
+      },
+      {
+        "timestamp": 1800.0,
+        "sentiment": 0.4852941176470588
+      },
+      {
+        "timestamp": 2700.0,
+        "sentiment": 0.6174863387978142
+      },
+      {
+        "timestamp": 3600.0,
+        "sentiment": 0.5649717514124294
+      },
+      {
+        "timestamp": 4500.0,
+        "sentiment": 0.8780487804878049
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "name": "Meri Nova",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.8028169014084507
+    },
+    {
+      "name": "Autumn Hicks",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6739130434782609
+    },
+    {
+      "name": "Frederick Z",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.8571428571428571
+    },
+    {
+      "name": "Oren",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6
+    },
+    {
+      "name": "Hai",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.5925925925925926
+    },
+    {
+      "name": "kelseydilullo",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.75
+    },
+    {
+      "name": "Dwayne Joseph",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.75
+    },
+    {
+      "name": "Sarthak 13",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.7142857142857143
+    },
+    {
+      "name": "Ekta",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6666666666666666
+    },
+    {
+      "name": "Melissa",
+      "speaking_percentage": 0.0,
+      "sentiment": 1.0
+    },
+    {
+      "name": "Praveena Suresh",
+      "speaking_percentage": 0.0,
+      "sentiment": 1.0
+    }
+  ],
+  "reactions": {
+    "reactions": [
+      {
+        "name": "👍",
+        "count": 28
+      },
+      {
+        "name": "❤️",
+        "count": 24
+      },
+      {
+        "name": "😂",
+        "count": 17
+      },
+      {
+        "name": "🤣",
+        "count": 14
+      },
+      {
+        "name": "😄",
+        "count": 6
+      },
+      {
+        "name": "🎩",
+        "count": 2
+      },
+      {
+        "name": "🙏",
+        "count": 2
+      },
+      {
+        "name": "🫡",
+        "count": 2
+      },
+      {
+        "name": "🥷",
+        "count": 2
+      },
+      {
+        "name": "💡",
+        "count": 1
+      },
+      {
+        "name": "😀",
+        "count": 1
+      },
+      {
+        "name": "🐍",
+        "count": 1
+      },
+      {
+        "name": "😅",
+        "count": 1
+      },
+      {
+        "name": "❗",
+        "count": 1
+      }
+    ]
+  },
+  "participants": {
+    "total_participants": 15,
+    "active_participants": 15,
+    "speaking_participants": 11,
+    "reacting_participants": 14
+  },
+  "summary": "- The conversation revolves around the upcoming bootcamp hackathon and potential roles for participants, such as teaching assistants (TAs) or leaders.\n- There is also a discussion about the potential career paths of the participants after completing the bootcamp.",
+  "actionItems": [
+    "Participants are encouraged to DM Mary or Meri Nova if they are interested in participating in the hackathon or becoming TAs.",
+    "The organizers plan to organize a hackathon, possibly online and/or in San Francisco, within a month. They are seeking volunteers for leadership roles."
+  ],
+  "insights": "Topic Analysis:\n- Bootcamp Hackathon: The participants express interest in the upcoming hackathon. Sentiment: Positive.\n- Career Paths: The conversation touches upon potential career paths after completing the bootcamp, such as owning/running Airbnbs, becoming data scientists or analysts, joining the bootcamp as a TA, and eventually becoming a crack engineer. Sentiment: Neutral.\n- Learning Opportunities: The participants discuss the benefits of learning from each other and the importance of teaching others what they have learned. Sentiment: Positive.\n\nFeedback/Insights:\n- It is important to encourage and support continuous learning and teaching among the participants.\n- Offering opportunities for leadership roles, such as in a hackathon, can help participants develop their skills and gain practical experience.\n- The bootcamp organizers should consider offering more structured learning opportunities for those who may not feel confident in their ability to teach others.\n- Encouraging good posture during screen recordings is an important aspect of maintaining professionalism and presenting oneself well.",
+  "comments": [
+    {
+      "timestamp": "00:06:54",
+      "author": "Hai",
+      "message": "hat gang",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:07:38",
+      "author": "kelseydilullo",
+      "message": "So cool!! Love the loading screen when you clicked on the AI tools part",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:14:10",
+      "author": "Oren",
+      "message": "One way to clean the project if necessary is to gitingest the entire thing to Gemini Pro 2.5 Experimental through AI Studio (with over 2 million tokens in context) and ask for help in avoiding clutter/redundancy with YAGNI/DRY. It’s gonna find duplicate functions, tell you which files to remove and how to better organize it.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:07",
+      "author": "Frederick Z",
+      "message": "@Autumn Hicks Did you vibe code the landing page or use a template? I was planning on a very similar color theme.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:36",
+      "author": "Hai",
+      "message": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:47",
+      "author": "Gil",
+      "message": "Did anyone play with the new image generator from OpenAI? It’s so great for design that soon I’ll transition to become a farmer.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:24:19",
+      "author": "Hai",
+      "message": "https://mermaid.js.org/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:30:46",
+      "author": "asiah maryam",
+      "message": "Can someone reshare the youtube link hai shared earlier? I switch to another device and all the chats here gone",
+      "reactions": [
+        "🙏"
+      ]
+    },
+    {
+      "timestamp": "00:31:10",
+      "author": "Hai",
+      "message": "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:31:10",
+      "author": "Gil",
+      "message": "Oren is a VP at Google. Don’t fall for it.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:31:23",
+      "author": "Tamilarasee S",
+      "message": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:32:43",
+      "author": "Oren",
+      "message": "@Frederick Z https://aistudio.google.com/prompts/new_chat",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:32:49",
+      "author": "Frederick Z",
+      "message": "I see gemma3 is available on Ollama. I'm going to try it as my agent LLM.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:02",
+      "author": "Autumn Hicks",
+      "message": "What about these native integrations for Vercel?",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:19",
+      "author": "Hai",
+      "message": "groq goes crazy ngl",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:54",
+      "author": "Meri Nova",
+      "message": "Here is my friend’s app I shared: https://www.chat.numan.ai/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:40:51",
+      "author": "Hai",
+      "message": "https://www.npmjs.com/package/psd",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:48:12",
+      "author": "Gil",
+      "message": "@Meri Nova I know you do this intentionally as a marketing tactic to create anticipation, but can you please add the password to the latest Vibe Coding recording?",
+      "reactions": [
+        "😀"
+      ]
+    },
+    {
+      "timestamp": "00:48:32",
+      "author": "Frederick Z",
+      "message": "Same here... I am very uncomfortable vibe coding in a language I don't know.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:51:24",
+      "author": "Frederick Z",
+      "message": "Overthinker right here!",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:52:33",
+      "author": "kelseydilullo",
+      "message": "Have you guys noticed that when things are going well, it’s “the code” but when there is a bug, Cursor calls it “your code”  e.g. I’ll help you fix your code! thanks!",
+      "reactions": [
+        "🤣"
+      ]
+    },
+    {
+      "timestamp": "00:55:21",
+      "author": "asiah maryam",
+      "message": "U are not wasting time, u are getting over urself, Hai 2025.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:56:29",
+      "author": "Frederick Z",
+      "message": "It may not solve everything, but there is almost no problem that can be made worse by stepping away from the keyboard and going for a walk.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:56:57",
+      "author": "Oren",
+      "message": "Yeah, sharing it is the best part. Every time I’m telling my friends about the project, I’m getting a big boost",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:58:15",
+      "author": "Gil",
+      "message": "So, it is okay to cry in a fetal position when debugging? Asking for a friend.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:58:41",
+      "author": "kelseydilullo",
+      "message": "This is definitely therapeutic…. Weds Q&A and Vent Sesh.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:59:15",
+      "author": "Oren",
+      "message": "It’s a grind, but it’s supposed to be a grind! They called it a bootcamp for a reason",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:02:38",
+      "author": "Frederick Z",
+      "message": "As I'm planning to vibe code my UI, by this Friday, I'll be happy to show something that will surely look like Sloth from The Goonies.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:04:08",
+      "author": "Gil",
+      "message": "@Melissa You are a ninja!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:07:26",
+      "author": "Oren",
+      "message": "I hope I’ll make it by week 5 but I’m planning to incorporate  flowchart breakdown to the recipes in my app, it might look like this (my favorite Hummus-related recipe)",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:08:57",
+      "author": "Autumn Hicks",
+      "message": "Suggestion for vibe coding.. I almost always add documentation for Cursor to reference. For example I would prompt Cursor to \"Implement this feature __ using this documentation: <url>\"",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:09:31",
+      "author": "Ekta",
+      "message": "Will we stick to 12pm vibe coding moving forward?",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:09:49",
+      "author": "Ekta",
+      "message": "12pmcst sorry",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:10:53",
+      "author": "Gil",
+      "message": "Autumn is Oren’s boss at Google.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:12:54",
+      "author": "Frederick Z",
+      "message": "That's some 10x fake-it-until-you-make-it ish!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:13:21",
+      "author": "Gil",
+      "message": "I can help with design, or teaching 5 years olds.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:04",
+      "author": "Kasia Swiech",
+      "message": "so far I've just been vibe coding but now I realise I need to read documentation more, not to blindly trust cursor...",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:41",
+      "author": "Autumn Hicks",
+      "message": "I'm in!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:50",
+      "author": "Oren",
+      "message": "I’m 90% in",
+      "reactions": []
+    }
+  ]
+}

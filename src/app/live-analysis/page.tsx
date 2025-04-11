@@ -156,12 +156,7 @@ export default function LiveAnalysisPage() {
                 <TabsContent value="summary">
                   <div className="rounded-lg border p-4">
                     <p className="text-sm">
-                      The meeting began with Sarah discussing the Q3 marketing strategy, focusing on digital campaigns
-                      and social media presence. Michael then presented the sales figures, highlighting a 15% increase
-                      in new customer acquisition. David raised concerns about resource allocation for the upcoming
-                      product launch, which led to a discussion about priorities and timeline adjustments. Emily
-                      proposed a new approach to customer onboarding that received positive feedback from the team. The
-                      meeting concluded with James summarizing action items and assigning responsibilities.
+                      No summary data available for this meeting.
                     </p>
                   </div>
                 </TabsContent>
@@ -170,17 +165,13 @@ export default function LiveAnalysisPage() {
                     <div className="rounded-lg border p-4">
                       <h3 className="font-semibold">Marketing Team</h3>
                       <ul className="mt-2 list-disc pl-5 text-sm">
-                        <li>Finalize Q3 digital campaign strategy by Friday</li>
-                        <li>Coordinate with Sales on lead generation targets</li>
-                        <li>Prepare social media content calendar for review</li>
+                        <li>No action items data available for this meeting.</li>
                       </ul>
                     </div>
                     <div className="rounded-lg border p-4">
                       <h3 className="font-semibold">Product Team</h3>
                       <ul className="mt-2 list-disc pl-5 text-sm">
-                        <li>Revise product launch timeline based on resource allocation discussion</li>
-                        <li>Implement Emily's customer onboarding improvements</li>
-                        <li>Schedule follow-up meeting to review progress next week</li>
+                        <li>No action items data available for this meeting.</li>
                       </ul>
                     </div>
                   </div>
@@ -190,17 +181,13 @@ export default function LiveAnalysisPage() {
                     <div className="rounded-lg border p-4">
                       <h3 className="font-semibold">Sentiment Analysis</h3>
                       <p className="mt-2 text-sm">
-                        Overall meeting sentiment was positive (76%). Emily's presentation on customer onboarding
-                        generated the most positive reactions (84%). There was a noticeable drop in sentiment (62%)
-                        during the resource allocation discussion, indicating this is an area of concern for the team.
+                        No Sentiment Analysis data available for this meeting.
                       </p>
                     </div>
                     <div className="rounded-lg border p-4">
                       <h3 className="font-semibold">Engagement Analysis</h3>
                       <p className="mt-2 text-sm">
-                        Participation was balanced with all team members contributing. The highest engagement occurred
-                        during the product launch discussion, suggesting this topic is important to the team. Consider
-                        allocating more time for collaborative planning in future meetings.
+                        No Engagement Analysis data available for this meeting.
                       </p>
                     </div>
                   </div>

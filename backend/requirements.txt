@@ -1,0 +1,24 @@
+fastapi
+uvicorn
+python-multipart
+supabase
+pydantic
+requests
+# AI & Processing Libs
+transformers
+torch
+bertopic
+nltk
+# Whisper requires direct git install - Add note or handle separately
+# pip install git+https://github.com/openai/whisper.git 
+# Diarization
+pyannote.audio
+# Note: PyTorch should be installed separately if specific version (CPU/GPU) needed
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 # Example for specific CUDA
+# Or rely on pyannote to pull a compatible torch version
+ffmpeg-python
+mutagen
+reportlab
+webvtt-py 
+python-dotenv
+# Add any other specific versions if known/required 

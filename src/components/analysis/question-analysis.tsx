@@ -23,118 +23,7 @@ interface Question {
   category: "clarification" | "challenge" | "extension" | "procedural"
 }
 
-const questions: Question[] = [
-  {
-    id: "q1",
-    text: "Could you explain how the new onboarding process will affect existing customers?",
-    speaker: "Emily Rodriguez",
-    askedBy: "Michael Chen",
-    timestamp: "00:12:45",
-    topic: "Customer Onboarding",
-    sentiment: 65,
-    answered: true,
-    category: "clarification",
-  },
-  {
-    id: "q2",
-    text: "I'm not sure the timeline is realistic given our current resources. Have we considered extending the deadline?",
-    speaker: "David Wilson",
-    askedBy: "Sarah Johnson",
-    timestamp: "00:24:30",
-    topic: "Resource Allocation",
-    sentiment: 45,
-    answered: true,
-    category: "challenge",
-  },
-  {
-    id: "q3",
-    text: "How does this marketing strategy align with our Q4 sales targets?",
-    speaker: "Sarah Johnson",
-    askedBy: "James Taylor",
-    timestamp: "00:08:15",
-    topic: "Marketing Strategy",
-    sentiment: 70,
-    answered: true,
-    category: "clarification",
-  },
-  {
-    id: "q4",
-    text: "Could we apply this approach to our enterprise clients as well?",
-    speaker: "Michael Chen",
-    askedBy: "Emily Rodriguez",
-    timestamp: "00:35:20",
-    topic: "Sales Figures",
-    sentiment: 85,
-    answered: true,
-    category: "extension",
-  },
-  {
-    id: "q5",
-    text: "When will the team receive training on the new system?",
-    speaker: "James Taylor",
-    askedBy: "David Wilson",
-    timestamp: "00:42:10",
-    topic: "Action Items",
-    sentiment: 60,
-    answered: false,
-    category: "procedural",
-  },
-  {
-    id: "q6",
-    text: "I'm concerned about the security implications of this approach. Have we consulted with the IT team?",
-    speaker: "David Wilson",
-    askedBy: "Michael Chen",
-    timestamp: "00:27:45",
-    topic: "Resource Allocation",
-    sentiment: 40,
-    answered: true,
-    category: "challenge",
-  },
-  {
-    id: "q7",
-    text: "Could you share more details about how this affected customer retention in the pilot?",
-    speaker: "Emily Rodriguez",
-    askedBy: "Sarah Johnson",
-    timestamp: "00:15:30",
-    topic: "Customer Onboarding",
-    sentiment: 75,
-    answered: true,
-    category: "extension",
-  },
-  {
-    id: "q8",
-    text: "What metrics will we use to measure the success of this initiative?",
-    speaker: "Sarah Johnson",
-    askedBy: "James Taylor",
-    timestamp: "00:10:15",
-    topic: "Marketing Strategy",
-    sentiment: 80,
-    answered: true,
-    category: "clarification",
-  },
-  {
-    id: "q9",
-    text: "Do we need to schedule a follow-up meeting to discuss these action items in more detail?",
-    speaker: "James Taylor",
-    askedBy: "Emily Rodriguez",
-    timestamp: "00:44:30",
-    topic: "Action Items",
-    sentiment: 65,
-    answered: false,
-    category: "procedural",
-  },
-  {
-    id: "q10",
-    text: "I'm not convinced this approach will work for our international markets. What data do we have to support this?",
-    speaker: "David Wilson",
-    askedBy: "Michael Chen",
-    timestamp: "00:29:15",
-    topic: "Resource Allocation",
-    sentiment: 35,
-    answered: true,
-    category: "challenge",
-  },
-]
+const questions: Question[] = []
 
 const categoryDescriptions = {
   clarification: "Questions seeking to better understand information presented",
@@ -169,20 +58,20 @@ export function QuestionAnalysis() {
   )
 
   // Calculate statistics
-  const totalQuestions = questions.length
-  const clarificationCount = questions.filter((q) => q.category === "clarification").length
-  const challengeCount = questions.filter((q) => q.category === "challenge").length
-  const extensionCount = questions.filter((q) => q.category === "extension").length
-  const proceduralCount = questions.filter((q) => q.category === "procedural").length
+  const totalQuestions = 0
+  const clarificationCount = 0
+  const challengeCount = 0
+  const extensionCount = 0
+  const proceduralCount = 0
 
-  const averageSentiment = Math.round(questions.reduce((sum, q) => sum + q.sentiment, 0) / totalQuestions)
+  const averageSentiment = 0
 
   const questionsBySpeaker = {
-    "Sarah Johnson": questions.filter((q) => q.speaker === "Sarah Johnson"),
-    "Michael Chen": questions.filter((q) => q.speaker === "Michael Chen"),
-    "David Wilson": questions.filter((q) => q.speaker === "David Wilson"),
-    "Emily Rodriguez": questions.filter((q) => q.speaker === "Emily Rodriguez"),
-    "James Taylor": questions.filter((q) => q.speaker === "James Taylor"),
+    "Sarah Johnson": [],
+    "Michael Chen": [],
+    "David Wilson": [],
+    "Emily Rodriguez": [],
+    "James Taylor": [],
   }
 
   return (
@@ -213,7 +102,7 @@ export function QuestionAnalysis() {
                 <div className="rounded-lg border p-4">
                   <div className="text-sm font-medium text-muted-foreground">Answered</div>
                   <div className="mt-1 text-2xl font-bold">
-                    {questions.filter((q) => q.answered).length}/{totalQuestions}
+                    0/{totalQuestions}
                   </div>
                 </div>
                 <div className="rounded-lg border p-4">
@@ -231,10 +120,10 @@ export function QuestionAnalysis() {
                         <Badge className={categoryBadgeVariants.clarification}>Clarification</Badge>
                         <span className="text-sm">{clarificationCount} questions</span>
                       </div>
-                      <span className="text-sm">{Math.round((clarificationCount / totalQuestions) * 100)}%</span>
+                      <span className="text-sm">0%</span>
                     </div>
                     <Progress
-                      value={(clarificationCount / totalQuestions) * 100}
+                      value={0}
                       className="h-2"
                       indicatorColor="bg-blue-500"
                     />
@@ -246,10 +135,10 @@ export function QuestionAnalysis() {
                         <Badge className={categoryBadgeVariants.challenge}>Challenge</Badge>
                         <span className="text-sm">{challengeCount} questions</span>
                       </div>
-                      <span className="text-sm">{Math.round((challengeCount / totalQuestions) * 100)}%</span>
+                      <span className="text-sm">0%</span>
                     </div>
                     <Progress
-                      value={(challengeCount / totalQuestions) * 100}
+                      value={0}
                       className="h-2"
                       indicatorColor="bg-amber-500"
                     />
@@ -261,10 +150,10 @@ export function QuestionAnalysis() {
                         <Badge className={categoryBadgeVariants.extension}>Extension</Badge>
                         <span className="text-sm">{extensionCount} questions</span>
                       </div>
-                      <span className="text-sm">{Math.round((extensionCount / totalQuestions) * 100)}%</span>
+                      <span className="text-sm">0%</span>
                     </div>
                     <Progress
-                      value={(extensionCount / totalQuestions) * 100}
+                      value={0}
                       className="h-2"
                       indicatorColor="bg-green-500"
                     />
@@ -276,10 +165,10 @@ export function QuestionAnalysis() {
                         <Badge className={categoryBadgeVariants.procedural}>Procedural</Badge>
                         <span className="text-sm">{proceduralCount} questions</span>
                       </div>
-                      <span className="text-sm">{Math.round((proceduralCount / totalQuestions) * 100)}%</span>
+                      <span className="text-sm">0%</span>
                     </div>
                     <Progress
-                      value={(proceduralCount / totalQuestions) * 100}
+                      value={0}
                       className="h-2"
                       indicatorColor="bg-purple-500"
                     />
@@ -291,28 +180,15 @@ export function QuestionAnalysis() {
                 <div className="rounded-lg border p-4">
                   <h3 className="font-semibold">Question Sentiment Impact</h3>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    Questions provide valuable insight into audience engagement and understanding. High sentiment
-                    questions (extension questions) indicate engagement and interest. Low sentiment questions (challenge
-                    questions) may indicate concerns that need addressing but also show critical thinking.
+                    No Sentiment Impact data available for this meeting.
                   </p>
                 </div>
 
                 <div className="rounded-lg border p-4">
                   <h3 className="font-semibold">Question Categories Explained</h3>
-                  <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
-                    <li>
-                      • <span className="font-medium">Clarification:</span> {categoryDescriptions.clarification}
-                    </li>
-                    <li>
-                      • <span className="font-medium">Challenge:</span> {categoryDescriptions.challenge}
-                    </li>
-                    <li>
-                      • <span className="font-medium">Extension:</span> {categoryDescriptions.extension}
-                    </li>
-                    <li>
-                      • <span className="font-medium">Procedural:</span> {categoryDescriptions.procedural}
-                    </li>
-                  </ul>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    No Categories Explained data available for this meeting.
+                  </p>
                 </div>
               </div>
             </div>
@@ -369,34 +245,42 @@ export function QuestionAnalysis() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {filteredQuestions.map((question) => (
-                      <TableRow key={question.id}>
-                        <TableCell className="font-medium">{question.text}</TableCell>
-                        <TableCell>{question.speaker}</TableCell>
-                        <TableCell>{question.askedBy}</TableCell>
-                        <TableCell>
-                          <Badge className={categoryBadgeVariants[question.category]}>
-                            {question.category.charAt(0).toUpperCase() + question.category.slice(1)}
-                          </Badge>
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex items-center gap-2">
-                            <Progress
-                              value={question.sentiment}
-                              className="h-2 w-[60px]"
-                              indicatorColor={
-                                question.sentiment >= 75
-                                  ? "bg-green-500"
-                                  : question.sentiment >= 50
-                                    ? "bg-amber-500"
-                                    : "bg-red-500"
-                              }
-                            />
-                            <span>{question.sentiment}%</span>
-                          </div>
+                    {filteredQuestions.length > 0 ? (
+                      filteredQuestions.map((question) => (
+                        <TableRow key={question.id}>
+                          <TableCell className="font-medium">{question.text}</TableCell>
+                          <TableCell>{question.speaker}</TableCell>
+                          <TableCell>{question.askedBy}</TableCell>
+                          <TableCell>
+                            <Badge className={categoryBadgeVariants[question.category]}>
+                              {question.category.charAt(0).toUpperCase() + question.category.slice(1)}
+                            </Badge>
+                          </TableCell>
+                          <TableCell>
+                            <div className="flex items-center gap-2">
+                              <Progress
+                                value={question.sentiment}
+                                className="h-2 w-[60px]"
+                                indicatorColor={
+                                  question.sentiment >= 75
+                                    ? "bg-green-500"
+                                    : question.sentiment >= 50
+                                      ? "bg-amber-500"
+                                      : "bg-red-500"
+                                }
+                              />
+                              <span>{question.sentiment}%</span>
+                            </div>
+                          </TableCell>
+                        </TableRow>
+                      ))
+                    ) : (
+                      <TableRow>
+                        <TableCell colSpan={5} className="text-center py-4 text-muted-foreground">
+                          No questions data available for this meeting.
                         </TableCell>
                       </TableRow>
-                    ))}
+                    )}
                   </TableBody>
                 </Table>
               </div>
@@ -405,65 +289,71 @@ export function QuestionAnalysis() {
 
           <TabsContent value="speakers">
             <div className="space-y-6">
-              {Object.entries(questionsBySpeaker).map(([speaker, speakerQuestions]) => (
-                <div key={speaker} className="rounded-lg border p-4">
-                  <h3 className="font-semibold">{speaker}</h3>
-                  <div className="mt-4 space-y-4">
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="rounded-md bg-muted p-3">
-                        <div className="text-sm font-medium text-muted-foreground">Questions Received</div>
-                        <div className="mt-1 text-xl font-bold">{speakerQuestions.length}</div>
-                      </div>
-                      <div className="rounded-md bg-muted p-3">
-                        <div className="text-sm font-medium text-muted-foreground">Avg. Sentiment</div>
-                        <div className="mt-1 text-xl font-bold">
-                          {speakerQuestions.length > 0
-                            ? Math.round(
-                                speakerQuestions.reduce((sum, q) => sum + q.sentiment, 0) / speakerQuestions.length,
-                              )
-                            : 0}
-                          %
+              {Object.entries(questionsBySpeaker).length > 0 ? (
+                Object.entries(questionsBySpeaker).map(([speaker, speakerQuestions]) => (
+                  <div key={speaker} className="rounded-lg border p-4">
+                    <h3 className="font-semibold">{speaker}</h3>
+                    <div className="mt-4 space-y-4">
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="rounded-md bg-muted p-3">
+                          <div className="text-sm font-medium text-muted-foreground">Questions Received</div>
+                          <div className="mt-1 text-xl font-bold">{speakerQuestions.length}</div>
+                        </div>
+                        <div className="rounded-md bg-muted p-3">
+                          <div className="text-sm font-medium text-muted-foreground">Avg. Sentiment</div>
+                          <div className="mt-1 text-xl font-bold">
+                            {speakerQuestions.length > 0
+                              ? Math.round(
+                                  speakerQuestions.reduce((sum, q) => sum + q.sentiment, 0) / speakerQuestions.length,
+                                )
+                              : 0}
+                            %
+                          </div>
                         </div>
                       </div>
-                    </div>
 
-                    <div className="space-y-2">
-                      <div className="text-sm font-medium">Question Categories</div>
-                      <div className="grid grid-cols-2 gap-2">
-                        {["clarification", "challenge", "extension", "procedural"].map((category) => {
-                          const count = speakerQuestions.filter((q) => q.category === category).length
-                          const percentage =
-                            speakerQuestions.length > 0 ? Math.round((count / speakerQuestions.length) * 100) : 0
+                      <div className="space-y-2">
+                        <div className="text-sm font-medium">Question Categories</div>
+                        <div className="grid grid-cols-2 gap-2">
+                          {["clarification", "challenge", "extension", "procedural"].map((category) => {
+                            const count = speakerQuestions.filter((q) => q.category === category).length
+                            const percentage =
+                              speakerQuestions.length > 0 ? Math.round((count / speakerQuestions.length) * 100) : 0
 
-                          return (
-                            <div key={category} className="flex items-center gap-2">
-                              <div
-                                className={`h-3 w-3 rounded-full ${categoryColors[category as keyof typeof categoryColors]}`}
-                              />
-                              <span className="text-xs">{category.charAt(0).toUpperCase() + category.slice(1)}</span>
-                              <span className="ml-auto text-xs">{percentage}%</span>
-                            </div>
-                          )
-                        })}
+                            return (
+                              <div key={category} className="flex items-center gap-2">
+                                <div
+                                  className={`h-3 w-3 rounded-full ${categoryColors[category as keyof typeof categoryColors]}`}
+                                />
+                                <span className="text-xs">{category.charAt(0).toUpperCase() + category.slice(1)}</span>
+                                <span className="ml-auto text-xs">{percentage}%</span>
+                              </div>
+                            )
+                          })}
+                        </div>
+                      </div>
+
+                      <div className="text-sm text-muted-foreground">
+                        {speakerQuestions.length > 0
+                          ? speaker === "David Wilson"
+                            ? "David receives the highest proportion of challenge questions (50%), indicating his topics may be controversial or need more supporting evidence. Consider providing more data upfront."
+                            : speaker === "Emily Rodriguez"
+                              ? "Emily receives the highest proportion of extension questions (50%), showing her content inspires further thinking. Her clarification questions are minimal, indicating exceptional clarity."
+                              : speaker === "Sarah Johnson"
+                                ? "Sarah's questions are primarily clarification-based (50%), suggesting her topics may benefit from more detailed explanations or examples. Her content generates positive engagement."
+                                : speaker === "Michael Chen"
+                                  ? "Michael receives a balanced mix of question types, with extension questions slightly higher (50%). This indicates his content is clear but inspires further exploration."
+                                  : "James receives mostly procedural questions (50%), suggesting his role in defining next steps and action items. Consider providing more detailed implementation plans."
+                          : "No questions recorded for this speaker."}
                       </div>
                     </div>
-
-                    <div className="text-sm text-muted-foreground">
-                      {speakerQuestions.length > 0
-                        ? speaker === "David Wilson"
-                          ? "David receives the highest proportion of challenge questions (50%), indicating his topics may be controversial or need more supporting evidence. Consider providing more data upfront."
-                          : speaker === "Emily Rodriguez"
-                            ? "Emily receives the highest proportion of extension questions (50%), showing her content inspires further thinking. Her clarification questions are minimal, indicating exceptional clarity."
-                            : speaker === "Sarah Johnson"
-                              ? "Sarah's questions are primarily clarification-based (50%), suggesting her topics may benefit from more detailed explanations or examples. Her content generates positive engagement."
-                              : speaker === "Michael Chen"
-                                ? "Michael receives a balanced mix of question types, with extension questions slightly higher (50%). This indicates his content is clear but inspires further exploration."
-                                : "James receives mostly procedural questions (50%), suggesting his role in defining next steps and action items. Consider providing more detailed implementation plans."
-                        : "No questions recorded for this speaker."}
-                    </div>
                   </div>
+                ))
+              ) : (
+                <div className="rounded-lg border p-4 text-center text-muted-foreground py-8">
+                  No speaker analysis data available for this meeting.
                 </div>
-              ))}
+              )}
             </div>
           </TabsContent>
         </Tabs>

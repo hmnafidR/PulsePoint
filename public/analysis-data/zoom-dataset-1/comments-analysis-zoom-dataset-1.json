@@ -1,0 +1,244 @@
+{
+  "comments": [
+    {
+      "timestamp": "00:06:54",
+      "author": "Hai",
+      "message": "hat gang",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:07:38",
+      "author": "kelseydilullo",
+      "message": "So cool!! Love the loading screen when you clicked on the AI tools part",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:14:10",
+      "author": "Oren",
+      "message": "One way to clean the project if necessary is to gitingest the entire thing to Gemini Pro 2.5 Experimental through AI Studio (with over 2 million tokens in context) and ask for help in avoiding clutter/redundancy with YAGNI/DRY. It’s gonna find duplicate functions, tell you which files to remove and how to better organize it.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:07",
+      "author": "Frederick Z",
+      "message": "@Autumn Hicks Did you vibe code the landing page or use a template? I was planning on a very similar color theme.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:36",
+      "author": "Hai",
+      "message": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:21:47",
+      "author": "Gil",
+      "message": "Did anyone play with the new image generator from OpenAI? It’s so great for design that soon I’ll transition to become a farmer.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:24:19",
+      "author": "Hai",
+      "message": "https://mermaid.js.org/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:30:46",
+      "author": "asiah maryam",
+      "message": "Can someone reshare the youtube link hai shared earlier? I switch to another device and all the chats here gone",
+      "reactions": [
+        "🙏"
+      ]
+    },
+    {
+      "timestamp": "00:31:10",
+      "author": "Hai",
+      "message": "https://www.xda-developers.com/notebooklm-generate-mind-maps/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:31:10",
+      "author": "Gil",
+      "message": "Oren is a VP at Google. Don’t fall for it.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:31:23",
+      "author": "Tamilarasee S",
+      "message": "https://www.youtube.com/watch?v=B3wLYDl2SmQ",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:32:43",
+      "author": "Oren",
+      "message": "@Frederick Z https://aistudio.google.com/prompts/new_chat",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:32:49",
+      "author": "Frederick Z",
+      "message": "I see gemma3 is available on Ollama. I'm going to try it as my agent LLM.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:02",
+      "author": "Autumn Hicks",
+      "message": "What about these native integrations for Vercel?",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:19",
+      "author": "Hai",
+      "message": "groq goes crazy ngl",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:34:54",
+      "author": "Meri Nova",
+      "message": "Here is my friend’s app I shared: https://www.chat.numan.ai/",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:40:51",
+      "author": "Hai",
+      "message": "https://www.npmjs.com/package/psd",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:48:12",
+      "author": "Gil",
+      "message": "@Meri Nova I know you do this intentionally as a marketing tactic to create anticipation, but can you please add the password to the latest Vibe Coding recording?",
+      "reactions": [
+        "😀"
+      ]
+    },
+    {
+      "timestamp": "00:48:32",
+      "author": "Frederick Z",
+      "message": "Same here... I am very uncomfortable vibe coding in a language I don't know.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:51:24",
+      "author": "Frederick Z",
+      "message": "Overthinker right here!",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:52:33",
+      "author": "kelseydilullo",
+      "message": "Have you guys noticed that when things are going well, it’s “the code” but when there is a bug, Cursor calls it “your code”  e.g. I’ll help you fix your code! thanks!",
+      "reactions": [
+        "🤣"
+      ]
+    },
+    {
+      "timestamp": "00:55:21",
+      "author": "asiah maryam",
+      "message": "U are not wasting time, u are getting over urself, Hai 2025.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:56:29",
+      "author": "Frederick Z",
+      "message": "It may not solve everything, but there is almost no problem that can be made worse by stepping away from the keyboard and going for a walk.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:56:57",
+      "author": "Oren",
+      "message": "Yeah, sharing it is the best part. Every time I’m telling my friends about the project, I’m getting a big boost",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:58:15",
+      "author": "Gil",
+      "message": "So, it is okay to cry in a fetal position when debugging? Asking for a friend.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:58:41",
+      "author": "kelseydilullo",
+      "message": "This is definitely therapeutic…. Weds Q&A and Vent Sesh.",
+      "reactions": []
+    },
+    {
+      "timestamp": "00:59:15",
+      "author": "Oren",
+      "message": "It’s a grind, but it’s supposed to be a grind! They called it a bootcamp for a reason",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:02:38",
+      "author": "Frederick Z",
+      "message": "As I'm planning to vibe code my UI, by this Friday, I'll be happy to show something that will surely look like Sloth from The Goonies.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:04:08",
+      "author": "Gil",
+      "message": "@Melissa You are a ninja!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:07:26",
+      "author": "Oren",
+      "message": "I hope I’ll make it by week 5 but I’m planning to incorporate  flowchart breakdown to the recipes in my app, it might look like this (my favorite Hummus-related recipe)",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:08:57",
+      "author": "Autumn Hicks",
+      "message": "Suggestion for vibe coding.. I almost always add documentation for Cursor to reference. For example I would prompt Cursor to \"Implement this feature __ using this documentation: <url>\"",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:09:31",
+      "author": "Ekta",
+      "message": "Will we stick to 12pm vibe coding moving forward?",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:09:49",
+      "author": "Ekta",
+      "message": "12pmcst sorry",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:10:53",
+      "author": "Gil",
+      "message": "Autumn is Oren’s boss at Google.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:12:54",
+      "author": "Frederick Z",
+      "message": "That's some 10x fake-it-until-you-make-it ish!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:13:21",
+      "author": "Gil",
+      "message": "I can help with design, or teaching 5 years olds.",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:04",
+      "author": "Kasia Swiech",
+      "message": "so far I've just been vibe coding but now I realise I need to read documentation more, not to blindly trust cursor...",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:41",
+      "author": "Autumn Hicks",
+      "message": "I'm in!",
+      "reactions": []
+    },
+    {
+      "timestamp": "01:14:50",
+      "author": "Oren",
+      "message": "I’m 90% in",
+      "reactions": []
+    }
+  ]
+}

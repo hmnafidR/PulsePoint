@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Users, MessageSquare, ThumbsUp, MicOff } from "lucide-react"
+import { Users, MessageSquare, ThumbsUp, MicOff, Mic } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 
@@ -78,11 +78,11 @@ export function MeetingParticipationStats({
             <p className="text-xs text-muted-foreground">Reacting Participants</p>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border p-4 text-center">
-            <div className="mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-red-100 dark:bg-red-900">
-              <MicOff className="h-6 w-6 text-red-600 dark:text-red-300" />
+            <div className="mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-green-100 dark:bg-green-900">
+              <Mic className="h-6 w-6 text-green-600 dark:text-green-300" />
             </div>
-            <div className="text-2xl font-bold">{silentParticipants}</div>
-            <p className="text-xs text-muted-foreground">Silent Participants</p>
+            <div className="text-2xl font-bold">{speakingParticipants}</div>
+            <p className="text-xs text-muted-foreground">Speaking Participants</p>
           </div>
         </div>
 

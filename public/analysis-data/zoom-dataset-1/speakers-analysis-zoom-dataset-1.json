@@ -1,0 +1,59 @@
+{
+  "speakers": [
+    {
+      "name": "Meri Nova",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.8028169014084507
+    },
+    {
+      "name": "Autumn Hicks",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6739130434782609
+    },
+    {
+      "name": "Frederick Z",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.8571428571428571
+    },
+    {
+      "name": "Oren",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6
+    },
+    {
+      "name": "Hai",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.5925925925925926
+    },
+    {
+      "name": "kelseydilullo",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.75
+    },
+    {
+      "name": "Dwayne Joseph",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.75
+    },
+    {
+      "name": "Sarthak 13",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.7142857142857143
+    },
+    {
+      "name": "Ekta",
+      "speaking_percentage": 0.0,
+      "sentiment": 0.6666666666666666
+    },
+    {
+      "name": "Melissa",
+      "speaking_percentage": 0.0,
+      "sentiment": 1.0
+    },
+    {
+      "name": "Praveena Suresh",
+      "speaking_percentage": 0.0,
+      "sentiment": 1.0
+    }
+  ]
+}

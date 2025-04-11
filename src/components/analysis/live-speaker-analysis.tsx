@@ -6,34 +6,45 @@ import { Progress } from "@/components/ui/progress"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Card, CardContent } from "@/components/ui/card"
 
-interface LiveSpeakerAnalysisProps {
-  isLive?: boolean
-}
-
-interface Speaker {
+// Define type matching the data passed from the parent
+interface SpeakerAnalysisDataItem {
   name: string;
   speakingTime: number;
-  sentiment: number;
-  lastActive: boolean;
+  sentiment: number; // Expected in 0-1 format from props
+  // Add other relevant speaker fields if available from API
 }
 
-// Helper function to get sentiment color
-function getSentimentColor(sentiment: number): string {
-  if (sentiment >= 70) return "text-green-600"; // Positive
-  if (sentiment >= 40 && sentiment < 70) return "text-yellow-600"; // Neutral
+interface LiveSpeakerAnalysisProps {
+  isLive?: boolean
+  speakersData?: SpeakerAnalysisDataItem[]; // Accept speakers data as prop
+}
+
+interface Speaker extends SpeakerAnalysisDataItem {
+  // Extend with any UI-specific state if needed in the future
+  // For now, it's the same as SpeakerAnalysisDataItem
+  // Keep lastActive for potential live simulation logic (though currently unused when data is passed)
+  lastActive: boolean; 
+}
+
+// Helper function to get sentiment color (adjust input scaling)
+function getSentimentColor(sentimentFraction: number): string {
+  const sentimentPercent = Math.round(sentimentFraction * 100);
+  if (sentimentPercent >= 70) return "text-green-600"; // Positive
+  if (sentimentPercent >= 40 && sentimentPercent < 70) return "text-yellow-600"; // Neutral
   return "text-red-600"; // Negative
 }
 
-// Helper function to get sentiment badge
-function getSentimentBadge(sentiment: number): { label: string; bgColor: string; textColor: string } {
-  if (sentiment >= 70) {
+// Helper function to get sentiment badge (adjust input scaling)
+function getSentimentBadge(sentimentFraction: number): { label: string; bgColor: string; textColor: string } {
+  const sentimentPercent = Math.round(sentimentFraction * 100);
+  if (sentimentPercent >= 70) {
     return { 
       label: "Positive", 
       bgColor: "bg-green-100", 
       textColor: "text-green-800" 
     };
   }
-  if (sentiment >= 40 && sentiment < 70) {
+  if (sentimentPercent >= 40 && sentimentPercent < 70) {
     return { 
       label: "Neutral", 
       bgColor: "bg-yellow-100", 
@@ -47,66 +58,42 @@ function getSentimentBadge(sentiment: number): { label: string; bgColor: string;
   };
 }
 
-export function LiveSpeakerAnalysis({ isLive = false }: LiveSpeakerAnalysisProps) {
-  // Default speaker data
-  const defaultSpeakers = [
-    { name: "Meri Nova", speakingTime: 1125, sentiment: 88, lastActive: false },
-    { name: "Frederick Z", speakingTime: 675, sentiment: 80, lastActive: false },
-    { name: "Oren", speakingTime: 630, sentiment: 82, lastActive: true },
-    { name: "Autumn Hicks", speakingTime: 540, sentiment: 78, lastActive: false },
-    { name: "Gil", speakingTime: 450, sentiment: 75, lastActive: false },
-    { name: "kelseydilullo", speakingTime: 405, sentiment: 83, lastActive: false },
-    { name: "Tamilarasee S", speakingTime: 360, sentiment: 65, lastActive: false },
-    { name: "Hai", speakingTime: 315, sentiment: 68, lastActive: false },
-  ];
-
-  const [speakers, setSpeakers] = useState<Speaker[]>(defaultSpeakers);
-  const [isLoading, setIsLoading] = useState(true);
+export function LiveSpeakerAnalysis({ isLive = false, speakersData }: LiveSpeakerAnalysisProps) {
+  // State is now derived primarily from props when available
+  const [speakers, setSpeakers] = useState<Speaker[]>([]);
 
   useEffect(() => {
-    async function fetchSpeakerData() {
-      try {
-        // Fetch data for the current meeting
-        const response = await fetch('/api/meetings/zoom-dataset-1/analyze');
-        
-        if (!response.ok) {
-          throw new Error('Failed to fetch meeting data');
-        }
-        
-        const data = await response.json();
-        
-        if (data.success && data.analysis && data.analysis.speakers && Array.isArray(data.analysis.speakers)) {
-          // Transform speaker data
-          const realSpeakers = data.analysis.speakers.map((speaker: any, index: number) => {
-            return {
-              name: speaker.name,
-              speakingTime: speaker.speakingTime || 0,
-              sentiment: Math.round(speaker.sentiment * 100) || 75,
-              lastActive: index === 0 // Set first speaker as active initially
-            };
-          });
-          
-          // Sort by speaking time (descending)
-          realSpeakers.sort((a, b) => b.speakingTime - a.speakingTime);
-          
-          // Use real data if we have it
-          if (realSpeakers.length > 0) {
-            setSpeakers(realSpeakers);
-          }
-        }
-      } catch (error) {
-        console.error('Error fetching speaker data:', error);
-        // Keep using default data
-      } finally {
-        setIsLoading(false);
-      }
+    // If speakersData is provided, use it directly
+    if (speakersData && speakersData.length > 0) {
+      // Sort by speaking time and add default lastActive state (e.g., set first as active if needed)
+      const processedSpeakers = speakersData
+        .sort((a, b) => b.speakingTime - a.speakingTime)
+        .map((speaker, index) => ({ 
+          ...speaker, 
+          // Set a default 'lastActive' state, though it might not be used if isLive is false
+          lastActive: index === 0 
+        }));
+      setSpeakers(processedSpeakers);
+    } else {
+      // Fallback or handle empty data case - could show a message or use defaults if desired
+      // For now, just set to empty array or potentially keep default logic if needed
+      // console.log("No speaker data provided, using empty or default.");
+      setSpeakers([]); // Set to empty if no data is passed
     }
+    // We don't fetch data inside this component anymore
+    // setIsLoading(false); // isLoading state is removed
     
-    fetchSpeakerData();
-  }, []);
+  // Dependency array includes speakersData to react to prop changes
+  }, [speakersData]);
 
+
+  // Removed the internal data fetching useEffect
+
+  // Live simulation effect (only runs if isLive is true AND no data is passed? TBD)
+  // This might need adjustment depending on how 'live' mode should work now
   useEffect(() => {
-    if (!isLive) return;
+    // Only run live simulation if isLive is true AND maybe if speakersData is initially empty/null?
+    if (!isLive || (speakersData && speakersData.length > 0)) return;
 
     // Simulate speaker changes for live updates
     const interval = setInterval(() => {
@@ -133,15 +120,16 @@ export function LiveSpeakerAnalysis({ isLive = false }: LiveSpeakerAnalysisProps
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [isLive]);
+  }, [isLive, speakersData]);
 
   // Calculate total speaking time
   const totalSpeakingTime = speakers.reduce((sum, speaker) => sum + speaker.speakingTime, 0);
 
-  if (isLoading) {
+  // Handle case where there's no speaker data
+  if (!speakers || speakers.length === 0) {
     return (
-      <div className="flex items-center justify-center h-40">
-        <div className="animate-spin h-8 w-8 border-4 border-primary border-t-transparent rounded-full"></div>
+      <div className="flex items-center justify-center h-40 text-muted-foreground">
+        No speaker data available for this meeting.
       </div>
     );
   }
@@ -162,6 +150,10 @@ export function LiveSpeakerAnalysis({ isLive = false }: LiveSpeakerAnalysisProps
         {speakers.map((speaker, index) => {
           const sentimentColor = getSentimentColor(speaker.sentiment);
           const sentimentBadge = getSentimentBadge(speaker.sentiment);
+          // Calculate percentage, handling totalSpeakingTime === 0
+          const speakingPercentage = totalSpeakingTime > 0 
+            ? Math.round((speaker.speakingTime / totalSpeakingTime) * 100) 
+            : 0;
           
           return (
             <div key={index} className="space-y-1">
@@ -184,19 +176,19 @@ export function LiveSpeakerAnalysis({ isLive = false }: LiveSpeakerAnalysisProps
                     <div className="flex text-xs text-muted-foreground">
                       <span>{formatTime(speaker.speakingTime)}</span>
                       <span className="mx-1">•</span>
-                      <span>{Math.round((speaker.speakingTime / totalSpeakingTime) * 100)}%</span>
+                      <span>{speakingPercentage}%</span>
                     </div>
                   </div>
                 </div>
                 <div className="text-right flex items-center">
-                  <span className={`font-medium text-sm ${sentimentColor}`}>{speaker.sentiment.toFixed(0)}%</span>
+                  <span className={`font-medium text-sm ${sentimentColor}`}>{(speaker.sentiment * 100).toFixed(0)}%</span>
                   <span className={`ml-2 text-xs ${sentimentBadge.bgColor} ${sentimentBadge.textColor} px-1.5 py-0.5 rounded-full`}>
                     {sentimentBadge.label}
                   </span>
                 </div>
               </div>
               <Progress 
-                value={(speaker.speakingTime / totalSpeakingTime) * 100} 
+                value={speakingPercentage} 
                 className="h-1.5"
               />
             </div>

@@ -5,7 +5,7 @@
 ### 1. Set Up FastAPI Backend
 - Install FastAPI and dependencies:
 ```bash
-pip install fastapi uvicorn python-multipart sqlalchemy psycopg2-binary supabase-py pydantic
+pip install fastapi uvicorn python-multipart sqlalchemy psycopg2-binary supabase-py pydantic requests
 ```
 
 - Create a basic FastAPI app structure:
@@ -25,7 +25,7 @@ uvicorn main:app --reload
 ```
 
 ### 2. Integrate Supabase
-- Install Supabase Python client if not already done:
+- Verify Supabase Python client installation:
 ```bash
 pip install supabase-py
 ```
@@ -71,7 +71,7 @@ async def analyze_meeting(file: UploadFile = File(...)):
 - Test uploading a .vtt, .txt, or .m4a file via Postman or frontend.
 
 ### 5. Integrate Existing Scripts
-- Adapt your .vtt/.txt parsing scripts to work with uploaded files:
+- Adapt .vtt/.txt parsing scripts to work with uploaded files:
   - Input: content from UploadFile
   - Output: .json with metadata, transcript, reactions, comments, AI insights
 
@@ -85,7 +85,7 @@ with open("temp.m4a", "wb") as f:
 
 ## Phase 3: AI Pipeline Implementation
 
-### 6. Set Up Speech-to-Text (Whisper)
+### 6. Set Up Speech-to-Text (Self-Hosted Whisper)
 - Install Whisper:
 ```bash
 pip install git+https://github.com/openai/whisper.git
@@ -94,13 +94,19 @@ pip install git+https://github.com/openai/whisper.git
 - Load the small model and test transcription:
 ```python
 import whisper
-model = whisper.load_model("small")
+model = whisper.load_model("small")  # ~244M parameters, ~1-2GB RAM
 result = model.transcribe("temp.m4a")
 transcript = result["text"]
 ```
 
 - Integrate into the endpoint:
-  - If .m4a, transcribe and pass to your existing scripts
+```python
+if file.filename.endswith(".m4a"):
+    with open("temp.m4a", "wb") as f:
+        f.write(content)
+    result = model.transcribe("temp.m4a")
+    transcript = result["text"]
+```
 
 ### 7. Implement Sentiment Analysis (DistilBERT)
 - Install Hugging Face Transformers:
@@ -137,26 +143,34 @@ topic_info = topic_model.get_topic_info()
   - Run on transcript
   - Add topics to analysis_json
 
-### 9. Implement AI Insights (Mistral 7B)
-- Install Transformers for Mistral:
+### 9. Implement AI Insights (Mistral 7B via Ollama)
+- Install Ollama:
 ```bash
-pip install transformers torch
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-- Load Mistral 7B with quantization:
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-model_name = "mistralai/Mixtral-7B-Instruct-v0.1"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", load_in_4bit=True)
+- Pull Mistral 7B Instruct model:
+```bash
+ollama pull mistral:7b-instruct
 ```
 
-- Test generating insights:
+- Test Mistral locally:
+```bash
+ollama run mistral:7b-instruct
+# Type: "Summarize: Sample meeting text." and verify output
+```
+
+- Create a function to call Ollama API:
 ```python
-prompt = "Summarize this meeting transcript and suggest action items:\nSample text."
-inputs = tokenizer(prompt, return_tensors="pt")
-outputs = model.generate(**inputs, max_length=500)
-insights = tokenizer.decode(outputs[0], skip_special_tokens=True)
+import requests
+
+def generate_insights(transcript):
+    response = requests.post("http://localhost:11434/api/generate", json={
+        "model": "mistral:7b-instruct",
+        "prompt": f"Summarize this meeting transcript and suggest action items:\n{transcript}",
+        "stream": False
+    })
+    return response.json()["response"]
 ```
 
 - Integrate into endpoint:
@@ -206,7 +220,7 @@ analysis = {
     "transcript": transcript,
     "sentiments": sentiments,
     "topics": topic_info.to_dict(),
-    "insights": insights,
+    "insights": generate_insights(transcript),
     "metrics": {"duration": duration, "participants": participants}
 }
 supabase.table("meetings").insert({
@@ -280,7 +294,8 @@ const downloadPDF = async (meetingId: string) => {
 
 ### 16. Test End-to-End
 - Upload a .vtt file, verify JSON output and Supabase storage
-- Upload an .m4a file, verify transcription and analysis
+- Upload an .m4a file, verify Whisper transcription and analysis
+- Test Mistral 7B insights via Ollama API (ensure Ollama is running)
 - Download a PDF and check contents
 
 ### 17. Optimize Performance
@@ -288,22 +303,36 @@ const downloadPDF = async (meetingId: string) => {
 ```bash
 pip install celery
 ```
-- Test on modest hardware (e.g., 16GB RAM, CPU)
+- Test on modest hardware (e.g., 16GB RAM, CPU) to ensure Whisper (small) and Mistral 7B (quantized) run efficiently
 
 ## Phase 8: Deployment
 
 ### 18. Deploy Backend
-- Containerize with Docker:
+- Containerize with Docker (include Whisper and Ollama):
 ```dockerfile
 FROM python:3.9-slim
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+RUN apt-get update && apt-get install -y curl
+RUN curl -fsSL https://ollama.com/install.sh | sh
+RUN ollama pull mistral:7b-instruct
 COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "ollama run mistral:7b-instruct & uvicorn main:app --host 0.0.0.0 --port 8000"]
 ```
 
 - Deploy to a server (e.g., AWS EC2, Heroku)
 
 ### 19. Finalize Documentation
-- Write a README with setup instructions for backend and AI models 
+- Write a README with setup instructions:
+  - Installing Whisper (`pip install git+https://github.com/openai/whisper.git`)
+  - Installing and running Ollama (`ollama pull mistral:7b-instruct` and `ollama run mistral:7b-instruct`)
+  - Running the backend
+
+## Key Updates
+- Step 6 (Speech-to-Text): Updated to use self-hosted Whisper (small) directly, with specific installation and integration steps
+- Step 9 (AI Insights): Replaced with Mistral 7B via Ollama, including installation, API setup, and integration
+- Step 18 (Deployment): Adjusted Docker setup to include Ollama and Mistral 7B
+- Dependencies: Added requests for Ollama API calls
+
+This to-do list integrates your existing scripts with the new self-hosted Whisper and Mistral 7B (Ollama) setup. Start with the backend and Supabase, then layer in Whisper and Ollama. Test thoroughly with .m4a files to ensure transcription works smoothly. 

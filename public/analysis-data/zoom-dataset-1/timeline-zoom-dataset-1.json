@@ -1,0 +1,34 @@
+{
+  "timeline": [
+    {
+      "timestamp": 0.0,
+      "sentiment": 0.5781990521327014,
+      "engagement": 0.7889731437598736
+    },
+    {
+      "timestamp": 900.0,
+      "sentiment": 0.5827814569536424,
+      "engagement": 0.7898896247240618
+    },
+    {
+      "timestamp": 1800.0,
+      "sentiment": 0.4852941176470588,
+      "engagement": 0.7703921568627451
+    },
+    {
+      "timestamp": 2700.0,
+      "sentiment": 0.6174863387978142,
+      "engagement": 0.7968306010928962
+    },
+    {
+      "timestamp": 3600.0,
+      "sentiment": 0.5649717514124294,
+      "engagement": 0.7863276836158192
+    },
+    {
+      "timestamp": 4500.0,
+      "sentiment": 0.8780487804878049,
+      "engagement": 0.8489430894308942
+    }
+  ]
+}
