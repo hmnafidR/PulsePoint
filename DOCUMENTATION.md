@@ -2,8 +2,6 @@
 
 PulsePoint is an AI-powered platform designed to analyze meeting recordings from platforms like Zoom and Microsoft Teams, providing valuable insights into sentiment, engagement, topics, and more.
 
-![PulsePoint Dashboard]()
-
 ## What PulsePoint Does
 
 PulsePoint transforms your meeting recordings into actionable insights by:
