@@ -47,7 +47,6 @@ Input (Transcript/Audio) → FastAPI Backend → AI Models → Analysis Results 
 ![Workflow Diagram](workflow.png)
 *Figure 1: PulsePoint System Workflow Diagram*
 
-
 ### Key Components
 
 - **Transcription**: Converts audio to text if not already provided (using Whisper)
