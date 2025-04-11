@@ -46,6 +46,9 @@ Meetings are essential for collaboration, but often lack proper documentation an
 Input (Transcript/Audio) → FastAPI Backend → AI Models → Analysis Results → Next.js Frontend → Interactive Dashboard/PDF
 ```
 
+![Workflow Diagram](workflow.png)
+*Figure 1: PulsePoint System Workflow Diagram*
+
 ### Key Components
 
 - **Transcription**: Converts audio to text if not already provided (using Whisper)
